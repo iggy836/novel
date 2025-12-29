@@ -1,0 +1,142 @@
+# ========================================
+# 序章シーン3 挿絵1：銀色の再会
+# ========================================
+
+metadata:
+  title: "銀色の再会"
+  scene: "序章シーン3：監査官の来訪"
+  moment: "16年ぶりの再会"
+  emotional_core: "衝撃、動揺、距離感"
+  
+# ========================================
+# 構図設計（日本語）
+# ========================================
+composition_design:
+  title_jp: "16年ぶりの冷たい再会"
+  
+  camera_angle: "ローアングル（グラナイトの視点から見上げる）"
+  
+  layout_description: |
+    前景：グラナイトの手（カンナを握る）がわずかに見える
+    中景：ネルルが画面中央、直立して見下ろす
+    背景：シナバーが後方で微笑む
+    
+  visual_focus:
+    primary: "ネルルの冷たい碧眼と無表情"
+    secondary: "シナバーの不気味な笑み"
+    tertiary: "グラナイトの震える手"
+    
+  composition_diagram: |
+    ┌────────────────────┐
+    │   [背景：シナバー]    │
+    │        ↓          │
+    │   [中央：ネルル]     │
+    │   純白の制服        │
+    │   冷たい視線        │
+    │        ↓          │
+    │  [前景：グラナイトの手] │
+    │   カンナ/木屑       │
+    └────────────────────┘
+
+# ========================================
+# 英語プロンプト
+# ========================================
+prompt_english: |
+  A dramatic vertical composition illustration in realistic light novel and seinen manga art style.
+  
+  LOW ANGLE PERSPECTIVE (from craftsman's viewpoint looking up):
+  
+  FOREGROUND (bottom 20% of frame):
+  - Large, calloused hands gripping a wood plane (kanna)
+  - Rough, work-worn fingers with wood shavings dusted on them
+  - Hands slightly trembling with shock
+  - Blurred/out of focus
+  
+  MIDDLE GROUND (center 60% of frame):
+  - Young woman in her early 30s, silver hair, piercing teal eyes
+  - Standing perfectly straight, arms crossed, looking down with cold disdain
+  - Wearing pristine white Royal Workshop uniform with badge on collar
+  - Expressionless face, not a single emotion showing
+  - Hair neatly tied back, professional and severe
+  - Sharp, calculating gaze that pierces through the viewer
+  - Slender but imposing presence despite small stature
+  - Backlit from behind, creating a halo effect around her silhouette
+  
+  BACKGROUND (top 20% of frame):
+  - Elderly gentleman in his 50s-60s with reddish silver-gray hair
+  - Wearing luxurious black and crimson robes
+  - Gentle, benevolent smile on his face
+  - But his eyes are cold and don't match his smile
+  - Standing calmly, hands clasped behind back
+  - Slightly blurred, emanating quiet menace
+  
+  LIGHTING:
+  - Strong backlighting from shop entrance behind the visitors
+  - Creates dramatic rim lighting on woman's silhouette
+  - Woman's face partially shadowed, making eyes more striking
+  - Cool, harsh lighting emphasizing the cold atmosphere
+  - Dust particles visible in the light beams
+  
+  ATMOSPHERE:
+  - Tense, uncomfortable reunion after 16 years
+  - Sharp contrast between past warmth and present coldness
+  - Power imbalance: official vs accused craftsman
+  - Sense of time having changed people beyond recognition
+  
+  COLOR PALETTE:
+  - Cool tones: whites, silvers, blues, grays
+  - Sharp, clinical feel
+  - Minimal warmth except in foreground hands
+  
+  SYMBOLIC ELEMENTS:
+  - Craftsman's rough hands vs official's pristine uniform
+  - Looking up (powerless) vs looking down (authority)
+  - Backlight creating barrier/distance between characters
+  
+  EMOTIONAL TONE:
+  - Shock, disbelief, heartbreak
+  - Recognition of how much has changed
+  - "You've become someone I don't recognize"
+  
+  ART STYLE REFERENCES:
+  - Realistic proportions like Takehiko Inoue (Vagabond)
+  - Dramatic lighting like Naoki Urasawa (Monster)
+  - Clean, detailed light novel illustration quality
+  - Seinen manga sensibilities
+  
+  TECHNICAL SPECS:
+  - Vertical composition (portrait orientation)
+  - High detail on woman's facial expression and eyes
+  - Shallow depth of field (foreground and background slightly blurred)
+  - Cinematic lighting with strong directional light
+  - No speech bubbles or text
+  - Professional illustration quality, suitable for light novel publication
+
+# ========================================
+# ネガティブプロンプト
+# ========================================
+negative_prompt: |
+  childish, chibi, cute, anime eyes, sparkles, happy expression,
+  warm colors, soft lighting, romantic atmosphere, smile on woman's face,
+  colorful, vibrant, cheerful, gentle, sweet, friendly,
+  low quality, blurry faces, distorted anatomy, extra fingers,
+  cartoonish, simplified, flat colors, amateur art
+
+# ========================================
+# 生成パラメータ推奨値
+# ========================================
+generation_params:
+  aspect_ratio: "9:16"
+  quality: "high"
+  style_weight: "high"
+  detail_level: "maximum"
+  
+# ========================================
+# チェックポイント
+# ========================================
+quality_checklist:
+  - "[ ] ネルルの碧眼が鋭く、冷たく描かれているか"
+  - "[ ] シナバーの笑顔と目の不一致が表現されているか"
+  - "[ ] グラナイトの手が職人らしく描かれているか"
+  - "[ ] 逆光による距離感が出ているか"
+  - "[ ] 寒色系の色調が支配的か"

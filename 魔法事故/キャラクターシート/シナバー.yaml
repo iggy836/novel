@@ -1,0 +1,177 @@
+# ========================================
+# キャラクターシート生成用プロンプト
+# ========================================
+# シナバー（敵役・長官）
+
+cinnabar:
+  name: シナバー
+  name_en: Cinnabar
+  role: 敵対者 / 王立魔法具工房長官
+  age: 55
+  gender: male
+  
+  base_prompt: "Character sheet, three-view, full figure, Close-up of face, white background"
+  
+  appearance:
+    overall: |
+      表向きは温厚な高官、本性は冷酷な売国奴。55歳。
+      辰砂のように美しいが毒を持つ。
+      30年前の「英雄」だが、実際は魔族との密約者。
+    
+    hair:
+      color: silver gray with reddish tint / 赤みがかった銀灰色
+      style: slicked back, neat / オールバック、きちんとまとめた
+      detail: 権力者らしい威厳のある髪型
+    
+    eyes:
+      color: dark red / 暗い赤（辰砂の色）
+      expression: outwardly warm, inwardly cold / 表向き温かい、内心冷酷
+      detail: 微笑んでいても目は笑っていない
+    
+    face:
+      shape: refined, aged aristocrat / 洗練された、老練な貴族
+      features:
+        - thin mustache / 薄い口髭
+        - calculating smile / 計算高い微笑
+        - hooded eyes / 伏し目がち
+      expression: benevolent mask hiding malice / 悪意を隠す慈悲深い仮面
+    
+    body:
+      height: 175cm / 中程度
+      build: thin, elegant, non-threatening / 痩せ型、優雅、威圧感を隠す
+      posture: dignified but not intimidating / 威厳はあるが威圧的ではない
+    
+    clothing:
+      main_outfit:
+        description: |
+          王立工房長官の正装。黒と朱色を基調とした豪華な服。
+          地位と権力を示す装飾品。
+        items:
+          - black and vermilion formal robes / 黒と朱色の正装ローブ
+          - gold embroidered coat / 金刺繍のコート
+          - long minister sleeves / 長い大臣袖
+          - ornate chain of office / 装飾的な官職の鎖
+      accessories:
+        - ruby ring / ルビーの指輪
+        - ceremonial wand / 儀式用の杖
+        - hidden dagger / 隠し短剣
+    
+    distinctive_features:
+      - always smiling / 常に微笑んでいる
+      - soft spoken / 物腰柔らか
+      - eyes that never match the smile / 笑顔と一致しない目
+      - subtle menace under politeness / 礼儀正しさの下に隠れた悪意
+
+  expressions:
+    - name: benevolent_mask
+      description: warm fatherly smile, caring / 温かい父親的な笑み、思いやり
+    - name: true_nature
+      description: cold, ruthless, calculating / 冷酷、無慈悲、計算高い
+    - name: threatening
+      description: polite words, murderous eyes / 丁寧な言葉、殺意のある目
+    - name: cornered
+      description: desperation behind the mask / 仮面の裏の必死さ
+
+  full_prompt:
+    style: "anime style, detailed, high quality"
+    
+    character_sheet_prompt: |
+      Character sheet, three-view, full figure, Close-up of face, white background,
+      1boy, male, 55 years old, corrupt official, scheming villain,
+      silver gray hair with reddish tint slicked back, dark red eyes, calculating gaze,
+      refined aged aristocrat face, thin mustache, hooded eyes, false smile,
+      thin elegant build, 175cm, dignified posture,
+      black and vermilion formal robes, gold embroidery, ornate chain of office,
+      ruby ring, ceremonial wand,
+      benevolent mask hiding malice, subtle menace,
+      fantasy setting, corrupt minister,
+      anime style, detailed, high quality
+
+  negative_prompt: |
+    low quality, blurry, deformed, bad anatomy,
+    honest expression, heroic look, simple clothes,
+    young looking, muscular, warrior type
+
+  # 英雄時代の過去（30年前）
+  heroic_past:
+    war: 第一次魔族戦争（30年前）
+    title: 「辰砂の炎」の戦い
+    achievement: 魔将「黒炎のアスタロト」を討ち取った英雄
+    truth: |
+      実際は魔族と密約を結んだ八百長。
+      英雄譚は作り話だが、王国全体が信じている。
+    
+    colleagues:
+      - アンバー（グラナイトの父）：同期、前線部隊の杖整備
+      - マルカイト：同期、魔導具の品質管理
+      - 第12期 魔導具製作コンテスト優勝
+
+  # 二面性
+  dual_nature:
+    public_face:
+      description: 温和で慈悲深い高官、英雄
+      tactics:
+        - 優しい笑みで部下を励ます
+        - 「君の判断を尊重しよう」と権限を委譲するふり
+        - 「私も庇えなくなる」と損を示唆
+        - 犩猟者を「救いたい」と言いながら追い詰める
+      
+      famous_lines:
+        - "真実を明らかにしたいだけだ"
+        - "君のためを思って言っているのだよ"
+        - "英雄は一人でいい。君が倒れても、私が王都を守ろう"
+    
+    true_nature:
+      description: 冷酷な売国奴、計算高い策謀家
+      tactics:
+        - 部下や家族を人質に脅迫
+        - 証拠を徹底的に隠滅
+        - 組織の威信を盾に不正を正当化
+        - 優しい言葉で罠に誘導
+      
+      inner_thoughts:
+        - "単純な男だ……）"
+        - "真実とは、組織が決めるものだよ"
+        - "お前はまた『暴発』を目撃することになる）"
+
+  # 操縦術
+  manipulation_techniques:
+    - technique: 優しい言葉で追い詰める
+      example: 「君のためを思って」と言いながら、実際は責任を押し付ける
+    
+    - technique: 恩人としての立場を利用
+      example: ネルルを推薦し引き上げた恩を盾に、再調査を拒否
+    
+    - technique: 組織の威信を盾にする
+      example: 「公式見解は出た。それを覆すのは反逆だ」
+    
+    - technique: 逆説的な誘導
+      example: 「引く勇気も必要だ」と言いながら、実際は復帰を促す
+
+  # 魔族との密約
+  demonic_pact:
+    when: 30年前の第一次魔族戦争
+    partner: 魔族側の内通者
+    current_plan: |
+      建国記念式典で3000人同時暗殺計画。
+      魔界蔓（魔族の兵器）を混入させ、雨+音波で暴発させる。
+
+  # 性格
+  personality:
+    surface: 温和、慈悲深い、物腰柔らか
+    core: 冷酷、狡献、計算高い、売国奴
+    duality: 美しいが毒を持つ（辰砂のように）
+
+  # 物語における役割
+  role_in_story:
+    mastermind: 事件の黒幕、魔界蔓混入の張本人
+    false_hero: 30年前の英雄として尊敬されている
+    manipulator: 部下（ネルル、マルカイト）を操る
+    traitor: 王国を裏切り魔族に协力する売国奴
+
+  reference_keywords:
+    - corrupt minister
+    - smiling villain
+    - Grima Wormtongue type
+    - beautiful but poisonous
+    - wolf in sheep's clothing

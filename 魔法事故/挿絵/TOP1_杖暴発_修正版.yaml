@@ -1,0 +1,233 @@
+# ========================================
+# TOP1: Wand Explosion - REVISED
+# ========================================
+# Key improvement: Add MOTION and DYNAMISM
+# The original was too static - needs action, impact, energy
+
+top1_explosion_revised:
+  scene_name: "Wand Explosion - The Moment of Tragedy"
+  
+  # ========================================
+  # PROBLEM ANALYSIS (Original Image)
+  # ========================================
+  original_issues:
+    - issue: "Static pose"
+      problem: "Character just standing calmly"
+      solution: "Add recoil, thrown-back pose, pain reaction"
+    
+    - issue: "Calm expression"
+      problem: "Looks composed, not shocked"
+      solution: "Wide eyes, open mouth, pain/shock expression"
+    
+    - issue: "Stable green light"
+      problem: "Looks like a normal spell, not explosion"
+      solution: "Burst effect, sparks flying, energy eruption"
+    
+    - issue: "No motion effects"
+      problem: "Everything frozen, no sense of action"
+      solution: "Motion blur, flying debris, wind effects"
+    
+    - issue: "Cape/hair static"
+      problem: "No wind, no impact"
+      solution: "Blown by explosion force, dramatic movement"
+
+  # ========================================
+  # REVISED COMPOSITION
+  # ========================================
+  revised_composition:
+    key_concept: |
+      This is NOT a "character holding a wand" picture.
+      This is "the moment everything goes wrong" - 
+      capture the INSTANT of explosion, shock, and tragedy.
+    
+    camera:
+      angle: "dynamic angle, slightly tilted (Dutch angle)"
+      position: "low angle, looking up at the explosion"
+      focus: "explosion point with radial blur"
+    
+    character_pose:
+      body: "recoiling backwards, thrown off balance by explosion"
+      right_arm: "being pushed back by the blast, surrounded by green fire"
+      left_arm: "thrown out for balance"
+      legs: "one foot lifted, losing footing"
+      head: "thrown back, looking at the explosion in shock"
+    
+    expression:
+      eyes: "wide open in shock and disbelief"
+      mouth: "open, screaming or gasping"
+      overall: "the moment of 'this can't be happening'"
+    
+    effects:
+      explosion:
+        - "green energy BURSTING outward, not contained"
+        - "sparks and fragments flying in all directions"
+        - "shockwave rippling through the air"
+        - "radial lines showing force of explosion"
+      motion:
+        - "motion blur on flying debris"
+        - "speed lines"
+        - "energy trails"
+      cape_hair:
+        - "cape blown violently by explosion force"
+        - "hair whipping backwards"
+        - "armor pieces rattling"
+      environment:
+        - "rain being pushed away by shockwave"
+        - "ground cracking beneath"
+        - "dust and debris in air"
+
+  # ========================================
+  # REVISED PROMPT (English)
+  # ========================================
+  prompt_en:
+    main_prompt: |
+      dramatic illustration, key visual, action scene, dynamic composition,
+      1boy, knight commander, crimson wild hair BLOWN BACK by explosion,
+      golden amber eyes WIDE OPEN in shock, mouth open screaming,
+      
+      RECOILING BACKWARDS from wand explosion, losing balance,
+      right arm ENGULFED in green explosive energy, sparks flying,
+      left arm thrown out for balance,
+      body arched backwards from impact,
+      
+      GREEN ENERGY BURSTING from wand, not contained orb,
+      explosion effect, energy eruption, sparks scattering,
+      shockwave ripples in air, radial energy lines,
+      
+      red and gold armor, crimson cape VIOLENTLY FLAPPING from blast,
+      lion motif pauldrons,
+      
+      heavy rain being pushed away by shockwave,
+      dark stormy sky, battlefield background blur,
+      
+      Dutch angle, low angle shot, dynamic perspective,
+      motion blur, speed lines, impact frame,
+      
+      dramatic lighting, green explosion light as main source,
+      high contrast, cinematic,
+      
+      anime style, action anime, sakuga quality, high detail
+    
+    negative_prompt: |
+      static pose, standing still, calm expression, 
+      stable energy orb, contained light,
+      stiff pose, straight posture,
+      still cape, still hair,
+      no motion, frozen scene,
+      low quality, blurry, simple background
+
+  # ========================================
+  # ALTERNATIVE PROMPTS (Different Moments)
+  # ========================================
+  alternative_prompts:
+    # Option A: Focus on the explosion burst
+    explosion_focus:
+      prompt: |
+        dramatic illustration, explosion scene,
+        GREEN ENERGY EXPLOSION from magic wand, catastrophic failure,
+        sparks and fragments flying outward, shockwave effect,
+        radial burst lines, energy eruption,
+        
+        knight silhouette being thrown back by blast,
+        crimson cape flying, armor reflecting green light,
+        
+        rain droplets frozen in explosion light,
+        dark battlefield, dramatic contrast,
+        
+        dynamic angle, impact frame, action lines,
+        anime style, high quality
+    
+    # Option B: Focus on character's shock
+    reaction_focus:
+      prompt: |
+        dramatic illustration, emotional impact,
+        1boy, knight commander, crimson hair flying,
+        
+        SHOCKED EXPRESSION, eyes wide, pupils contracted,
+        mouth open in disbelief, face lit by green light,
+        
+        right arm surrounded by chaotic green energy,
+        sparks burning through armor,
+        
+        close-up dramatic shot, face and upper body,
+        green light illuminating from below,
+        rain streaking past,
+        
+        Dutch angle, intense emotion,
+        anime style, high quality
+    
+    # Option C: Wide shot showing full impact
+    wide_impact:
+      prompt: |
+        dramatic illustration, wide shot, battlefield,
+        
+        knight commander at center, EXPLOSION erupting from wand,
+        figure being thrown backwards by green energy blast,
+        
+        other knights in background reacting in horror,
+        rain and debris flying,
+        shockwave rippling outward,
+        
+        dark stormy sky, war-torn landscape,
+        green explosion as focal point,
+        
+        cinematic composition, epic scale,
+        anime style, high quality
+
+  # ========================================
+  # KEY WORDS FOR MOTION
+  # ========================================
+  motion_keywords:
+    essential:
+      - "dynamic pose"
+      - "action scene"
+      - "recoiling"
+      - "thrown back"
+      - "explosion"
+      - "burst"
+      - "flying debris"
+      - "motion blur"
+      - "speed lines"
+      - "impact frame"
+      - "shockwave"
+    
+    for_cape_hair:
+      - "violently flapping"
+      - "blown by wind"
+      - "whipping"
+      - "flying"
+      - "flowing dramatically"
+    
+    for_expression:
+      - "shocked"
+      - "wide eyes"
+      - "screaming"
+      - "pain"
+      - "disbelief"
+    
+    for_energy:
+      - "burst"
+      - "eruption"
+      - "scattering"
+      - "explosive"
+      - "chaotic"
+      - "unstable"
+
+  # ========================================
+  # DIRECTOR NOTES
+  # ========================================
+  director_notes: |
+    The key to this illustration is CAPTURING A MOMENT IN TIME.
+    
+    Think of it like a freeze-frame from an action anime:
+    - Everything is in motion, but frozen at the peak moment
+    - The viewer should feel the FORCE of the explosion
+    - The character should look like he's being HIT, not posing
+    
+    Reference: Think of explosion scenes from:
+    - Fate/Zero (Saber's Excalibur backfiring)
+    - Demon Slayer (impact frames)
+    - My Hero Academia (quirk overload moments)
+    
+    The green light should feel WRONG and DANGEROUS,
+    not like a cool power-up. It's a malfunction, a tragedy.

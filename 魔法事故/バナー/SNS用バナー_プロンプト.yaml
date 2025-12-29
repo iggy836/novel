@@ -1,0 +1,333 @@
+# SNSバナー生成プロンプト
+# 「雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ」
+
+metadata:
+  title: "雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ"
+  purpose: "SNS宣伝用ビジュアルバナー"
+  platforms:
+    - "Twitter/X (1200x675px)"
+    - "Instagram (1080x1080px)"
+    - "Facebook (1200x630px)"
+  style: "ライトノベル風、ドラマチック、和風テイスト"
+
+# ========================================
+# バナー1: メインビジュアル（対峙構図）
+# ========================================
+banner_01:
+  name: "対峙する二人"
+  size: "1200x675px (Twitter/X用)"
+  concept: "グラナイトとネルルの対立と、その間に横たわる真実を象徴"
+  
+  composition_description_jp: |
+    【構図コンセプト】
+    雨が降りしきる中、画面左にグラナイト、右にネルルが立つ。
+    二人の間には杖が浮かび、緑色に不気味に発光している。
+    背景は暗く、雨粒がキラキラと光る。
+    上部にタイトル「雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ」を
+    和風の筆文字風フォントで配置。
+    
+  composition_diagram: |
+    ┌─────────────────────────────────────────────┐
+    │  雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ  │ ← タイトル
+    │  ～～～～～～～～～～～～～～～～～～～～～  │   (和風フォント)
+    │   🌧️  🌧️        🌧️       🌧️  🌧️           │
+    │                                             │
+    │  👨‍🔧              ✨💥✨              👩‍💼    │
+    │ (グラナイト)      (暴発する杖)      (ネルル) │
+    │   頑固な             緑色の            冷淡な │
+    │   職人              不気味な光          設計士 │
+    │                                             │
+    │        🌧️🌧️🌧️🌧️🌧️🌧️🌧️                 │
+    └─────────────────────────────────────────────┘
+    
+  layout:
+    - position: "上部中央"
+      element: "タイトル（和風書体）"
+      style: "白抜き、縁取りあり、やや崩した筆文字風"
+      
+    - position: "左側"
+      element: "グラナイト（全身）"
+      description: "作業着、腕組み、頑固な表情、雨に濡れている"
+      
+    - position: "中央"
+      element: "暴発する杖"
+      description: "縦に浮かぶ杖、緑色の魔力が渦巻く、亀裂が入っている"
+      
+    - position: "右側"
+      element: "ネルル（全身）"
+      description: "王立工房の制服、腕組み、冷たい表情、雨に濡れている"
+  
+  prompt_english: |
+    A dramatic light novel banner illustration, 1200x675px, widescreen format.
+    
+    COMPOSITION:
+    Split composition with two characters facing each other across a central magical staff.
+    
+    LEFT SIDE - Granite (Male Craftsman, 32):
+    - Muscular build, short dark hair, stubble
+    - Wearing practical craftsman's work clothes (leather apron, rolled-up sleeves)
+    - Arms crossed, stubborn and defiant expression
+    - Rain-soaked, determined stance
+    - Positioned in left third of image
+    
+    CENTER - The Exploding Staff:
+    - A vertical magical staff floating in mid-air
+    - Ominous GREEN magical energy crackling around it
+    - Visible cracks spreading across the staff's surface
+    - Explosion effects with green light bursts
+    - Creates dramatic focal point between characters
+    
+    RIGHT SIDE - Nell (Female Designer, 24):
+    - Slender build, long silver hair
+    - Wearing Royal Workshop designer uniform (elegant but practical)
+    - Arms crossed, cold and analytical expression
+    - Rain-soaked, proud stance
+    - Positioned in right third of image
+    
+    BACKGROUND:
+    - Heavy rain falling diagonally across entire scene
+    - Dark, stormy atmosphere with dramatic lighting
+    - Raindrops catching light, creating bokeh effects
+    - Distant city lights blurred in background
+    - Ground puddles reflecting green light from staff
+    
+    TOP TEXT (Japanese Title):
+    "雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ"
+    - Traditional Japanese brush calligraphy style
+    - White text with black/dark blue outline for visibility
+    - Positioned at top center of image
+    - Slightly weathered/textured appearance
+    - Font size: prominent but not overwhelming
+    
+    LIGHTING:
+    - Dramatic backlighting from the exploding staff (green)
+    - Rim lighting on both characters
+    - Rain creates dynamic light streaks
+    - High contrast, cinematic atmosphere
+    
+    COLOR PALETTE:
+    - Dominant: Dark blues, grays (rain and night)
+    - Accent: Ominous green (magical explosion)
+    - Characters: Warm browns (Granite), Cool silvers (Nell)
+    - Title text: White with subtle glow
+    
+    MOOD: Confrontation, mystery, impending disaster, professional pride vs. analytical coldness
+    
+    STYLE: Light novel cover aesthetic, semi-realistic anime art style, cinematic composition, high detail
+    
+    TECHNICAL SPECS:
+    - Resolution: 1200x675px
+    - Aspect ratio: 16:9 (Twitter/X banner format)
+    - High contrast for social media visibility
+    - Text clearly readable even when thumbnail-sized
+
+# ========================================
+# バナー2: Instagram正方形版（杖クローズアップ）
+# ========================================
+banner_02:
+  name: "暴発する杖（正方形）"
+  size: "1080x1080px (Instagram用)"
+  concept: "杖の暴発という核心的な事件に焦点を当てたシンプルで強烈なビジュアル"
+  
+  composition_description_jp: |
+    【構図コンセプト】
+    中央に暴発寸前の杖をクローズアップ。
+    緑色の魔力が不気味に渦巻き、亀裂が走る。
+    背景は激しい雨で、杖の周囲だけが異様に明るい。
+    上部にタイトル、下部にキャッチコピー。
+    
+  composition_diagram: |
+    ┌─────────────────────┐
+    │  雨ノチ、杖暴発ス。 │ ← タイトル上部
+    │                     │
+    │    🌧️ 🌧️ 🌧️        │
+    │         ║           │
+    │        ║✨║         │ ← 杖（中央）
+    │       ⚡💥⚡        │   緑色の魔力
+    │        ║✨║         │   亀裂
+    │         ║           │
+    │    🌧️ 🌧️ 🌧️        │
+    │                     │
+    │ 所ニヨリ、職人ノ意地アリ │ ← キャッチ下部
+    └─────────────────────┘
+  
+  prompt_english: |
+    A dramatic square Instagram post image, 1080x1080px.
+    
+    MAIN SUBJECT - The Exploding Magical Staff:
+    - Vertical magical staff positioned dead center
+    - Extreme close-up, staff fills most of vertical space
+    - Ornate wooden handle with metal fittings
+    - Visible CRACKS spreading across the wood like lightning
+    - OMINOUS GREEN MAGICAL ENERGY crackling violently around it
+    - Energy forms spiral patterns, suggesting instability
+    - Core of staff glowing intensely with green light
+    - Explosion moment frozen in time
+    
+    BACKGROUND:
+    - Heavy diagonal rain on all sides
+    - Very dark, almost black background
+    - Rain illuminated by green light from staff
+    - Bokeh effects from raindrops
+    - Atmosphere of impending catastrophe
+    
+    TEXT ELEMENTS:
+    TOP (Japanese Title - Part 1):
+    "雨ノチ、杖暴発ス。"
+    - Traditional brush calligraphy style
+    - White with black outline
+    - Positioned at top third
+    
+    BOTTOM (Japanese Title - Part 2):
+    "所ニヨリ、職人ノ意地アリ"
+    - Same calligraphy style as top
+    - White with black outline
+    - Positioned at bottom third
+    
+    LIGHTING:
+    - Primary light source: The staff itself (green)
+    - Dramatic rim lighting on raindrops
+    - High contrast between staff and dark background
+    - Green light casting eerie glow on surroundings
+    
+    COLOR PALETTE:
+    - Dominant: Very dark blue-black
+    - Primary accent: Ominous toxic green (magical energy)
+    - Secondary: White (rain highlights, text)
+    - Tertiary: Dark brown (wood of staff)
+    
+    EFFECTS:
+    - Motion blur on energy particles
+    - Sharp focus on staff cracks
+    - Rain streak effects
+    - Magical particle effects (green sparks)
+    - Subtle screen shake/impact lines suggesting violent energy
+    
+    MOOD: Imminent disaster, magical malfunction, ominous power, supernatural thriller
+    
+    STYLE: Light novel illustration, dramatic lighting, high-impact visual, mobile-optimized
+    
+    TECHNICAL SPECS:
+    - Resolution: 1080x1080px
+    - Aspect ratio: 1:1 (Instagram feed)
+    - High contrast for mobile viewing
+    - Text legible on small screens
+
+# ========================================
+# バナー3: Facebook/汎用版（ストーリー重視）
+# ========================================
+banner_03:
+  name: "運命の雨夜"
+  size: "1200x630px (Facebook/汎用)"
+  concept: "物語の核心（雨の夜、真実を探す二人、暴発事件）を一枚に凝縮"
+  
+  composition_description_jp: |
+    【構図コンセプト】
+    下町の工房の窓から見える雨夜の風景。
+    手前にグラナイトとネルルが図面を挟んで向かい合う。
+    奥の暗闇には暴発した杖の残骸が転がっている。
+    タイトルを画面上部に配置し、物語性を強調。
+    
+  composition_diagram: |
+    ┌──────────────────────────────────────┐
+    │ 雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ │
+    │                                      │
+    │    [窓] 🌧️        🌧️                │
+    │                                      │
+    │  👨‍🔧  ← [図面] →  👩‍💼               │
+    │ グラナイト    設計図    ネルル        │
+    │                                      │
+    │        [壊れた杖の残骸]  💥          │
+    │                                      │
+    └──────────────────────────────────────┘
+  
+  prompt_english: |
+    A cinematic light novel banner, 1200x630px, Facebook open graph format.
+    
+    SCENE SETTING:
+    Interior of a dim craftsman's workshop at night, rain visible through windows.
+    
+    FOREGROUND - Two Characters Examining Evidence:
+    LEFT: Granite (Male Craftsman, 32)
+    - Leaning over a workbench
+    - Examining technical blueprints with intense focus
+    - Work clothes, stubble, determined expression
+    - Oil lamp illuminating his face from below
+    
+    RIGHT: Nell (Female Designer, 24)
+    - Standing opposite Granite across the workbench
+    - Also studying the same blueprints
+    - Royal workshop uniform, silver hair
+    - Expression mixing guilt and determination
+    - Illuminated by same lamp from side
+    
+    CENTER - The Evidence:
+    - Technical blueprints spread across wooden workbench
+    - Detailed staff design diagrams visible
+    - Notes and calculations scattered around
+    - A magnifying glass catching light
+    
+    BACKGROUND:
+    - Window showing heavy rain outside
+    - Darkness beyond the workshop
+    - Shelves with tools and staff components (silhouettes)
+    - Broken/exploded staff remains visible in shadow
+    - Ominous atmosphere suggesting investigation scene
+    
+    TOP TEXT (Japanese Title):
+    "雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ"
+    - Traditional Japanese brush calligraphy
+    - White text with dark outline
+    - Positioned across top of image
+    - Professional, eye-catching typography
+    
+    LIGHTING:
+    - Primary: Warm oil lamp light on characters and blueprints
+    - Secondary: Cold blue light from rainy window
+    - Dramatic contrast between warm interior and cold night
+    - Long shadows creating mystery atmosphere
+    
+    COLOR PALETTE:
+    - Warm: Golden lamp light, brown wood
+    - Cool: Blue rain, silver moonlight through window
+    - Accent: White (blueprints), green hints (magical remnants)
+    - Overall: Amber and blue split-tone aesthetic
+    
+    MOOD: Investigation, collaboration despite distrust, mystery solving, rainy night atmosphere, professional dedication
+    
+    SYMBOLISM:
+    - Rain = The triggering condition for the malfunction
+    - Blueprints = Search for truth through technical analysis
+    - Two people working together = Forced alliance of craftsman and designer
+    - Broken staff in shadows = The tragic incident that brought them together
+    
+    STYLE: Light novel illustration with mystery/thriller aesthetics, cinematic composition, detailed environmental storytelling
+    
+    TECHNICAL SPECS:
+    - Resolution: 1200x630px
+    - Aspect ratio: 1.91:1 (Facebook/LinkedIn banner)
+    - Optimized for social media preview
+    - Text clearly readable in thumbnail
+
+# ========================================
+# 使用ガイド
+# ========================================
+usage_notes:
+  platforms:
+    twitter: "banner_01 (1200x675px) - メインビジュアルとして最適"
+    instagram: "banner_02 (1080x1080px) - フィード投稿用、インパクト重視"
+    facebook: "banner_03 (1200x630px) - リンクシェア用、ストーリー性重視"
+    
+  design_principles:
+    - "タイトルは必ず和風書体で配置"
+    - "雨のモチーフを必ず含める（物語の重要要素）"
+    - "緑色の魔力光で不気味さを演出"
+    - "グラナイトとネルルの対比を視覚化"
+    - "SNSのサムネイルでも視認性を確保"
+    
+  color_consistency:
+    rain: "冷たい青、暗い灰色"
+    magic: "不気味な緑（毒々しい蛍光色）"
+    granite: "温かみのある茶色、オレンジ"
+    nell: "冷たいシルバー、青白"
+    title: "白（縁取り黒）"

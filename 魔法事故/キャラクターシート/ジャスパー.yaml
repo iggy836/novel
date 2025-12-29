@@ -1,0 +1,120 @@
+# ========================================
+# キャラクターシート生成用プロンプト
+# ========================================
+# ジャスパー（冒険者ギルドの魔法使い）
+
+jasper:
+  name: ジャスパー
+  name_en: Jasper
+  role: 冒険者ギルドの魔法使い / 第二の暴発被害者
+  age: 28
+  gender: male
+  
+  base_prompt: "Character sheet, three-view, full figure, Close-up of face, white background"
+  
+  appearance:
+    overall: |
+      冒険者らしいタフな魔法使い。28歳。
+      碧玉(ジャスパー)のように地に足がついた印象。
+      火魔法使いだが、杖暴発で右手に火傷を負った。
+    
+    hair:
+      color: reddish brown / 赤みがかった茶色
+      style: spiky, wild, adventurer style / トゲトゲ、野性的、冒険者風
+      detail: 戦闘で邪魔にならないスタイル
+    
+    eyes:
+      color: jasper brown / 碧玉色の茶色
+      expression: rough, experienced, slightly bitter / 荒っぽい、経験豊か、少し苦い
+      detail: 多くの冒険を経た目
+    
+    face:
+      shape: rugged, masculine / ゴツゴツした、男性的
+      features:
+        - stubble / 無精髭
+        - old scars from adventures / 冒険の古傷
+        - tough expression / タフな表情
+      expression: rough but honest / 荒っぽいが正直
+    
+    body:
+      height: 178cm / やや高め
+      build: athletic, adventurer physique / 運動体型、冒険者の体格
+      posture: casual, relaxed / カジュアル、リラックス
+    
+    clothing:
+      main_outfit:
+        description: |
+          冒険者らしい実用的な装備。火魔法使いらしい赤茶色基調。
+          事故後は右手に包帯。
+        items:
+          - brown leather vest / 茶色の革ベスト
+          - loose shirt / ゆったりしたシャツ
+          - adventure pants / 冒険用ズボン
+          - sturdy boots / 頑丈なブーツ
+          - bandaged right hand (after incident) / 事故後：包帯を巻いた右手
+      accessories:
+        - magic pouch / 魔法の袋
+        - broken wand (after incident) / 壊れた杖（事故後）
+    
+    distinctive_features:
+      - burn scars on right hand / 右手の火傷跡
+      - casual adventurer demeanor / カジュアルな冒険者の態度
+      - straightforward personality / 率直な性格
+      - willing to help despite injury / 負傷にもかかわらず協力的
+
+  expressions:
+    - name: default
+      description: rough, casual, experienced / 荒っぽい、カジュアル、経験豊か
+    - name: in_pain
+      description: grimacing from burn injury / 火傷の痛みで顔をしかめる
+    - name: explaining
+      description: straightforward, honest testimony / 率直、正直な証言
+    - name: cooperative
+      description: willing to help despite personal loss / 個人的損失にも関わらず協力的
+
+  personality:
+    traits:
+      - 冒険者らしくタフで実用的
+      - 地に足のついた性格
+      - 率直で嘘をつかない
+      - 自分の杖が欠陥品だったか気にしている
+      - ネルルへの協力的な態度（壊れた杖を快く提供）
+
+  background:
+    history: |
+      - 冒険者ギルドに登録する火魔法使い
+      - クエストで「鳴き竜」討伐中に杖が暴発
+      - ひどい雨の中、鳴き竜の咆哮(音波)を受けた瞬間に暴発
+      - 右手に大火傷を負い、冒険者としての活動に支障
+      - ネルルに壊れた杖を提供し、真相究明に協力
+
+  role_in_story: |
+    第二の暴発被害者として、バーミリオン事故が単独ではないことを示す。
+    「雨」と「音波」の共通点を提供する重要な証言者。
+
+  full_prompt:
+    style: "anime style, detailed, high quality"
+    
+    character_sheet_prompt: |
+      Character sheet, three-view, full figure, Close-up of face, white background,
+      1boy, male, 28 years old, adventurer, fire mage,
+      reddish brown spiky wild hair, jasper brown eyes, rough experienced gaze,
+      rugged masculine face, stubble, adventure scars, tough expression,
+      athletic adventurer build, 178cm, casual relaxed posture,
+      brown leather vest, loose shirt, adventure pants, sturdy boots,
+      bandaged right hand with burn scars,
+      rough but honest expression, adventurer style,
+      fantasy setting, guild adventurer,
+      anime style, detailed, high quality
+
+  negative_prompt: |
+    low quality, blurry, deformed, bad anatomy,
+    noble clothes, refined appearance, weak looking,
+    young looking, clean, fancy equipment
+
+  reference_keywords:
+    - adventurer mage
+    - fire magic user
+    - rugged explorer
+    - straightforward personality
+    - veteran adventurer

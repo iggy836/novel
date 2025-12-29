@@ -1,0 +1,148 @@
+# ========================================
+# キャラクターシート生成用プロンプト
+# ========================================
+# オブシディアン（魔族の将）
+
+obsidian:
+  name: オブシディアン
+  name_en: Obsidian
+  role: 魔族の将 / 「嵐翼」
+  age: unknown (appears 30s)
+  gender: male
+  
+  base_prompt: "Character sheet, three-view, full figure, Close-up of face, white background"
+  
+  appearance:
+    overall: |
+      「嵐翼」の異名を持つ魔族の将。外見は30代程度。
+      黒曜石のように鋭利で冷酷。天候を操る力を持つ。
+      漆黒の翼と、嵐のような魔力を纏う。
+    
+    hair:
+      color: jet black / 漆黒
+      style: long, flowing, wind-swept / 長髪、流れるような、風になびく
+      detail: 常に風に揺れているような髪
+    
+    eyes:
+      color: obsidian black with purple glow / 紫に光る黒曜石色
+      expression: cold, calculating, knowing / 冷たい、計算高い、何かを知っている
+      detail: 深淵のような暗さ、冷たい知性
+    
+    face:
+      shape: sharp, angular, inhuman beauty / 鋭い、角張った、人外の美しさ
+      features:
+        - pointed ears / 尖った耳
+        - pale grayish skin / 灰色がかった青白い肌
+        - subtle demon markings / 控えめな魔族の紋様
+      expression: calm superiority / 静かな優越感
+    
+    body:
+      height: 185cm / 高身長
+      build: lean, powerful, predatory / 細身だが力強い、捕食者的
+      posture: regal, commanding / 王者の風格、威厳
+    
+    clothing:
+      main_outfit:
+        description: |
+          魔族の将としての戦闘服。黒と紫を基調。
+          嵐の力を象徴するデザイン。
+        items:
+          - black and purple armor / 黒と紫の鎧
+          - storm-themed decorations / 嵐をモチーフにした装飾
+          - flowing dark cloak / なびく黒いマント
+          - obsidian blade / 黒曜石の剣
+      accessories:
+        - storm crown / 嵐の冠
+        - lightning patterns on armor / 鎧の稲妻模様
+    
+    distinctive_features:
+      - large black wings / 大きな黒い翼
+      - constant wind around him / 常に周囲に風が吹いている
+      - storm clouds follow him / 嵐雲が付き従う
+      - unsettling calm / 不気味な落ち着き
+
+  expressions:
+    - name: default
+      description: calm, superior, observing / 冷静、優越、観察
+    - name: amused
+      description: slight smirk, knowing something / わずかな笑み、何かを知っている
+    - name: battle
+      description: fierce, storm in eyes / 激しい、目に嵐
+    - name: commanding
+      description: absolute authority / 絶対的な権威
+
+  full_prompt:
+    style: "anime style, detailed, high quality"
+    
+    character_sheet_prompt: |
+      Character sheet, three-view, full figure, Close-up of face, white background,
+      1boy, male, demon general, storm wing,
+      jet black long flowing hair wind-swept, obsidian black eyes with purple glow, cold knowing gaze,
+      sharp angular inhuman beauty, pointed ears, pale grayish skin, demon markings,
+      lean powerful predatory build, 185cm, regal commanding presence,
+      black and purple armor, storm themed decorations, flowing dark cloak,
+      large black wings, storm crown, lightning patterns,
+      calm superiority, unsettling presence,
+      fantasy setting, demon lord general,
+      anime style, detailed, high quality
+
+  negative_prompt: |
+    low quality, blurry, deformed, bad anatomy,
+    friendly expression, human appearance, colorful clothes,
+    small wings, cute, warm colors
+
+  # 天候操作能力
+  weather_control:
+    ability: 嵐翼のオブシディアン - 天候を操る魔将
+    tactics:
+      - 雨を降らせて炎魔法を弱体化
+      - 戦場を自分に有利な環境に変える
+      - 魔界蔓の暴発条件（雨）を意図的に作り出す
+    
+    strategic_use: |
+      バーミリオンとの戦いで雨を降らせた。
+      これは炎を弱めるだけでなく、暴発条件を整えるため。
+
+  # 暴発の仕組みを知っている
+  knowledge_of_mechanism:
+    knows: |
+      魔界蔓が「雨+音波+魔力」で暴発することを知っている。
+      シナバーとの密約で、この仕組みが計画されている。
+    
+    evidence: |
+      支援部隊の対抗魔法で雨が止んだ瞬間、
+      「今日は条件が悪いな。焦ることはない」と撤退。
+      【伏線】「条件」=雨が止んだ=暴発が起きなくなった
+    
+    strategic_withdrawal: |
+      雨が止んだため、これ以上の暴発は期待できないと判断し撤退。
+      次の機会（建国記念式典）を待つ計算高さ。
+
+  # 性格
+  personality:
+    traits:
+      - 冷静で計算高い魔族の将
+      - 天候を操る力を持つ
+      - 人類の兵器システムの弱点を知っている
+      - 焦らず、確実に勝機を待つ戦略家
+      - シナバーと密約を結んでいる共謀者
+
+  # 物語における役割
+  role_in_story:
+    antagonist: バーミリオンを負傷させた直接的な敵
+    知識者: 暴発の仕組みを知っている唯一の魔族
+    シナバーの共謀者: 魔界蔓混入計画の協力者
+    次の脅威: 建国記念式典での大量暴発を狙う
+
+  # シナバーとの関係
+  relationship_with_cinnabar:
+    pact: 30年前から密約を結んでいる
+    current_plan: 建国記念式典で3000人同時暴発テロ
+    trust: 互いに利用し合う関係
+
+  reference_keywords:
+    - demon general
+    - storm lord
+    - fallen angel aesthetic
+    - obsidian blade
+    - Sephiroth type villain

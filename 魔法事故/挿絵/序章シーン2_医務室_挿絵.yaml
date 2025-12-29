@@ -1,0 +1,194 @@
+# 序章シーン2「医務室」挿絵プロンプト
+# L66-96: アクアとバーミリオンのシーン
+
+metadata:
+  scene: "序章_シーン2_事故の余波"
+  section: "### 2 医務室"
+  line_reference: "L66-96"
+  purpose: "英雄の悲劇と部下の悲痛を描く"
+  
+illustration:
+  title: "英雄の代償"
+  scene_moment: "医務室でアクアがバーミリオンの傍らに立つシーン"
+  emotional_core: "尊敬する隊長の負傷、無力感、疑念の芽生え"
+  
+  composition:
+    type: "ミディアムショット、サイドアングル"
+    focal_point: "ベッドに横たわるバーミリオンと、傍らに立つアクア"
+    depth: "前景：ベッド、中景：アクアとバーミリオン、後景：医務室の窓と設備"
+    lighting: "薄暗い医務室、窓からの柔らかい光"
+    
+  composition_description_jp: |
+    【構図イメージ】
+    - カメラアングル: 横から見た構図（サイドビュー）
+    - 画面中央にベッド、その上にバーミリオンが横たわる
+    - 右側にアクアが直立不動で立っている（顔は下を向いている）
+    - 左側に軍医が立ち、バーミリオンを診ている
+    - バーミリオンの右腕は包帯でぐるぐる巻き
+    - 背景の窓から柔らかい光が差し込む
+    - 医療器具が配置された棚が見える
+    - 全体的に静謐で悲痛な雰囲気
+    
+  composition_diagram: |
+    ┌─────────────────────────────────────┐
+    │         [窓]  ☁️  [医療棚]          │ ← 後景
+    │          ↓ 柔らかい光 ↓             │
+    │                                     │
+    │  👨‍⚕️                          👤   │ ← 中景
+    │ (軍医)    ┌────────┐        (アクア)│
+    │   診察→  │バーミリオン │   ←傍らに │
+    │          │    😔     │     立つ   │
+    │          │   🩹🩹🩹  │            │
+    │          └────────┘            │
+    │       (包帯だらけの右腕)            │
+    │                                     │ ← 前景
+    │        [ベッド]                     │   (医療ベッド)
+    └─────────────────────────────────────┘
+    
+    視点: 横から見たサイドビュー
+    焦点: バーミリオンの包帯と、アクアの悲痛な表情
+    
+  characters:
+    - name: "バーミリオン"
+      age: 40代
+      appearance: "筋肉質、傷跡の多い体、赤茶色の短髪"
+      current_state: "ベッドに横たわる、蒼白な顔、右腕は包帯でぐるぐる巻き"
+      expression: "眠っているが苦痛に顔を歪めている"
+      symbolism: "fallen hero, 英雄の凋落"
+      
+    - name: "アクア"
+      age: 20代前半
+      appearance: "騎士団制服、真面目な顔立ち、短めの青い髪"
+      expression: "悲痛、無力感、拳を握りしめている"
+      pose: "ベッドの右側に直立不動、しかし肩が震えている"
+      inner_conflict: "隊長への申し訳なさと、事故への疑念"
+      
+    - name: "軍医"
+      age: 50代
+      appearance: "白衣、疲れた表情"
+      expression: "重苦しい、眉間に皺"
+      pose: "ベッドの左側、バーミリオンを診察している"
+  
+  key_details:
+    - "バーミリオンの右腕：指先から肩まで分厚い包帯"
+    - "ベッドサイドの医療器具"
+    - "窓から差し込む柔らかい光（希望と絶望の対比）"
+    - "アクアの握りしめた拳（怒りと無力感）"
+    - "医務室の薬品棚と治療魔法の魔法陣が描かれた壁"
+    
+  atmosphere:
+    mood: "静謐、悲痛、無力感、疑念の芽生え"
+    color_palette: "白（包帯、医務室）、青（アクアの制服）、灰色（絶望）、淡い黄色（窓の光）"
+    symbolism: |
+      - 包帯 = 治癒不可能な傷
+      - 窓の光 = かすかな希望と真実への道
+      - アクアの拳 = 抑えきれない怒りと疑念
+      - 蒼白なバーミリオン = 炎獅子の消えた炎
+  
+  narrative_purpose: |
+    このシーンは以下を伝える：
+    1. バーミリオンの負傷が取り返しのつかないものであること
+    2. アクアの悲痛と、事故への疑念の芽生え
+    3. 軍医の含みのある言葉（「工房の動きが早すぎる」）
+    4. 英雄の凋落という悲劇性
+    
+  prompt_english: |
+    A solemn and emotional light novel illustration depicting a hospital scene in a fantasy medieval setting.
+    
+    COMPOSITION:
+    Side view (profile angle) of a military infirmary room, medium shot focusing on three figures around a medical bed.
+    
+    CENTER - The Fallen Hero (Vermillion):
+    - A muscular man in his 40s lying on a simple medical bed
+    - Short reddish-brown hair, battle-scarred physique
+    - Face pale and gaunt, eyes closed in pained sleep
+    - Expression showing suppressed agony even in unconsciousness
+    - RIGHT ARM: Heavily bandaged from fingertips to shoulder
+      * Multiple layers of white bandages wrapped thickly
+      * Arm positioned carefully on the bed
+      * Suggests severe burn injury underneath
+    - Covered with a simple white sheet up to chest
+    - The legendary "Flame Lion" reduced to this fragile state
+    
+    RIGHT SIDE - Aqua (Loyal Subordinate):
+    - Young knight in early 20s, standing at attention beside the bed
+    - Short blue hair, earnest features
+    - Wearing Knight Order uniform (blue and white)
+    - Standing rigidly at attention, but:
+      * Shoulders trembling slightly
+      * Fists clenched tightly at sides
+      * Head bowed, looking down at commander
+    - Expression: Deep sorrow mixed with growing suspicion
+    - Body language conveys helplessness and suppressed anger
+    - Positioned in right third of frame
+    
+    LEFT SIDE - Military Doctor:
+    - Older man in 50s wearing white medical coat
+    - Tired, concerned expression
+    - Deep furrow between eyebrows
+    - Standing on left side of bed, examining Vermillion
+    - Holding a medical chart
+    - Posture suggests delivering difficult news
+    
+    BACKGROUND:
+    - Clean but austere military infirmary
+    - Large window on back wall letting in soft, diffused daylight
+    - Shelves with medical supplies and potions
+    - Magic circle diagrams for healing spells on the wall
+    - Medical instruments on a side table
+    - Overall atmosphere: institutional, sterile, melancholic
+    
+    LIGHTING:
+    - Soft natural light from window (not harsh)
+    - Creates gentle illumination on the scene
+    - Vermillion's face partially in shadow
+    - Aqua backlit, creating slight silhouette effect
+    - Overall lighting is subdued, matching somber mood
+    - Bandages catch light, emphasizing their presence
+    
+    COLOR PALETTE:
+    - Dominant: Clean whites (bandages, sheets, medical coat)
+    - Accent: Blues (Aqua's uniform, shadows)
+    - Neutral: Grays (walls, medical equipment)
+    - Warm: Pale yellows (window light)
+    - Skin tones: Pale, sickly (Vermillion), concerned (Aqua, doctor)
+    
+    DEPTH OF FIELD:
+    - Slight depth with background slightly softer
+    - Main focus: The bandaged arm and character expressions
+    - Window and shelves: Clear but secondary
+    
+    EMOTIONAL BEATS:
+    - Vermillion: Tragic hero fallen, physical suffering
+    - Aqua: Grief, anger, beginning of doubt
+    - Doctor: Heavy burden of truth
+    - Overall scene: The cost of unexplained disaster
+    
+    SYMBOLISM:
+    - Bandaged arm = Irreparable damage, career destroyed
+    - Window light = Faint hope amid despair
+    - Aqua's clenched fists = Suppressed rage and powerlessness
+    - Vermillion's pallor = The extinguished "Flame Lion"
+    - Medical setting = Attempt to heal what cannot be healed
+    
+    MOOD: Solemn, mournful, quietly devastating, seeds of doubt
+    
+    NARRATIVE PURPOSE:
+    - Show the severity of Vermillion's injury
+    - Establish Aqua's emotional investment and growing suspicion
+    - Create sympathy for the victim
+    - Set up the injustice of the false accusation
+    
+    STYLE: Light novel illustration, semi-realistic anime art style, emotionally restrained but impactful, focus on character expressions and body language
+    
+    TECHNICAL DETAILS:
+    - Clear attention to medical details (bandages, hospital setting)
+    - Character expressions must convey complex emotions
+    - Lighting creates appropriate somber atmosphere
+    - Composition balanced but emphasizes Vermillion's condition
+    
+    CRITICAL ELEMENTS:
+    - Vermillion's heavily bandaged right arm must be prominent
+    - Aqua's clenched fists and trembling shoulders are key
+    - Doctor's concerned expression hints at his suspicions
+    - Overall tone: Quiet tragedy, not melodrama

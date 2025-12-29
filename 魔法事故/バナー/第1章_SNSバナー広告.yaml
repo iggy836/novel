@@ -1,0 +1,56 @@
+title: "第1章（第4話）SNSバナー広告"
+type: "sns_banner"
+format: "横長 (1200px × 628px - Facebook/Twitter推奨サイズ)"
+
+required_text:
+  main_title: "雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ"
+  episode: "第4話：「孤立無援の職人」"
+  catchphrase: "世界が敵でも、俺は自分の仕事を信じる。"
+
+concept: "印象的でクリック誘導力の高いSNS広告バナー"
+
+prompt:
+  main: |
+    Social media banner, serious anime style, eye-catching and dramatic.
+    
+    Layout (Horizontal 1200x628):
+    - Left 40%: Striking character visual (Granite's profile or three-quarter face)
+    - Right 60%: Text area with gradient background
+    
+    Visual Elements:
+    - Granite: close-up of face, serious/determined expression, stubble, intense eyes
+    - Background: blurred workshop atmosphere with tool silhouettes
+    - Accent: small visual of a glowing wand or green magical spark
+    
+    Text Layout:
+    - Top: "雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ" (main series title)
+    - Center (Large): "第4話：「孤立無援の職人」" (episode title - biggest text)
+    - Bottom: "世界が敵でも、俺は自分の仕事を信じる。" (catchphrase)
+    - Optional: "最新話公開中！" or "Click to Read" button
+    
+    Color Scheme:
+    - Left side: darker tones (blues, grays) for character
+    - Right side: gradient from dark blue to subtle warm tone
+    - Text: white with dark outline or glow for readability
+    - Accent color: orange/gold for emphasis
+    
+    Typography:
+    - Series title: medium size, bold, at top
+    - Episode title: LARGE, bold, eye-catching - main focus
+    - Catchphrase: smaller, elegant font
+    
+    Style: professional SNS ad, high contrast, readable text, attention-grabbing
+    
+  negative_prompt: |
+    cluttered, too much text, low contrast, illegible fonts,
+    generic stock photo look, amateur design, blurry, low quality
+
+technical_specs:
+  dimensions: "1200 x 628 pixels (Facebook/Twitter standard)"
+  safe_area: "Avoid important elements in outer 10% margin (platform UI overlap)"
+  text_hierarchy:
+    primary: "第4話：「孤立無援の職人」"
+    secondary: "雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ"
+    tertiary: "世界が敵でも、俺は自分の仕事を信じる。"
+  call_to_action: "Optional 'Read Now' button in bottom right"
+  color_palette: "dark blue (#1a2332), steel gray (#4a5568), warm orange accent (#ff8c42), white text"

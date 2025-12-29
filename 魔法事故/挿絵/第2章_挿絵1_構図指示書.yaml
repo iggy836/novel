@@ -1,0 +1,42 @@
+# 第2章 挿絵1_ネーム構図案：涙の糾弾（構造・パース指示のみ）
+
+# 目的: 清書前の「ネーム（ラフ）」として、画面の骨格と動きのラインを指示する。
+# ディテール（表情の書き込みや光の反射など）は不要。あくまで「配置とパース」の設計図。
+
+layout_structure:
+  perspective_grid:
+    type: "3-point perspective (High FOV)"
+    vanishing_point_1: "画面右下、奥深く"
+    vanishing_point_2: "画面左上、遥か彼方"
+    horizon_line: "画面下部 1/4 あたり（ローアングル）"
+  
+  camera_tilt:
+    angle: "-30 degrees (Dutch Angle)"
+    axis: "右肩上がり"
+
+dynamic_shapes:
+  foreground_shape:
+    element: "Right Hand (Slap Motion)"
+    shape: "Triangular streak sweeping from Left-Top to Center"
+    line_weight: "Heavy speed lines"
+    contact_point: "MUST OVERLAP with Granite's cheek (Physical Contact)"
+  
+  midground_shape:
+    element: "Aqua's Upper Body"
+    shape: "Dynamic S-curve (leaning forward)"
+    head_position: "Upper Left intersection"
+  
+  background_shape:
+    element: "Granite's Head"
+    shape: "Distorted rectangle (recoiling)"
+    distortion: "Cheek skin ripples/compresses at the point of impact"
+    position: "Center Right"
+
+guide_lines:
+  action_line: "左上（アクアの腕）から右下（グラナイトのけぞり）へ貫く太い矢印のような力の流れ"
+  eye_flow: "手前の残像 → アクアの目 → グラナイトの驚いた口元"
+  speed_lines: "画面四隅から中心（インパクト点）へ向かう集中線ガイド"
+
+framing:
+  crop: "バストショット（胸から上）"
+  border_effect: "枠線からはみ出すような勢い（タチキリ）"

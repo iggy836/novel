@@ -1,0 +1,297 @@
+# 序章シーン2「事故の余波」挿絵プロット
+# プロの漫画家視点による構図設計
+
+metadata:
+  scene: "序章_シーン2_事故の余波"
+  total_illustrations: 3
+  style: "ライトノベル挿絵、劇画タッチ"
+  purpose: "読者の感情移入を強化し、物語の緊張感を視覚化"
+
+# ========================================
+# 挿絵1: 孤独な職人
+# ========================================
+illustration_01:
+  title: "孤独な職人"
+  scene_reference: "### 1 (L8-62)"
+  narrative_purpose: "グラナイトの頑固さと孤立、そして職人としての誇りを視覚化"
+  
+  composition:
+    type: "ミディアムショット、やや俯瞰"
+    focal_point: "グラナイトの手元と表情"
+    depth: "前景：作業台、中景：グラナイト、後景：窓（群衆のシルエット）"
+    lighting: "工房内の薄暗い照明、窓から差し込む外の光"
+    
+  layout_description_jp: |
+    【構図イメージ】
+    - カメラアングル: 斜め上から見下ろす構図
+    - グラナイトは画面中央やや右、作業台に向かって座っている
+    - 左手前には磨かれた杖が数本立てかけられている
+    - 奥の窓には群衆の黒いシルエットが見え、拳を振り上げている
+    - グラナイトの表情は冷静だが、眉間に僅かな皺
+    - 手元にスポットライト的な光が当たり、職人の手の美しさを強調
+    - 画面全体のトーンは暗めで重厚、孤独感を演出
+  
+  composition_diagram: |
+    ┌─────────────────────────────────────┐
+    │  [窓: 怒れる群衆のシルエット]       │ ← 後景
+    │   |||||||  〰〰 |||||||             │
+    │                                     │
+    │              [グラナイト]           │ ← 中景
+    │               👤                    │   (画面中央やや右)
+    │              ┌─┐                   │
+    │   💡→       │作│  ← 手元に光      │
+    │              │業│                   │
+    │              │台│                   │
+    │    [杖]      └─┘                   │ ← 前景
+    │     |||                             │   (左手前)
+    │     |||    [ペリドット]             │
+    │     |||      (影)                   │
+    └─────────────────────────────────────┘
+    
+    視点: やや俯瞰（斜め上から）
+    焦点: グラナイトの手元と表情
+    
+  characters:
+    - name: "グラナイト"
+      age: 32
+      appearance: "筋肉質な体格、短髪、無精髭、作業着"
+      expression: "無表情だが目には強い意志"
+      pose: "作業台に向かい、布で杖を磨いている"
+      
+    - name: "ペリドット（遠景）"
+      age: 18
+      appearance: "小柄、ポニーテール、エプロン姿"
+      expression: "不安げに震えている"
+      pose: "店の奥の影で身を縮こまらせている"
+  
+  atmosphere:
+    mood: "孤独、緊張、揺るがぬ意志"
+    color_palette: "茶色、灰色、暗いオレンジ（工房の明かり）"
+    symbolism: "外の喧騒と内の静寂の対比 = 世界 vs 職人の矜持"
+  
+  prompt_english: |
+    A dramatic medium shot from a slightly elevated angle, inside a dim craftsman's workshop.
+    
+    MAIN SUBJECT:
+    A muscular 32-year-old craftsman named Granite sits at a worn wooden workbench in the center-right of the frame. He has short dark hair, stubble, and wears a practical work apron over simple clothing. His expression is stoic and focused, with a hint of determination in his gray eyes. His calloused hands are polishing a magical staff with a cloth, the motion frozen in time. Subtle spotlight illuminates his hands, emphasizing the beauty of craftsmanship.
+    
+    FOREGROUND:
+    Several finely polished magical staves lean against the left side of the workbench, their surfaces catching small glints of light.
+    
+    BACKGROUND:
+    Through a window behind Granite, dark silhouettes of an angry mob can be seen—fists raised, mouths open in rage. The crowd creates an ominous contrast to the calm interior.
+    
+    SECONDARY CHARACTER:
+    In the shadowy depths of the workshop, a young apprentice girl (18, ponytail, apron) huddles fearfully in the corner, barely visible.
+    
+    LIGHTING & ATMOSPHERE:
+    - Dim, warm workshop lighting from oil lamps
+    - Harsh external light from the window creating stark silhouettes
+    - Heavy shadows emphasizing isolation
+    - Dust particles visible in light shafts
+    
+    MOOD: Solitary determination, pressure from society, unwavering professional pride
+    
+    COLOR PALETTE: Deep browns, grays, muted oranges, heavy shadows
+    
+    STYLE: Light novel illustration, semi-realistic with dramatic shading, inspired by seinen manga aesthetic
+    
+    TECHNICAL: High detail on hands and tools, atmospheric depth, cinematic lighting
+
+# ========================================
+# 挿絵2: 冷徹な告発
+# ========================================
+illustration_02:
+  title: "冷徹な告発"
+  scene_reference: "### 3 (L99-149)"
+  narrative_purpose: "シナバーの狡猾さと、権力による理不尽な断罪を視覚化"
+  
+  composition:
+    type: "ローアングル、シナバーを見上げる構図"
+    focal_point: "シナバーの表情（二面性）"
+    depth: "前景：会議テーブル、中景：シナバー、後景：高窓からの光"
+    lighting: "逆光気味、シナバーの顔に影"
+    
+  layout_description_jp: |
+    【構図イメージ】
+    - カメラアングル: 会議テーブルの向かい側から、やや下から見上げる
+    - シナバーは画面中央、立って報告書を読んでいる
+    - 左右には騎士団幹部や文官が座っているが、顔は影で隠す
+    - シナバーの表情は「柔和な笑み」だが、目だけが冷たく光る
+    - 背後の高窓から差し込む光が、シナバーを逆光にして顔に影を作る
+    - 会議テーブルには資料が散乱、「グラナイト杖店」の文字が見える
+    - 全体的に威圧的で冷たい雰囲気
+  
+  composition_diagram: |
+    ┌─────────────────────────────────────┐
+    │        [高窓]  ☀️  [高窓]           │ ← 後景
+    │          ↓ 逆光 ↓                   │
+    │                                     │
+    │    👤         [シナバー]        👤  │ ← 中景
+    │  (将軍)         😊→😈         (文官)│   (画面中央)
+    │                 📄                   │   表情:二面性
+    │  ════════════[会議テーブル]══════════ │
+    │    📋 📋 「グラナイト杖店」📋 📋    │ ← 前景
+    │                 ▲                    │
+    │            カメラ位置                │
+    │          (やや下から)                │
+    └─────────────────────────────────────┘
+    
+    視点: ローアングル（下から見上げる）
+    焦点: シナバーの二面性（笑顔と冷たい目）
+    
+  characters:
+    - name: "シナバー"
+      age: 50代
+      appearance: "銀髪オールバック、整った顔立ち、高級な工房長制服"
+      expression: "口元は柔和な笑み、しかし目は冷徹"
+      pose: "立って報告書を持ち、やや頭を下げている"
+      
+    - name: "将軍（シルエット）"
+      appearance: "軍服、厳しい表情"
+      pose: "上座に座り、腕を組んでいる"
+  
+  atmosphere:
+    mood: "権力、欺瞞、冷酷な断罪"
+    color_palette: "冷たい青、金色（権威）、深い影"
+    symbolism: "光と影 = 表の温和さと裏の冷酷さ"
+  
+  prompt_english: |
+    A dramatic low-angle shot inside a grand royal conference room, looking up at a standing figure.
+    
+    MAIN SUBJECT:
+    Cinnabar, a refined man in his 50s with slicked-back silver hair, stands at the center of an ornate conference table. He wears an elegant royal workshop director's uniform with gold trim. His face shows a gentle, diplomatic smile—but his eyes gleam with cold calculation. He holds a report document in one hand while bowing slightly in a show of false humility. The duality of his expression (warm mouth, cold eyes) is crucial.
+    
+    FOREGROUND:
+    The polished conference table surface with scattered documents. One paper clearly shows the words "Granite Staff Shop" (グラナイト杖店).
+    
+    BACKGROUND:
+    Tall gothic windows behind Cinnabar cast harsh backlighting, creating shadows across his face. The silhouettes of military officers and officials sit on either side, their faces obscured in shadow, creating an oppressive atmosphere.
+    
+    SIDE CHARACTERS:
+    - A stern general (silhouette) sits in the high seat, arms crossed
+    - Other officials (shadowed faces) surround the table
+    
+    LIGHTING & ATMOSPHERE:
+    - Strong backlight from windows creating dramatic rim lighting
+    - Cinnabar's face partially in shadow, emphasizing his two-faced nature
+    - Cold, institutional lighting
+    - Oppressive, authoritative mood
+    
+    MOOD: Corruption, false politeness masking cruelty, unjust condemnation by power
+    
+    COLOR PALETTE: Cold blues, metallic golds (authority), deep shadows, harsh whites from windows
+    
+    SYMBOLISM: Light and shadow representing public face vs. true nature
+    
+    STYLE: Light novel illustration with political thriller aesthetics, sharp contrasts, semi-realistic
+    
+    TECHNICAL: Focus on facial duality, dramatic lighting, institutional coldness
+
+# ========================================
+# 挿絵3: 記憶の中の約束
+# ========================================
+illustration_03:
+  title: "記憶の中の約束"
+  scene_reference: "### 4 (L152-194)"
+  narrative_purpose: "過去と現在の対比、失われた純粋さと現在の孤独を視覚化"
+  
+  composition:
+    type: "クローズアップ、グラナイトの手と写真"
+    focal_point: "古い写真（幼いグラナイトとネルル）"
+    depth: "前景：写真、中景：グラナイトの手、後景：ぼやけた工房"
+    lighting: "暗い工房、写真に当たる僅かな光"
+    
+  layout_description_jp: |
+    【構図イメージ】
+    - カメラアングル: 真上から手元を見下ろす構図
+    - グラナイトの大きく荒れた手が、古いセピア色の写真を持っている
+    - 写真の中には、幼い頃のグラナイト（8歳くらい）と銀髪の少女ネルル
+    - 二人とも無邪気に笑っている。父親も一緒に写っている
+    - 写真の縁は色褪せ、少し破れている
+    - 背景の工房は暗くぼやけており、窓には雨粒が流れている
+    - グラナイトの指には小さな傷や火傷の痕
+    - 全体的にノスタルジックで切ない雰囲気
+  
+  composition_diagram: |
+    ┌─────────────────────────────────────┐
+    │  [ぼやけた工房背景]  🌧️[窓/雨]     │ ← 後景
+    │   ～～～～～～～～～～～～～～～～   │   (ピンボケ)
+    │                                     │
+    │        ╔═══════════════╗            │ ← 中景
+    │     👋 ║  [古い写真]   ║ 👋         │   (グラナイトの手)
+    │   傷跡→║ ┌─────────┐ ║←傷跡      │   ※荒れた職人の手
+    │        ║ │👨👦👧    │ ║            │
+    │        ║ │アンバー   │ ║            │ ← 前景
+    │        ║ │グラナイト │ ║            │   (写真:ピント)
+    │        ║ │ネルル    │ ║            │   ※セピア色
+    │        ║ └─────────┘ ║            │
+    │        ╚═══════════════╝            │
+    │              ▲                       │
+    │         カメラ位置                   │
+    │        (真上から)                    │
+    └─────────────────────────────────────┘
+    
+    視点: 真俯瞰（真上から見下ろす）
+    焦点: 写真とグラナイトの手
+    ピント: 写真=シャープ、背景=ボケ
+    
+  characters:
+    - name: "グラナイト（手のみ）"
+      appearance: "荒れた職人の手、小さな傷や火傷の痕"
+      
+    - name: "写真内：幼いグラナイト"
+      age: 8
+      appearance: "短髪、人懐っこい笑顔、汚れた作業服"
+      
+    - name: "写真内：幼いネルル"
+      age: 7
+      appearance: "銀髪、勝気な瞳、真っ直ぐカメラを見つめる"
+      
+    - name: "写真内：アンバー（父）"
+      appearance: "無愛想だが優しい目、職人の風格"
+  
+  atmosphere:
+    mood: "ノスタルジア、喪失、切なさ、孤独"
+    color_palette: "セピア（写真）、暗い青灰色（現在）、冷たい雨"
+    symbolism: "写真 = 失われた純粋さと約束、荒れた手 = 現実の厳しさ"
+  
+  prompt_english: |
+    An intimate close-up shot from directly above, focusing on weathered hands holding an old photograph.
+    
+    MAIN SUBJECT:
+    A pair of large, calloused craftsman's hands gently holding a sepia-toned photograph. The hands show signs of hard labor—small scars, burn marks, rough skin. The contrast between the gentle way the hands hold the fragile photo and their rough appearance is poignant.
+    
+    THE PHOTOGRAPH (in focus):
+    An old, faded photograph showing three people:
+    - A young boy (8 years old, short dark hair, innocent smile, dirty work clothes) - young Granite
+    - A young silver-haired girl (7 years old, determined eyes, staring straight at camera with fierce pride) - young Nell
+    - A stern-looking but kind-eyed craftsman father figure in the background
+    
+    The photograph's edges are worn and slightly torn, showing its age and how often it's been handled.
+    
+    BACKGROUND (out of focus):
+    The dark workshop interior is heavily blurred. A rain-streaked window in the far background shows rivulets of water running down the glass. The workshop is dimly lit, creating a melancholic atmosphere.
+    
+    LIGHTING & ATMOSPHERE:
+    - Soft, dim light barely illuminating the photograph
+    - Heavy shadows surrounding the hands
+    - Rain visible on background window (blurred)
+    - Nostalgic, melancholic mood
+    
+    MOOD: Nostalgia, loss, loneliness, broken promises, the passage of time
+    
+    COLOR PALETTE: 
+    - Sepia tones (photograph)
+    - Dark blue-grays (present reality)
+    - Cold rain reflections
+    
+    SYMBOLISM: The photograph represents lost innocence and childhood promises, while the scarred hands represent harsh reality
+    
+    STYLE: Light novel illustration, emotional and intimate, shallow depth of field, photorealistic hands
+    
+    TECHNICAL: 
+    - Sharp focus on photograph and hands
+    - Bokeh effect on background
+    - Emphasis on texture contrast (rough hands vs. delicate photo)
+    - Raindrop details on window (blurred)

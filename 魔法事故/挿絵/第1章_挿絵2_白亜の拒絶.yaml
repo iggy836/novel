@@ -1,0 +1,69 @@
+title: "第1章 挿絵2：白亜の拒絶"
+scene_id: ill_01_02
+illustration_type: "serious anime style, overwhelming architecture"
+
+prompt:
+  main: |
+    Serious anime illustration, EXTREME dramatic perspective emphasizing crushing power imbalance.
+    CRITICAL: The tower must dominate 75-80% of the frame. Granite must be VERY SMALL.
+    
+    Camera Angle & Framing:
+    - WORM'S EYE VIEW (extreme low angle, as if camera is on the ground)
+    - Looking almost straight UP at the tower
+    - Tower fills most of the vertical frame, stretching to the top
+    - Granite occupies only the bottom 15-20% of frame
+    - Strong perspective lines converging upward
+    
+    Characters:
+    - Granite: SMALL figure at bottom of frame, seen from behind or side
+      * Simplified details (more silhouette than detailed face)
+      * Shoulders slumped, head tilted back looking up
+      * Fists clenched at sides
+      * Shadow cast on him from the building
+      * DO NOT show detailed facial expression - keep him distant
+    - Nerle: tiny figure barely visible in a high window
+      * Silver hair just visible
+      * Should be obviously far away
+      * Almost symbolic rather than detailed
+    
+    Tower Composition:
+    - MASSIVE white alabaster structure filling frame
+    - Towering vertically, seemingly endless
+    - Clean geometric architecture, overwhelming in its perfection
+    - Sharp perspective lines all pointing upward
+    - Multiple floors visible (at least 5-6 floors shown)
+    - Nerle's window should be clearly high up (3rd-4th floor)
+    
+    Background & Environment:
+    - Cold gray sky visible at top of frame
+    - Ground/plaza at bottom (cobblestones or pavement)
+    - Building casts long, dark shadow over Granite
+    - Minimal other elements - focus on scale contrast
+    
+    Lighting:
+    - Cold, harsh daylight
+    - Tower is BRIGHT white, almost glowing
+    - Ground and Granite are in deep shadow
+    - Extreme contrast: bright tower vs dark ground
+    - No warm tones - only cold blues, whites, grays
+    
+    Mood: crushing despair, absolute power difference, complete isolation, insurmountable wall
+    Art style: serious anime, EXTREME perspective distortion, architectural intimidation
+    
+    AVOID: 
+    - Granite being too large or detailed in the foreground
+    - Equal framing of character and building
+    - Warm, friendly colors
+    - Eye-level perspective
+    
+  negative_prompt: |
+    warm colors, friendly atmosphere, small building, equal eye level,
+    close-up composition, cluttered, low quality, blurry
+
+technical_specs:
+  aspect_ratio: "9:16 (vertical) or 4:3"
+  focus_elements:
+    - "Overwhelming scale of white tower"
+    - "Granite's small, frustrated figure"
+    - "Nerle in distant window"
+  color_palette: "cold whites and grays, harsh shadows, minimal warm tones"

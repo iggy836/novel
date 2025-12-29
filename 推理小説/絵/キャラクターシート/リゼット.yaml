@@ -1,0 +1,50 @@
+# ==============================================================================
+# IMAGE GENERATION PROMPT: リゼット (Lisette)
+# ==============================================================================
+# Target Character: 悲劇の真犯人 / 紫電の魔女 / 哀しき死人
+# ==============================================================================
+
+prompt_data:
+  header: "Character sheet, three-view, full figure, Close-up of face, white background"
+  
+  style_tags:
+    - "Anime character design"
+    - "Concept art"
+    - "Clean lines"
+    - "High quality"
+    - "Detailed 2D illustration"
+  
+  character_features:
+    age: "26 years old female"
+    body: "Slender, fragile physique, translucent pale white skin (corpse-like complexion)"
+    hair: "Long wavy lilac (light purple) hair, elegant and silky"
+    eyes: "Sorrowful but strong eyes, deep violet iris, melancholic expression"
+    face: "Beautiful, intellectual, tragic heroine vibe, cool beauty"
+  
+  outfit_details:
+    clothing: "Fantasy mage robe, intellectual and conservative design"
+    colors: "Main: White and Lilac / Sub: Silver"
+    mandatory_items:
+      - "Thick scarf or high-collar covering entire neck (hiding sutures)"
+      - "Long leather gloves covering hands and wrists (hiding burns/marks)"
+      - "Modest attire exposing no skin"
+  
+  effects_and_atmosphere:
+    - "Faint static electricity sparks around her (Violet Lightning)"
+    - "Cold atmosphere"
+    - "Saint-like but distant aura"
+    - "Shadow of death"
+
+  # ----------------------------------------------------------------------------
+  # CONCATENATED PROMPT (Copy and paste this)
+  # ----------------------------------------------------------------------------
+  full_prompt: >
+    Character sheet, three-view, full figure, Close-up of face, white background, 
+    anime character design, concept art, 
+    beautiful female mage, 26 years old, slender and fragile body, 
+    translucent pale white skin, corpse-like complexion, 
+    long wavy lilac hair, sorrowful deep violet eyes, melancholic expression, 
+    wearing elegant white and lilac mage robes, 
+    high-collar covering neck, long gloves covering hands, 
+    hiding skin, faint static electricity sparks, violet lightning effect, 
+    cool beauty, tragic heroine, intellectual, clean lines, high resolution.

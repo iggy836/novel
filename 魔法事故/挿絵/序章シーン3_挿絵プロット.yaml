@@ -1,0 +1,341 @@
+# ========================================
+# 序章 シーン3：監査官の来訪 挿絵プロット
+# ========================================
+# 目的：シーン3の重要な4つの瞬間を挿絵化
+# プロの漫画家視点での構図設計
+
+metadata:
+  scene_id: "ki_03"
+  scene_name: "監査官の来訪"
+  total_illustrations: 4
+  art_style: "ライトノベル挿絵・青年漫画風"
+  tone: "緊張感・対立・孤独と希望"
+  
+# ========================================
+# 挿絵1：16年ぶりの再会
+# ========================================
+illustration_01:
+  title: "銀色の再会"
+  scene_reference: 
+    line_range: "L29-L43"
+    key_moment: "グラナイトが顔を上げ、ネルルと目が合う瞬間"
+  
+  narrative_purpose:
+    - 16年ぶりの再会の衝撃
+    - ネルルの冷徹さとグラナイトの動揺の対比
+    - 過去と現在のギャップを視覚化
+  
+  composition:
+    camera_angle: "ローアングル（グラナイトの視点）"
+    framing: "縦構図・バストアップ〜全身"
+    focal_point: "ネルルの冷たい碧眼"
+    depth: "前景：グラナイトの手元（カンナ）、中景：ネルル、背景：シナバー"
+  
+  characters:
+    - name: "ネルル"
+      position: "画面中央やや右"
+      pose: "直立。腕を組み、グラナイトを見下ろす"
+      expression: "無表情。眉一つ動かさない冷徹さ"
+      costume: "王立工房の純白の制服。襟元にバッジ"
+      lighting: "逆光気味。背後から光が差し、輪郭が際立つ"
+      hair: "銀色の髪が肩まで。きっちりとまとめられている"
+      eyes: "鋭い碧眼。グラナイトを射抜くように見下ろす"
+      
+    - name: "シナバー"
+      position: "背景、ネルルの後方"
+      pose: "手を後ろで組み、穏やかに微笑む"
+      expression: "温和な笑み。しかし目は笑っていない"
+      costume: "黒と朱色の豪華なローブ"
+      lighting: "柔らかい影の中"
+      presence: "威圧感のある存在感"
+      
+    - name: "グラナイト（視点）"
+      position: "前景下部（手のみ見える）"
+      hands: "カンナを握りしめた大きな手。木屑がかかっている"
+      emotion: "息を呑んでいる（手の震えで表現）"
+  
+  lighting_and_atmosphere:
+    overall_tone: "冷たく、緊張感のある光"
+    light_source: "店の入口からの自然光（逆光）"
+    shadows: "ネルルとシナバーに長い影"
+    color_palette: "寒色系。白、銀、青、黒"
+    dust_particles: "空気中に舞う木屑の粒子（静寂を破られた空気感）"
+  
+  symbolic_elements:
+    - element: "カンナ（前景）"
+      meaning: "職人の手仕事と日常の象徴"
+    - element: "制服vs作業着"
+      meaning: "権力vs職人の対比"
+    - element: "逆光"
+      meaning: "ネルルが既に別世界の人間であることを示す"
+  
+  emotional_impact:
+    reader_feeling: "グラナイトと同じ動揺を感じる"
+    visual_metaphor: "過去の面影が消え去った対比"
+    
+  technical_notes:
+    panel_size: "見開き左ページ全面推奨"
+    detail_level: "高。ネルルの表情とグラナイトの手に注力"
+    reference_mood: "浦沢直樹『MONSTER』の緊張感"
+
+# ========================================
+# 挿絵2：対立の激化
+# ========================================
+illustration_02:
+  title: "職人の誇り"
+  scene_reference:
+    line_range: "L80-L95"
+    key_moment: "グラナイトが立ち上がり、指を突きつけて反論する"
+  
+  narrative_purpose:
+    - グラナイトの職人としての矜持
+    - 二人の物理的・思想的な対立の視覚化
+    - 力関係の逆転（体格差）と精神的な拮抗
+  
+  composition:
+    camera_angle: "アイレベル〜やや俯瞰"
+    framing: "横構図・全身〜腰まで"
+    focal_point: "グラナイトの突きつけられた指とネルルの顔"
+    depth: "前景：グラナイトの巨躯、中景：ネルル、背景：作業台と書類"
+  
+  characters:
+    - name: "グラナイト"
+      position: "画面左、立ち上がった状態"
+      pose: "右手の指を突きつける。左手は拳を握る"
+      body_language: "前傾。威圧的だが、怒りより信念が強い"
+      expression: "怒りと確信。眉間にシワ、目は真剣"
+      costume: "汚れた作業着。袖をまくった太い腕"
+      physique: "2メートル近い巨躯。筋肉質"
+      lighting: "強い影。顔の半分が影になる"
+      
+    - name: "ネルル"
+      position: "画面右、グラナイトを見上げる"
+      pose: "直立。微動だにしない"
+      expression: "冷ややかな軽蔑。唇が嘲笑の形"
+      costume: "純白の制服。一点の汚れもない"
+      body_language: "体格差を感じさせない堂々とした立ち姿"
+      eyes: "碧眼が鋭く光る"
+      lighting: "クリアな光。影が少ない"
+      
+    - name: "シナバー（背景）"
+      position: "奥、やや右"
+      expression: "「おや」と楽しげに眺めている"
+      presence: "傍観者として観察"
+  
+  visual_contrast:
+    size: "巨人（グラナイト）vs 小柄（ネルル）"
+    color: "汚れた茶（作業着）vs 純白（制服）"
+    posture: "前傾（攻撃的）vs 直立（防御的）"
+    light: "影の多い vs クリアな光"
+    
+  lighting_and_atmosphere:
+    overall_tone: "激しい対立。静かな怒り"
+    light_source: "天井からの照明。スポットライト的"
+    shadows: "グラナイトの顔に強い影"
+    color_palette: "暖色（グラナイト側）と寒色（ネルル側）の対比"
+    
+  symbolic_elements:
+    - element: "体格差"
+      meaning: "物理的な力 vs 社会的な力の対比"
+    - element: "作業台の書類"
+      meaning: "机上の空論を象徴"
+    - element: "指"
+      meaning: "職人の手と、告発の象徴"
+  
+  emotional_impact:
+    reader_feeling: "「負けるな！」とグラナイトを応援したくなる"
+    visual_metaphor: "現場 vs 理論の戦い"
+    
+  technical_notes:
+    panel_size: "見開き推奨"
+    detail_level: "中〜高。二人の表情に注力"
+    reference_mood: "井上雄彦『リアル』の激しい感情表現"
+
+# ========================================
+# 挿絵3：偽善の笑み
+# ========================================
+illustration_03:
+  title: "温和な仮面"
+  scene_reference:
+    line_range: "L140-L153"
+    key_moment: "シナバーが優しく微笑みながら、グラナイトの調査依頼を拒絶する"
+  
+  narrative_purpose:
+    - シナバーの偽善と冷酷さの視覚化
+    - 希望から絶望への転換点
+    - 敵役（シナバー）の印象づけ
+  
+  composition:
+    camera_angle: "ローアングル（グラナイトから見上げる）"
+    framing: "縦構図・バストアップ〜顔のクローズアップ"
+    focal_point: "シナバーの笑みと、笑っていない目"
+    depth: "浅い。シナバーの顔に集中"
+  
+  characters:
+    - name: "シナバー"
+      position: "画面中央"
+      pose: "手を広げて諭すようなジェスチャー"
+      expression: "温和な聖職者のような微笑み"
+      eyes: "目だけが冷たく、笑っていない。瞳の奥に闇"
+      costume: "黒と朱色のローブ。襟元の装飾が権威を示す"
+      hair: "赤みがかった銀灰色。撫でつけられている"
+      lighting: "顔の上半分に柔らかい光、下半分に影"
+      
+    - name: "グラナイト（視点）"
+      position: "前景下部（肩と後頭部のシルエット）"
+      body_language: "うなだれている。希望を砕かれた様子"
+      
+  visual_duality:
+    upper_face: "柔らかい光。慈愛に満ちた笑み"
+    lower_face: "影。口元の笑みが不気味"
+    overall: "天使の顔をした悪魔"
+    
+  lighting_and_atmosphere:
+    overall_tone: "不穏。甘い毒のような雰囲気"
+    light_source: "上からの光。顔の半分を照らす"
+    shadows: "顔の下半分、首元に深い影"
+    color_palette: "黒、朱色、金（権威）、そして冷たい青（目）"
+    background: "ぼかし。グラナイトのシルエットのみ"
+    
+  symbolic_elements:
+    - element: "笑顔"
+      meaning: "偽善の仮面"
+    - element: "冷たい目"
+      meaning: "本性の冷酷さ"
+    - element: "手のジェスチャー"
+      meaning: "「助けたいが、できない」という演技"
+    - element: "光と影の境界"
+      meaning: "二面性"
+  
+  emotional_impact:
+    reader_feeling: "不気味さ、怒り、嫌悪感"
+    visual_metaphor: "優しい言葉で追い詰める偽善者"
+    
+  technical_notes:
+    panel_size: "1ページ縦構図推奨"
+    detail_level: "最高。目と口元の表情に全力"
+    reference_mood: "浦沢直樹『MONSTER』ヨハンの不気味な笑顔"
+    special_effect: "目の周りに冷たいハイライト"
+
+# ========================================
+# 挿絵4：残された光
+# ========================================
+illustration_04:
+  title: "師弟の絆"
+  scene_reference:
+    line_range: "L214-L239"
+    key_moment: "ペリドットが「信じてます」と言い、グラナイトが作業に戻る"
+  
+  narrative_purpose:
+    - 絶望の中の希望
+    - 師弟の絆
+    - グラナイトの決意の再確認
+    - シーン3のカタルシス
+  
+  composition:
+    camera_angle: "俯瞰気味のアイレベル"
+    framing: "横構図・腰から上"
+    focal_point: "二人の間の空間と、グラナイトの手元"
+    depth: "前景：作業台と杖、中景：二人、背景：薄暗い店内"
+  
+  characters:
+    - name: "グラナイト"
+      position: "画面左、作業台に向かう"
+      pose: "座り直し、カンナを持つ"
+      expression: "目に涙を浮かべているが、決意の表情"
+      body_language: "背筋を伸ばす。再び戦う姿勢"
+      hands: "カンナを握る。指に力が入っている"
+      lighting: "顔に柔らかい光"
+      
+    - name: "ペリドット"
+      position: "画面右、グラナイトの横"
+      pose: "おそるおそる座る。やすりを手に取る"
+      expression: "不安げだが、真っ直ぐな瞳"
+      body_language: "小柄。グラナイトを見上げている"
+      costume: "地味な作業着。袖が長い"
+      lighting: "顔に希望の光"
+  
+  workspace_details:
+    workbench: "木屑が散らばる。道具が並ぶ"
+    wand: "未完成の杖。削りかけの芯材"
+    tools: "カンナ、ノミ、やすり"
+    lighting: "作業台の上だけ暖かい光"
+    
+  lighting_and_atmosphere:
+    overall_tone: "暖かく、希望に満ちた"
+    light_source: "作業台の上のランプ"
+    shadows: "周囲は暗いが、二人の周りだけ明るい"
+    color_palette: "暖色系。オレンジ、茶色、金色"
+    dust_particles: "木屑が舞う。生きている空気感"
+    
+  symbolic_elements:
+    - element: "二人の職人"
+      meaning: "孤独ではない。仲間がいる"
+    - element: "カンナの音"
+      meaning: "仕事への回帰。職人としての戦い"
+    - element: "光の円"
+      meaning: "閉ざされた世界の中の希望"
+    - element: "未完成の杖"
+      meaning: "これから証明していく未来"
+  
+  sound_visualization:
+    effect: "シュッ、シュッというカンナの音を擬音で表現"
+    placement: "画面周囲に配置"
+    style: "規則正しいリズム感"
+    
+  emotional_impact:
+    reader_feeling: "涙と希望。「頑張れ」という応援"
+    visual_metaphor: "絶望の中の小さな光"
+    catharsis: "シーン3の救い"
+    
+  technical_notes:
+    panel_size: "見開き右ページ全面推奨"
+    detail_level: "高。手元の作業と表情に注力"
+    reference_mood: "井上雄彦『バガボンド』の静謐な決意のシーン"
+    special_effect: "木屑の粒子に光が反射。鼓動のような温かみ"
+    
+# ========================================
+# 挿絵配置の推奨順序
+# ========================================
+illustration_placement:
+  order:
+    - position: "シーン序盤（ネルル登場直後）"
+      illustration: "illustration_01"
+      page_suggestion: "見開き左ページ"
+      
+    - position: "シーン中盤（対立のピーク）"
+      illustration: "illustration_02"
+      page_suggestion: "見開き両ページ"
+      
+    - position: "シーン中盤後半（拒絶のシーン）"
+      illustration: "illustration_03"
+      page_suggestion: "右ページ縦1ページ"
+      
+    - position: "シーン終盤（決意のシーン）"
+      illustration: "illustration_04"
+      page_suggestion: "見開き右ページまたは両ページ"
+      
+  visual_flow:
+    arc: "冷→熱→冷→暖"
+    emotion: "動揺→怒り→絶望→希望"
+    color: "寒色→対比→寒色→暖色"
+
+# ========================================
+# 総合アートディレクション
+# ========================================
+art_direction:
+  consistency:
+    character_design: "各挿絵で整合性を保つ"
+    lighting_logic: "時間帯は同じ（昼）、光源は店内照明"
+    perspective: "リアルな空間認識を維持"
+    
+  emotional_progression:
+    - "衝撃（再会）"
+    - "激情（対立）"
+    - "絶望（拒絶）"
+    - "希望（絆）"
+    
+  target_references:
+    manga_style: "青年漫画。浦沢直樹、井上雄彦の写実性"
+    light_novel: "『86』『本好きの下剋上』の丁寧な作画"
+    atmosphere: "『MONSTER』の緊張感 + 『バガボンド』の職人描写"

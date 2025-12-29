@@ -1,0 +1,121 @@
+# ========================================
+# キャラクターシート生成用プロンプト
+# ========================================
+# マルカイト（魔導具鑑定局長）
+
+agate:
+  name: マルカイト
+  name_en: Agate
+  role: 魔導具鑑定局 局長 / グラナイトの父の旧友
+  age: 55
+  gender: male
+  
+  base_prompt: "Character sheet, three-view, full figure, Close-up of face, white background"
+  
+  appearance:
+    overall: |
+      30年のベテラン鑑定士。55歳。
+      落ち着いた深みのある職人。瑪瑙(マルカイト)のような温かみと経験。
+      アンバー(グラナイトの父)の旧友として、良心と組織の板挟みに苦しむ。
+    
+    hair:
+      color: gray with brown streaks / 茶色の筋が入った灰色
+      style: short, practical, slightly disheveled / 短髪、実用的、少し乱れている
+      detail: 職人らしく飾り気がない。ストレスで白髪が増えている
+    
+    eyes:
+      color: warm brown / 温かみのある茶色（瑪瑙色）
+      expression: kind but troubled, conflicted / 優しいが苦悩、葛藤
+      detail: 30年の経験が滲む観察眼。しかし疲労と罪悪感が見える
+    
+    face:
+      shape: weathered, experienced / 風化した、経験豊か
+      features:
+        - deep wrinkles from worry / 心配による深い皺
+        - gentle smile rarely seen now / かつての優しい笑顔は今は稀
+        - tired eyes / 疲れた目
+      expression: conflicted, burdened by secrets / 葛藤、秘密の重荷
+    
+    body:
+      height: 170cm / 平均的
+      build: average, craftsman physique / 平均的、職人体型
+      posture: slightly hunched from guilt / 罪悪感で少し前かがみ
+    
+    clothing:
+      main_outfit:
+        description: |
+          魔導具鑑定局の局長制服。白と緑を基調。
+          かつては誇りを持っていた制服も、今は重荷。
+        items:
+          - white and green official uniform / 白と緑の官服
+          - inspection coat / 鑑定用コート
+          - leather gloves for handling artifacts / 魔導具扱い用革手袋
+          - magnifying lens on chain / 鎖付き拡大鏡
+      accessories:
+        - inspection tools / 鑑定道具
+        - old photo of アンバー in pocket / ポケットにアンバーの古い写真
+    
+    distinctive_features:
+      - calloused hands from years of inspection / 長年の鑑定で固くなった手
+      - always carries inspection tools / 常に鑑定道具を携帯
+      - conflicted expression when facing グラナイト / グラナイトと対峙すると葛藤した表情
+      - protective of his son (騎士団所属) / 息子を守ろうとする
+
+  expressions:
+    - name: default
+      description: kind but troubled, veteran craftsman / 優しいが苦悩、ベテラン職人
+    - name: inspecting
+      description: focused, professional, experienced / 集中、プロフェッショナル、経験豊か
+    - name: conflicted
+      description: torn between loyalty to friend's son and fear for own son / 友の息子への忠誠と自分の息子への恐怖の板挟み
+    - name: determined
+      description: deciding to help despite risk / リスクを承知で助ける決意
+
+  personality:
+    traits:
+      - 職人の良心を持つベテラン鑑定士
+      - アンバーの親友として、グラナイトを気にかけている
+      - シナバーに脅迫され、息子を人質に取られている
+      - 組織と良心の板挟みで苦しんでいる
+      - 最終的には真実のために証拠を隠し持つ勇気を持つ
+
+  background:
+    history: |
+      - 30年前、アンバー、シナバーと王立工房の同期
+      - 「第12期 魔導具製作コンテスト優勝」の仲間
+      - 第一次魔族戦争では魔導具の品質管理で後方支援
+      - 戦後も王立工房に残り、魔導具鑑定局の局長に
+      - 息子が今年から騎士団に入隊
+      - シナバーに脅迫され、証拠処分を命じられる
+      - しかし密かに芯材を保管し、グラナイトに渡す
+
+  relationships:
+    - with_アンバー: "旧友・同期。「いい職人だった」と回想"
+    - with_グラナイト: "親友の息子。助けたいが自分の息子も守りたい"
+    - with_シナバー: "同期だが今は上司。脅迫され従わざるを得ない"
+
+  full_prompt:
+    style: "anime style, detailed, high quality"
+    
+    character_sheet_prompt: |
+      Character sheet, three-view, full figure, Close-up of face, white background,
+      1boy, male, 55 years old, veteran inspector, bureau chief,
+      gray hair with brown streaks short practical style, warm brown eyes, kind but troubled gaze,
+      weathered experienced face, deep worry wrinkles, tired expression,
+      average craftsman build, 170cm, slightly hunched posture,
+      white and green official uniform, inspection coat, leather gloves, magnifying lens,
+      conflicted burdened expression, veteran professional,
+      fantasy setting, government official,
+      anime style, detailed, high quality
+
+  negative_prompt: |
+    low quality, blurry, deformed, bad anatomy,
+    young looking, energetic, carefree expression, fancy clothes,
+    muscular, warrior type, evil look
+
+  reference_keywords:
+    - veteran inspector
+    - conflicted official
+    - protective father
+    - old friend
+    - burdened by secrets

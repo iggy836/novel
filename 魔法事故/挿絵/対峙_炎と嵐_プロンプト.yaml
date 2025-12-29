@@ -1,0 +1,156 @@
+# ========================================
+# 挿絵プロット：二人の対峙——炎獅子と嵐翼
+# ========================================
+# 対象: 序章_シーン1_王都防衛戦.md L113-147
+# シーン: バーミリオンが極大魔法を詠唱、オブシディアンが見守る
+
+scene_info:
+  scene_name: "対峙——炎の覚悟と嵐の冷笑"
+  source_lines: "L113-147"
+  key_dialogue:
+    vermilion: "俺の背中、見届けろ"
+    obsidian: "……来るか…"
+
+# ========================================
+# プロンプト
+# ========================================
+prompts:
+  main_prompt_en: |
+    illustration, fantasy, dramatic confrontation,
+    SPLIT SCREEN composition, two characters opposing each other,
+    
+    LEFT SIDE - VERMILION (hero):
+    knight commander face close-up, profile view facing right,
+    crimson wild hair flowing dramatically,
+    golden amber eyes BLAZING with determination,
+    fierce expression, clenched jaw, unwavering resolve,
+    face lit by orange flames from his magic,
+    sweat and rain on face, intense battle expression,
+    red and gold ornate armor, lion motifs,
+    background: orange flames, warm colors, fire particles,
+    
+    RIGHT SIDE - OBSIDIAN (villain):
+    demon general in FULL BLACK ARMOR, profile view facing left,
+    demonic helmet with sharp angular design, NO visible face,
+    PURPLE GLOWING EYES through helmet visor,
+    black spiked armor with PURPLE LIGHTNING PATTERNS,
+    flowing black tattered cape,
+    ominous presence, silent menace,
+    cold purple glow emanating from armor cracks,
+    background: dark storm clouds, purple lightning, cold colors,
+    
+    CENTER: clash of energies where they meet,
+    orange fire vs purple lightning,
+    rain falling between them,
+    
+    dramatic lighting, high contrast,
+    hero vs villain, fire vs storm,
+    warm colors vs cold colors,
+    
+    dark fantasy, epic confrontation,
+    anime style, cinematic, high quality
+
+  prompt_jp: |
+    挿絵, ファンタジー, 劇的な対峙,
+    スプリットスクリーン構図, 二人が対立,
+    
+    左側 - バーミリオン（英雄）:
+    騎士隊長の顔クローズアップ, 横顔で右を向く,
+    深紅の髪が劇的になびく,
+    金色の目が決意に燃える,
+    激しい表情, 食いしばった顎,
+    炎の光に照らされた顔,
+    赤と金の鎧, 獅子のモチーフ,
+    背景: オレンジの炎, 暖色,
+    
+    右側 - オブシディアン（敵）:
+    フル装甲の魔族の将, 横顔で左を向く,
+    鋭角的なデザインの悪魔的な兜, 顔は見えない,
+    兜のバイザーから紫に光る目,
+    紫の稲妻模様が走る黒いトゲ付き鎧,
+    なびく黒いボロボロのマント,
+    不気味な存在感, 沈黙の威圧,
+    鎧の隙間から冷たい紫の光,
+    背景: 暗い嵐雲, 紫の稲妻, 寒色,
+    
+    中央: エネルギーがぶつかり合う,
+    オレンジの炎 vs 紫の稲妻,
+    二人の間に雨,
+    
+    ドラマチックなライティング, 高コントラスト,
+    英雄 vs 悪役, 炎 vs 嵐,
+    暖色 vs 寒色,
+    
+    ダークファンタジー, エピック,
+    アニメ風, 映画的, 高品質
+
+    挿絵, ファンタジー, 劇的な対峙,
+    スプリットスクリーン構図, 二人の表情が対立,
+    
+    左側 - バーミリオン（英雄）:
+    騎士隊長の顔クローズアップ, 横顔で右を向く,
+    深紅の髪が劇的になびく,
+    金色の目が決意に燃える,
+    激しい表情, 食いしばった顎, 揺るがぬ意志,
+    炎の光に照らされた顔, 汗と雨,
+    背景: オレンジの炎, 暖色, 火の粉,
+    
+    右側 - オブシディアン（敵）:
+    魔族の将の顔クローズアップ, 横顔で左を向く,
+    漆黒の長髪が超自然的な風になびく,
+    紫に光る黒い目, 冷たく何かを知っている眼差し,
+    かすかな笑み, 静かな優越感,
+    冷たい紫青の光に照らされた顔,
+    人外の美しさ, 尖った耳, 灰色がかった肌,
+    背景: 暗い嵐雲, 紫の稲妻, 寒色,
+    
+    中央: エネルギーがぶつかり合う,
+    オレンジの炎 vs 紫の嵐,
+    二人の間に雨が降る,
+    
+    ドラマチックなライティング, 高コントラスト,
+    英雄 vs 悪役, 炎 vs 嵐,
+    激しいにらみ合い, 意志の戦い,
+    
+    ダークファンタジー, エピック,
+    アニメ風, 映画的, 高品質
+
+  negative_prompt: |
+    low quality, blurry, simple background,
+    same expression on both, friendly,
+    similar colors, no contrast,
+    full body, distant shot
+
+# ========================================
+# 構図詳細
+# ========================================
+composition:
+  layout: |
+    ┌────────────┬────────────┐
+    │            │            │
+    │ バーミリオン │ オブシディアン │
+    │  ← 向き    │   向き →  │
+    │            │            │
+    │  【炎】    │   【嵐】   │
+    │  暖色      │   寒色     │
+    │            │            │
+    └────────────┴────────────┘
+          ↑ 中央でエネルギー衝突
+  
+  expression_contrast:
+    vermilion:
+      emotion: "決死の覚悟、燃える闘志"
+      eyes: "金色に燃える、決意"
+      mouth: "詠唱中、または食いしばる"
+      overall: "熱い、激しい、人間的"
+    
+    obsidian:
+      emotion: "冷たい余裕、何かを知っている"
+      eyes: "紫に光る、冷たい知性"
+      mouth: "かすかな笑み（来るか…）"
+      overall: "冷たい、静か、人外的"
+  
+  color_contrast:
+    left: "オレンジ、赤、黄色（炎）"
+    right: "紫、青、黒（嵐）"
+    center: "二色が衝突、雨"

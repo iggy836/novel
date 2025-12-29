@@ -1,0 +1,561 @@
+# 序章シーン2「事故の余波」専用バナー
+# SNS投稿・章扉用ビジュアル
+
+metadata:
+  scene: "序章_シーン2_事故の余波"
+  title: "雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ"
+  subtitle: "序章 第2話：事故の余波"
+  purpose: "シーン2のSNS告知、章扉イラスト"
+  platforms:
+    - "Twitter/X (1200x675px)"
+    - "Instagram Story (1080x1920px)"
+    - "章扉用 (1200x1600px)"
+
+# ========================================
+# バナー1: 孤独な職人（Twitter/X用）
+# ========================================
+banner_scene2_01:
+  name: "孤独な職人"
+  size: "1200x675px (Twitter/X用)"
+  scene_moment: "シーン2冒頭 - グラナイトが群衆の怒号の中で杖を磨くシーン"
+  
+  composition_description_jp: |
+    【シーン2の象徴的瞬間 - 理不尽な断罪】
+    店の外では顔を歪めた群衆が怒号を上げ、石を投げつける。
+    窓ガラスには亀裂が走り、「殺人者」「詐欺師」の張り紙が貼られている。
+    しかしグラナイトは表情を変えず、黙々と杖を磨き続ける。
+    画面を二分割：外の暴力的な憎悪と内の静謐な職人魂の対比。
+    ビジネスマンが経験する「組織からの孤立」「不当な評価」の痛みを視覚化。
+    
+  composition_diagram: |
+    ┌─────────────────────────────────────────────┐
+    │ 第2話：事故の余波                          │ ← タイトル
+    │                                             │
+    │  [窓の外: 暴徒化した群衆]  │ [工房内部]    │
+    │   😡😡😡                 │   グラナイト   │
+    │  「殺人者め！」            │      �       │
+    │  「詐欺師！」              │     ┌─┐      │
+    │   ⚡💢⚡ 石               │  💡│杖│      │
+    │  【張り紙】「営業停止」     │     └─┘      │
+    │   窓に亀裂 ✖️             │  (無表情で磨く)│
+    │                           │                │
+    └─────────────────────────────────────────────┘
+    
+    左: 理不尽な暴力・社会的リンチ
+    右: 揺るがぬ信念・職人の矜持
+  
+  prompt_english: |
+    A BRUTAL, REALISTIC split-screen composition, 1200x675px, depicting the harsh reality of false accusations and social persecution. SERIOUS SEINEN MANGA AESTHETIC.
+    
+    TITLE TEXT (Top):
+    Japanese: "第2話：事故の余波"
+    "雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ"
+    - Heavy, bold Japanese calligraphy
+    - White text with thick black outline
+    - Font style: Serious, weighty, somber
+    
+    ═══════════════════════════════════════════
+    LEFT SIDE (40% of frame) - OUTSIDE: THE MOB
+    ═══════════════════════════════════════════
+    
+    View through a workshop window from inside looking out.
+    
+    THE ANGRY MOB (Realistic, ugly human emotions):
+    - 5-7 people with DISTORTED, HATEFUL FACES
+    - NOT stylized villains, but ordinary people twisted by mob mentality
+    - Middle-aged men and women, recognizable as "normal citizens"
+    - Faces contorted in rage, fear, self-righteousness
+    - Mouths wide open, shouting
+    - Eyes filled with genuine hatred and fear
+    - Some pointing accusatory fingers
+    - One person mid-throw, hurling a stone
+    - Realistic crowd psychology: Pack mentality, dehumanization
+    
+    VISIBLE TEXT/SIGNS (Harsh reality):
+    - Posted signs on the window: "MURDERER" "FRAUD" "SHUT DOWN"
+    - Graffiti spray-painted on the storefront
+    - Official-looking "BUSINESS SUSPENSION ORDER" notice
+    
+    WINDOW CONDITION:
+    - Multiple CRACKS spreading across the glass like spider webs
+    - Impact points where stones have hit
+    - Dirty, unwashed, reflecting the shop's fall from grace
+    - Creates visual barrier between outside chaos and inside calm
+    
+    ATMOSPHERE (Left side):
+    - Daylight harsh and unforgiving
+    - Shadows on faces making them look demonic
+    - Motion lines suggesting violence and chaos
+    - Dust and debris in the air
+    - Overall tone: AGGRESSIVE, HOSTILE, SUFFOCATING
+    
+    ═══════════════════════════════════════════
+    RIGHT SIDE (60% of frame) - INSIDE: THE CRAFTSMAN
+    ═══════════════════════════════════════════
+    
+    Interior of the workshop, creating stark contrast.
+    
+    GRANITE (Close-up on hands and partial torso):
+    Age: 32, but hands show years of hard labor
+    
+    HIS HANDS (Primary focus):
+    - Large, calloused craftsman's hands
+    - Scarred knuckles, burn marks, rough skin
+    - Holding a polishing cloth
+    - Moving with PERFECT, MECHANICAL PRECISION
+    - No trembling, no hesitation
+    - The motion is almost meditative, ritualistic
+    - Hands are steady despite the chaos outside
+    
+    THE STAFF being polished:
+    - Beautifully crafted magical staff
+    - Wood grain visible, showing quality craftsmanship
+    - Reflecting the lamplight
+    - Positioned on a well-worn workbench
+    
+    GRANITE'S PARTIAL FIGURE:
+    - Muscular forearms visible
+    - Worn leather work apron
+    - Simple, practical work clothes
+    - Posture: Absolutely still, focused
+    - No visible reaction to the outside chaos
+    
+    FACIAL EXPRESSION (Partially visible):
+    - STOIC, almost emotionless
+    - NOT angry, NOT sad - pure professional focus
+    - Jaw set firmly
+    - Eyes (if visible) looking only at his work
+    - This emptiness is MORE powerful than anger
+    - Conveys: "I know my work. Nothing else matters."
+    
+    WORKBENCH DETAILS:
+    - Tools neatly arranged (contrast to chaos outside)
+    - Oil lamp providing warm, focused light
+    - Everything in its proper place
+    - Sign of a craftsman's discipline
+    
+    ATMOSPHERE (Right side):
+    - Warm lamplight creating island of calm
+    - Shadows soft and reassuring
+    - Quiet, almost sacred space
+    - Motion minimal - only the rhythmic polishing
+    - Overall tone: CALM, DIGNIFIED, UNSHAKEABLE
+    
+    ═══════════════════════════════════════════
+    THE DIVIDER - THE WINDOW FRAME
+    ═══════════════════════════════════════════
+    
+    - Thick wooden window frame creating strong vertical divide
+    - Separates two worlds completely
+    - Cracked glass showing the violence trying to penetrate
+    - But the craftsman remains untouched, protected by his conviction
+    
+    ═══════════════════════════════════════════
+    LIGHTING (CRITICAL):
+    ═══════════════════════════════════════════
+    
+    LEFT (Outside):
+    - Harsh, cold daylight
+    - Creates sharp, unflattering shadows on mob faces
+    - Light is aggressive, exposing ugliness
+    - No warmth, only judgment
+    
+    RIGHT (Inside):
+    - Warm, golden oil lamp light
+    - Creates intimate, focused illumination
+    - Highlights the craftsman's hands like a spotlight
+    - Shadows are gentle, protective
+    - Light represents inner truth vs. outside lies
+    
+    ═══════════════════════════════════════════
+    COLOR PALETTE (Realistic, muted):
+    ═══════════════════════════════════════════
+    
+    LEFT SIDE:
+    - Washed-out blues and grays (harsh daylight)
+    - Angry reds on faces (flush of rage)
+    - Dirty browns and grays (urban decay)
+    - Black text on white signs (stark accusations)
+    - Overall: Cold, lifeless, hostile
+    
+    RIGHT SIDE:
+    - Warm amber (oil lamp)
+    - Rich browns (wood, leather)
+    - Golden highlights (quality craftsmanship)
+    - Deep, comforting shadows
+    - Overall: Warm, alive, human
+    
+    ═══════════════════════════════════════════
+    EMOTIONAL IMPACT FOR BUSINESSMEN:
+    ═══════════════════════════════════════════
+    
+    This scene resonates with professionals who have experienced:
+    
+    1. FALSE ACCUSATIONS in the workplace
+    2. BEING SCAPEGOATED by management
+    3. SOCIAL OSTRACISM after a career setback
+    4. MAINTAINING DIGNITY when everyone turns against you
+    5. BELIEVING IN YOUR WORK when the organization doesn't
+    6. ISOLATION despite doing nothing wrong
+    7. THE LONELINESS of being the only one who knows the truth
+    
+    The image should make viewers think:
+    "I've been there. I know this pain."
+    
+    ═══════════════════════════════════════════
+    SYMBOLISM (Layered meaning):
+    ═══════════════════════════════════════════
+    
+    - Cracked window = Fragile boundary between truth and lies
+    - Mob's faces = How quickly society dehumanizes the accused
+    - Steady hands = Professional integrity cannot be destroyed
+    - Lamplight = Inner truth illuminates when outer world darkens
+    - Empty expression = Exhausted but unbroken
+    - Polishing motion = Ritual that maintains sanity amid chaos
+    
+    ═══════════════════════════════════════════
+    ARTISTIC STYLE:
+    ═══════════════════════════════════════════
+    
+    - SEINEN MANGA aesthetic (adult, realistic)
+    - NOT cute light novel style
+    - Influenced by: 
+      * Naoki Urasawa's realistic character art
+      * "Monster" manga's psychological tension
+      * Takehiko Inoue's "Vagabond" emotional depth
+    - Semi-realistic faces showing real human emotions
+    - Detailed linework, heavy shadows
+    - No sparkles, no anime tropes
+    - Grounded, believable, PAINFUL to look at
+    
+    ═══════════════════════════════════════════
+    TECHNICAL SPECIFICATIONS:
+    ═══════════════════════════════════════════
+    
+    - Resolution: 1200x675px (Twitter banner)
+    - Aspect ratio: 16:9
+    - Image quality: Publication-grade
+    - Composition: Perfect 40/60 split
+    - Focus: Crystal clear on hands and mob faces
+    - Depth: Slight atmospheric perspective
+    
+    ═══════════════════════════════════════════
+    MOOD KEYWORDS:
+    ═══════════════════════════════════════════
+    
+    Injustice | Isolation | Dignity | Persecution | Resilience
+    Professional Pride | Social Lynching | Unwavering Conviction
+    Loneliness | Strength in Adversity | Truth vs. Lies
+    
+    ═══════════════════════════════════════════
+    CRITICAL SUCCESS FACTOR:
+    ═══════════════════════════════════════════
+    
+    The viewer should feel PHYSICAL DISCOMFORT looking at the mob,
+    but RESPECT and SADNESS looking at the craftsman.
+    
+    This is NOT a power fantasy. This is REALISM.
+    This is what it ACTUALLY feels like to be falsely accused.
+    
+    LEFT HALF - Outside Chaos (40% of frame):
+    - View through a workshop window
+    - Angry mob silhouettes outside
+    - Fists raised, mouths open in rage
+    - Someone throwing stones at the window
+    - Dark, aggressive atmosphere
+    - Visible text bubbles: "Come out!" "Shame on you!"
+    - Motion lines suggesting violence and chaos
+    
+    DIVIDER - Window Frame:
+    - Vertical window frame separating two worlds
+    - Glass with impact cracks from thrown stones
+    - Creates strong visual split
+    
+    RIGHT HALF - Inside Calm (60% of frame):
+    - Close-up of Granite's weathered hands
+    - Polishing a magical staff with careful, precise movements
+    - Workbench with tools neatly arranged
+    - Warm oil lamp light illuminating his hands
+    - Perfect stillness and focus
+    - Motion lines showing rhythmic, meditative polishing
+    - Stark contrast to outside chaos
+    
+    CHARACTER (Granite - partial view):
+    - Only his hands and part of torso visible
+    - Muscular, scarred craftsman's hands
+    - Wearing worn leather work apron
+    - Expression unseen, but body language shows unwavering calm
+    
+    LIGHTING:
+    - Left: Harsh daylight, cold and aggressive
+    - Right: Warm lamplight, focused and intimate
+    - Strong contrast emphasizing two different worlds
+    
+    COLOR PALETTE:
+    - Left side: Cold grays, angry reds, harsh whites
+    - Right side: Warm browns, golden lamp light, soft shadows
+    - Divider: Dark window frame (black/dark wood)
+    
+    SYMBOLISM:
+    - Split screen = Society's judgment vs. Personal truth
+    - Chaos vs. Calm = External pressure vs. Inner conviction
+    - Darkness vs. Light = False accusations vs. Professional pride
+    
+    MOOD: Isolation under pressure, unwavering professionalism, dignity in adversity
+    
+    STYLE: Light novel chapter illustration, dramatic lighting, symbolic composition
+    
+    TECHNICAL SPECS:
+    - Resolution: 1200x675px
+    - Sharp split-screen composition
+    - High contrast between two halves
+    - Text clearly readable
+
+# ========================================
+# バナー2: 会議室の告発（Instagram Story用）
+# ========================================
+banner_scene2_02:
+  name: "冷徹な告発"
+  size: "1080x1920px (Instagram Story用)"
+  scene_moment: "シーン2中盤 - シナバーが会議室で報告するシーン"
+  
+  composition_description_jp: |
+    【シーン2のクライマックス】
+    縦長画面を活かし、シナバーを下から見上げる威圧的な構図。
+    彼の二面性（柔和な笑みと冷たい目）を強調。
+    会議テーブルには「グラナイト杖店」の文字が見える資料。
+    
+  composition_diagram: |
+    ┌──────────────┐
+    │ 序章 第2話   │ ← タイトル上部
+    │ 事故の余波   │
+    │              │
+    │   [高窓]     │ ← 後景（逆光）
+    │     ☀️       │
+    │      ↓       │
+    │              │
+    │  [シナバー]  │ ← 中景（中央）
+    │     😊😈     │   二面性
+    │      📄      │   報告書
+    │              │
+    │ ═══════════  │ ← 会議テーブル
+    │  「グラナイト │
+    │   杖店」     │
+    │     📋       │ ← 前景（証拠）
+    │              │
+    │   👤    👤   │ ← 幹部たち
+    │  (影) (影)   │   (シルエット)
+    └──────────────┘
+  
+  prompt_english: |
+    A dramatic vertical composition for Instagram Story, 1080x1920px, Scene 2 "The False Accusation"
+    
+    TITLE TEXT (Top):
+    "序章 第2話：事故の余波"
+    "The Aftermath of Disaster"
+    - Elegant serif font with Japanese calligraphy accent
+    - White text with dark outline
+    
+    COMPOSITION (Bottom-up view):
+    
+    FOREGROUND (Bottom third):
+    - Ornate conference table surface
+    - Official documents spread out
+    - One document prominently shows: "グラナイト杖店" (Granite Staff Shop)
+    - Red "GUILTY" stamp visible
+    - Silhouettes of seated officials' shoulders
+    
+    MIDGROUND (Center):
+    - Cinnabar standing at full height
+    - 50s, slicked silver hair, refined features
+    - Wearing elegant Royal Workshop Director uniform (gold trim)
+    - Holding report document gracefully
+    - CRITICAL: Dual expression
+      * Mouth: Gentle, diplomatic smile
+      * Eyes: Cold, calculating gleam
+    - Slight bow showing false humility
+    
+    BACKGROUND (Top third):
+    - Tall gothic window behind him
+    - Harsh backlight creating dramatic silhouette effect
+    - Shadows falling across his face
+    - Creating ominous halo effect
+    
+    SIDE ELEMENTS:
+    - Left and right edges: Dark silhouettes of military officials
+    - Faces obscured in shadow
+    - Formal, oppressive atmosphere
+    
+    LIGHTING:
+    - Strong backlight from window (top)
+    - Cinnabar's face partially shadowed
+    - Spotlight effect on the accusatory document
+    - Cold, institutional lighting overall
+    
+    COLOR PALETTE:
+    - Dominant: Cold blues, institutional grays
+    - Accent: Gold (uniform details, authority symbols)
+    - Highlight: Harsh white (window backlighting)
+    - Shadow: Deep blacks (concealing truth)
+    
+    CAMERA ANGLE:
+    - Low angle looking up (viewer in subordinate position)
+    - Emphasizes Cinnabar's power and authority
+    - Creates sense of being judged/condemned
+    
+    SYMBOLISM:
+    - Backlight = Hidden truth in shadows
+    - Two-faced expression = Corruption masked as duty
+    - Low angle = Oppression by authority
+    - Document as weapon = Bureaucratic assassination
+    
+    MOOD: Institutional corruption, false justice, powerlessness before authority
+    
+    STYLE: Political thriller aesthetic, noir lighting, dramatic composition
+    
+    TECHNICAL SPECS:
+    - Resolution: 1080x1920px (9:16)
+    - Optimized for mobile vertical viewing
+    - Text placement safe for Instagram UI
+
+# ========================================
+# バナー3: 記憶の断片（章扉用）
+# ========================================
+banner_scene2_03:
+  name: "記憶の断片"
+  size: "1200x1600px (章扉/印刷用)"
+  scene_moment: "シーン2ラスト - グラナイトが写真を見つけるシーン"
+  
+  composition_description_jp: |
+    【シーン2のエンディング】
+    雨の夜、グラナイトが古い写真を見つける切ないシーン。
+    写真の中の無邪気な二人（グラナイトとネルル）と、
+    現在の孤独なグラナイトの対比。
+    
+  composition_diagram: |
+    ┌────────────────────┐
+    │ 序章 第2話         │ ← タイトル
+    │ 事故の余波         │
+    │                    │
+    │  [窓] 🌧️          │ ← 後景（雨）
+    │   暗い工房背景     │   (ぼやけてる)
+    │                    │
+    │    ╔═══════╗      │ ← 中景
+    │ 👋 ║ 📷    ║ 👋   │   (グラナイトの手)
+    │    ║古い写真║      │   ※傷だらけ
+    │    ║👨👦👧 ║      │
+    │    ╚═══════╝      │ ← 前景
+    │   (セピア色)       │   (写真にピント)
+    │                    │
+    │  「俺は、間違って  │ ← セリフ下部
+    │   ないよな……」   │
+    └────────────────────┘
+  
+  prompt_english: |
+    An emotional chapter title page illustration, 1200x1600px, Scene 2 ending moment
+    
+    TITLE TEXT (Top):
+    "序章 第2話：事故の余波"
+    Chapter 2: The Aftermath of Disaster
+    - Elegant chapter heading typography
+    - White with subtle glow
+    
+    COMPOSITION (Bird's eye view):
+    
+    BACKGROUND (Blurred):
+    - Dark workshop interior at night
+    - Rain-streaked window in upper portion
+    - Heavy rain visible outside
+    - Dim, melancholic atmosphere
+    - All heavily out of focus (bokeh effect)
+    
+    MIDGROUND (In focus):
+    - Large, weathered craftsman's hands
+    - Scars, burn marks, calloused skin
+    - Gently holding precious memory
+    - Positioned center frame
+    - Fingers trembling slightly
+    
+    FOREGROUND (Sharp focus):
+    - Old sepia-toned photograph
+    - Shows three people:
+      * Young boy (8yo) - energetic smile, messy hair
+      * Young girl (7yo) - silver hair, fierce determined eyes
+      * Adult man behind them - stern but kind craftsman
+    - Photo edges worn and torn from handling
+    - Faded colors, nostalgic tone
+    - Takes up central 40% of frame
+    
+    PHOTO DETAILS (crisp and clear):
+    - Young Granite and young Nell standing together
+    - Both wearing simple work clothes
+    - Nell looking directly at camera with pride
+    - Granite's father (Amber) in background
+    - Workshop setting visible in photo
+    - Innocent, happier times
+    
+    BOTTOM TEXT (Quote):
+    Japanese: 「俺は、間違ってないよな……」
+    English subtitle: "I'm not wrong... am I, Father?"
+    - Handwritten-style font
+    - White text, slightly transparent
+    - Conveys loneliness and doubt
+    
+    LIGHTING:
+    - Minimal light on hands and photo
+    - Everything else in shadow
+    - Rain creating soft reflections
+    - Intimate, private moment
+    
+    COLOR PALETTE:
+    - Background: Very dark blue-grays (present reality)
+    - Hands: Weathered browns (hard labor)
+    - Photo: Warm sepia tones (lost past)
+    - Rain: Cold silver-blue (isolation)
+    - Overall: Nostalgic and melancholic
+    
+    DEPTH OF FIELD:
+    - Extreme shallow focus
+    - Photo and hands: Crystal clear
+    - Background: Heavy bokeh
+    - Creates sense of memory vs. reality
+    
+    SYMBOLISM:
+    - Photograph = Lost innocence and broken promises
+    - Scarred hands = Price of unwavering conviction
+    - Rain = Loneliness and hardship
+    - Blurred background = Present isolated from past happiness
+    
+    MOOD: Deep loneliness, nostalgia, questioning one's path, grief for lost connection
+    
+    EMOTIONAL IMPACT: Reader should feel Granite's isolation and the weight of his choices
+    
+    STYLE: Light novel emotional climax illustration, photorealistic hands, painterly background
+    
+    TECHNICAL SPECS:
+    - Resolution: 1200x1600px (3:4 ratio)
+    - Suitable for print and digital
+    - High emotional impact composition
+    - Works as standalone chapter opener
+
+# ========================================
+# 使用ガイド - シーン2専用
+# ========================================
+usage_notes:
+  scene_context: "序章シーン2「事故の余波」の3つのキーモーメント"
+  
+  banner_progression:
+    opening: "banner_scene2_01 - グラナイトの孤独（シーン冒頭）"
+    climax: "banner_scene2_02 - シナバーの告発（シーン中盤）"
+    ending: "banner_scene2_03 - 記憶の断片（シーン終盤）"
+    
+  posting_strategy:
+    twitter: "banner_scene2_01 でシーン2公開告知"
+    instagram_story: "banner_scene2_02 で重要シーンのハイライト"
+    chapter_page: "banner_scene2_03 を電子書籍の章扉に使用"
+    
+  thematic_consistency:
+    - "3つのバナーで「孤独→告発→過去」の感情の流れを表現"
+    - "雨のモチーフは全てに含める"
+    - "グラナイトの揺るがぬ意志と、心の奥の孤独を対比"
+    - "シナバーの悪意を視覚化"

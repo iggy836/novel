@@ -1,0 +1,76 @@
+title: "第1章 挿絵3：虚無の英雄"
+scene_id: ill_01_03
+illustration_type: "serious anime style, tragic and quiet despair"
+
+prompt:
+  main: |
+    Serious anime illustration, tragic hospital scene emphasizing quiet despair and emptiness.
+    CRITICAL: Vermillion's eyes must be OPEN, staring at nothing. Camera must be overhead/high angle.
+    
+    Camera Angle & Composition:
+    - HIGH ANGLE / BIRD'S EYE VIEW (looking down at the bed from above)
+    - NOT eye-level - camera is positioned ABOVE the scene
+    - Focus on Vermillion lying in bed, seen from an elevated perspective
+    - Granite should be at the EDGE of frame or partially visible (distance emphasized)
+    
+    Vermillion (Primary Focus):
+    - Lying flat in hospital bed, sunken into mattress
+    - Upper body slightly elevated by pillows, but clearly weak and listless
+    - RIGHT ARM heavily bandaged (thick, multiple layers of wrapping)
+    - Left arm at side, pale and thin
+    - Face turned slightly toward ceiling (NOT looking at Granite)
+    - EYES OPEN - critical detail:
+      * Staring blankly at ceiling
+      * Empty, hollow, lifeless gaze
+      * No focus, no emotion
+      * Like looking at nothing/through everything
+    - Expression: completely emotionless void (NOT sad, NOT angry, just EMPTY)
+    - Gaunt face, signs of weight loss
+    - Red/auburn hair disheveled on pillow
+    
+    Granite (Secondary Element):
+    - Standing at foot of bed OR edge of frame
+    - Shown from behind or only partially (shoulder/back visible)
+    - Creates sense of distance despite being in same room
+    - Looking at Vermillion with pained expression (if visible)
+    - Position emphasizes he is an outsider/visitor, not intimate
+    
+    Hospital Room Environment:
+    - Sterile WHITE room (walls, sheets, equipment)
+    - Medical equipment visible but not cluttered
+    - Large window with HARSH white light streaming in
+    - Window light creating blown-out whites (overexposed)
+    - Deep shadows in corners (crushed blacks)
+    - Minimal decoration - clinical coldness
+    
+    Lighting (CRITICAL):
+    - Window light: HARSH, WHITE, almost painful
+    - Creates extreme contrast (blown highlights, deep shadows)
+    - NO warm tones - only cold whites, grays, blacks
+    - White sheets almost glowing from harsh light
+    - Shadows under Vermillion's eyes and cheekbones (gaunt appearance)
+    - NO soft, gentle lighting
+    
+    Mood: tragic, void of hope, quiet despair, irreparable loss, emptiness
+    Art style: serious anime, emphasis on EMPTY STARING EYES, clinical coldness, distance
+    
+    CRITICAL DETAILS TO AVOID:
+    - Vermillion with eyes CLOSED (he must be staring blankly)
+    - Vermillion looking AT Granite (he's looking at ceiling/nothing)
+    - Eye-level camera angle (must be overhead)
+    - Granite too close or prominent in frame
+    - Warm, soft lighting
+    - Emotional expression on Vermillion (anger/sadness) - only VOID
+    - Healthy appearance
+    
+  negative_prompt: |
+    angry expression, energetic, colorful, warm lighting, action pose,
+    healthy appearance, hope, low quality, blurry
+
+technical_specs:
+  aspect_ratio: "16:9 or 4:3"
+  focus_elements:
+    - "Vermillion's hollow, empty eyes"
+    - "Heavily bandaged right arm"
+    - "Harsh white light creating heavy shadows"
+  color_palette: "sterile whites, deep blacks, cold grays, no warm colors"

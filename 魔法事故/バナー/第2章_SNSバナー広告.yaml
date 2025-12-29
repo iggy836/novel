@@ -1,0 +1,68 @@
+title: "第2章（第5話）SNSバナー広告"
+type: "sns_banner"
+format: "横長 (Twitter/X Header: 1500px × 500px)"
+
+required_text:
+  catchphrase: "誰を信じればいい？"
+  episode: "第5話「緑光の疑惑」配信中"
+  
+concept: "疑念と断絶を表現する、インパクトの強いSNS広告"
+
+prompt:
+  main: |
+    SNS banner / Twitter header style, serious anime illustration, mystery thriller aesthetic.
+    Horizontal format (3:1 ratio).
+    
+    Main Visual:
+    - Left third: Close-up of Aqua's tearful, angry face (blue hair, crying but furious)
+    - Center third: Nerle's conflicted expression (silver hair, cold but hesitant eyes)
+    - Right third: Ominous silhouette of Cinnabar behind desk (only glasses reflecting light visible)
+    - Background: Hospital corridor fading into Royal Workshop office
+    
+    Visual Flow:
+    - Left to right narrative: Accusation → Denial → Manipulation
+    - Each character separated by subtle vertical dividing lines
+    - Green light glow effect emanating from the center (mystery element)
+    
+    Composition:
+    - Horizontal banner format (1500×500)
+    - Three portrait panels creating triptych effect
+    - Text overlay in bottom 20%: semi-transparent dark gradient
+    
+    Color Scheme:
+    - Left (Aqua): Cool blues, emotional tears catching light
+    - Center (Nerle): Silver and white, cold and sterile
+    - Right (Cinnabar): Dark shadows, ominous red/amber glow from glasses
+    - GREEN accent: mysterious glow threading through all three panels
+    
+    Atmosphere:
+    - Suspicion and mistrust
+    - Emotional intensity (Aqua's pain)
+    - Cold calculation (Nerle's conflict)
+    - Hidden evil (Cinnabar's shadow)
+    
+    Typography Integration:
+    - Catchphrase: "誰を信じればいい？" in bold white text with subtle shadow (center-left)
+    - Episode info: "第5話「緑光の疑惑」配信中" in smaller font (bottom right)
+    - Text must be highly readable against dark gradient overlay
+    
+    Style: 
+    - Professional SNS banner quality
+    - High contrast for thumbnail visibility
+    - Emotionally impactful character close-ups
+    - Mystery/psychological thriller aesthetic
+    
+  negative_prompt: |
+    full body shots, action scenes, busy background, cute style,
+    low contrast, illegible text, cluttered layout, amateurish
+
+technical_specs:
+  dimensions: "1500 x 500 pixels (Twitter/X header) or 1200 x 628 (Facebook/OGP)"
+  text_safe_area: "Bottom 20% for text overlay with dark gradient"
+  readability: "High contrast between text and background essential"
+  key_visual_elements:
+    - "Aqua's tearful accusation (left)"
+    - "Nerle's cold conflict (center)"
+    - "Cinnabar's ominous presence (right)"
+    - "Green light mystery thread"
+    - "Triptych panel composition"

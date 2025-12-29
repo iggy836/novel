@@ -1,0 +1,50 @@
+# ==============================================================================
+# IMAGE GENERATION PROMPT: カイト (Kaito)
+# ==============================================================================
+# Target Character: 死の商人 / 異世界転生者 / 冷徹な知性
+# ==============================================================================
+
+prompt_data:
+  header: "Character sheet, three-view, full figure, Close-up of face, white background"
+  
+  style_tags:
+    - "Anime character design"
+    - "Concept art"
+    - "Clean lines"
+    - "High quality"
+    - "Detailed 2D illustration"
+  
+  character_features:
+    age: "Young adult male (approx 28-30 years old)"
+    body: "Tall, slender but healthy build, artificially pale skin"
+    hair: "Well-groomed black hair, slicked back style (all-back), clean forehead"
+    eyes: "Sharp narrow eyes like a snake, calculating gaze"
+    face: "Handsome but cynical, faint artificial smile, intelligent and cold expression"
+  
+  outfit_details:
+    clothing: "Tailored black frock coat resembling a modern business suit, crisp white shirt, dark vest"
+    accessories:
+      - "Holding a black leather ledger (account book)"
+      - "Silver pocket watch chain visible on vest"
+      - "Polished black leather shoes (no mud)"
+    vibe: "Modern businessman lost in fantasy world, clean and sophisticated"
+  
+  effects_and_atmosphere:
+    - "Mathematical formulas or binary code faintly floating in background (optional)"
+    - "Cool and intellectual atmosphere"
+    - "Villainous merchant vibe"
+    - "Calculated perfection"
+
+  # ----------------------------------------------------------------------------
+  # CONCATENATED PROMPT (Copy and paste this)
+  # ----------------------------------------------------------------------------
+  full_prompt: >
+    Character sheet, three-view, full figure, Close-up of face, white background, 
+    anime character design, concept art, 
+    handsome young adult male, villainous merchant, slicked back black hair, 
+    sharp snake-like eyes, calculating gaze, cynical smile, 
+    artificially pale skin, 
+    wearing tailored black frock coat resembling modern business suit, 
+    dark vest, silver pocket watch chain, holding black leather ledger, 
+    polished leather shoes, intelligent and cold expression, 
+    modern businessman vibe, clean lines, high resolution, cool colors.

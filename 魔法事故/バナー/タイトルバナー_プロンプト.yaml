@@ -1,0 +1,206 @@
+# ========================================
+# タイトルバナー生成用プロンプト
+# ========================================
+# タイトル: 雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ
+
+banner_prompts:
+  
+  # ========================================
+  # メインバナー（横長）
+  # ========================================
+  main_banner:
+    aspect_ratio: "16:9 or 3:1"
+    concept: |
+      豪雨の戦場で杖が暴発する瞬間を捉えたドラマチックなバナー。
+      タイトル「雨ノチ、杖暴発ス」を配置するスペースを確保。
+    
+    prompt_jp: |
+      小説バナー, ワイドフォーマット, 横長構図,
+      ファンタジー戦場, 豪雨, 暗い嵐の空,
+      画面中央: 騎士が杖を掲げる, 杖から緑色の光が爆発,
+      衝撃波, エネルギーの爆発, 火花が飛び散る,
+      豪雨の中, 雨粒に光が反射,
+      画面左右: タイトル配置用の暗めのスペース,
+      ドラマチック, 緊迫感, 悲劇の瞬間,
+      ダークファンタジー, エピック,
+      アニメ風, 映画的構図, 高品質
+    
+    prompt_en: |
+      novel banner, wide format, horizontal composition,
+      fantasy battlefield, heavy rain, dark stormy sky,
+      center of frame: knight raising wand, green light EXPLODING from wand,
+      shockwave, energy burst, sparks scattering,
+      in heavy rain, light reflecting on raindrops,
+      left and right: darker areas for title text placement,
+      dramatic, tense, moment of tragedy,
+      dark fantasy, epic,
+      anime style, cinematic composition, high quality
+    
+    color_palette:
+      primary: "緑色（暴発の光）"
+      secondary: "暗い青灰色（雨雲、嵐）"
+      accent: "オレンジ/赤（炎、鎧）"
+      mood: "不穏、緊迫、ドラマチック"
+
+  # ========================================
+  # シンボリックバナー（象徴的）
+  # ========================================
+  symbolic_banner:
+    aspect_ratio: "16:9"
+    concept: |
+      杖と雨を象徴的に描く。キャラクターは描かず、
+      「雨」と「暴発」のイメージを抽象的に表現。
+    
+    prompt_jp: |
+      小説バナー, シンボリック, 抽象的,
+      中央: 魔法の杖, 緑色の光を放つ, ひび割れている,
+      背景: 豪雨, 無数の雨粒, 暗い空,
+      杖の周囲に衝撃波のような波紋,
+      下部に稲妻が落ちる,
+      タイトル配置用のネガティブスペースを確保,
+      ミニマル, ダーク, 不穏,
+      ファンタジー, 高品質
+    
+    prompt_en: |
+      novel banner, symbolic, abstract,
+      center: magic wand, emitting green light, cracking,
+      background: heavy rain, countless raindrops, dark sky,
+      shockwave ripples around the wand,
+      lightning strikes below,
+      negative space for title text placement,
+      minimal, dark, ominous,
+      fantasy, high quality
+
+  # ========================================
+  # キャラクター入りバナー
+  # ========================================
+  character_banner:
+    aspect_ratio: "16:9 or 2:1"
+    concept: |
+      グラナイト（主人公）とバーミリオン（被害者）を配置。
+      背景に雨と暴発のイメージ。
+    
+    prompt_jp: |
+      小説バナー, キャラクター重視, ワイド構図,
+      
+      画面左: 職人の男, 濃い茶色の短髪, 灰茶色の目,
+      革のエプロン, 腕組み, 頑固な表情,
+      職人の意地を感じる立ち姿,
+      
+      画面右: 騎士, 深紅の髪, 金色の目,
+      赤と金の鎧, 右腕に包帯,
+      苦悶と怒りの表情,
+      
+      背景中央: 緑色に光る杖, 暴発のイメージ,
+      豪雨, 暗い空, 稲妻,
+      
+      対立と共闘を感じる構図,
+      ドラマチック, ダークファンタジー,
+      アニメ風, 高品質
+    
+    prompt_en: |
+      novel banner, character focus, wide composition,
+      
+      left side: craftsman man, dark brown short hair, gray-brown eyes,
+      leather apron, arms crossed, stubborn expression,
+      stance showing craftsman's pride,
+      
+      right side: knight, crimson hair, golden eyes,
+      red and gold armor, bandaged right arm,
+      expression of pain and anger,
+      
+      background center: wand glowing green, explosion imagery,
+      heavy rain, dark sky, lightning,
+      
+      composition showing conflict and alliance,
+      dramatic, dark fantasy,
+      anime style, high quality
+
+  # ========================================
+  # タイトルロゴ風バナー
+  # ========================================
+  title_logo_banner:
+    aspect_ratio: "3:1 or 4:1"
+    concept: |
+      タイトル文字を主役にしたデザイン。
+      背景は雨と暴発をイメージした抽象的な表現。
+    
+    prompt_jp: |
+      小説タイトルバナー, タイポグラフィ重視,
+      中央にタイトル配置スペース,
+      背景: 豪雨のテクスチャ, 斜めに降る雨,
+      緑色の光が滲むようなエフェクト,
+      暗い青灰色のグラデーション,
+      下部にシルエットの戦場,
+      ミニマル, モダン, ダーク,
+      高品質
+    
+    prompt_en: |
+      novel title banner, typography focus,
+      center space for title text,
+      background: rain texture, diagonal rainfall,
+      green light bleeding effect,
+      dark blue-gray gradient,
+      silhouette battlefield at bottom,
+      minimal, modern, dark,
+      high quality
+
+  # ========================================
+  # SNS用正方形バナー
+  # ========================================
+  square_banner:
+    aspect_ratio: "1:1"
+    concept: |
+      SNS投稿用の正方形バナー。
+      インパクト重視で一目で内容が分かる。
+    
+    prompt_jp: |
+      小説バナー, 正方形, SNS用,
+      中央: 緑色に光る杖が爆発する瞬間,
+      周囲に雨粒と衝撃波,
+      暗い背景, ダークファンタジー,
+      上部と下部にタイトル配置スペース,
+      インパクト重視, キャッチー,
+      アニメ風, 高品質
+    
+    prompt_en: |
+      novel banner, square format, for SNS,
+      center: wand exploding with green light,
+      surrounded by raindrops and shockwave,
+      dark background, dark fantasy,
+      space for title at top and bottom,
+      high impact, catchy,
+      anime style, high quality
+
+  # ========================================
+  # ネガティブプロンプト（共通）
+  # ========================================
+  negative_prompt: |
+    low quality, blurry, simple, plain background,
+    bright cheerful colors, sunny weather, clear sky,
+    cute style, childish, simple composition,
+    text, watermark, logo
+
+  # ========================================
+  # タイトル配置ガイド
+  # ========================================
+  title_placement:
+    main_title: "雨ノチ、杖暴発ス"
+    subtitle: "所ニヨリ、職人ノ意地アリ"
+    
+    recommended_font:
+      main: "明朝体（毛筆風）、力強い書体"
+      subtitle: "明朝体、やや細め"
+    
+    placement_options:
+      - position: "上部中央"
+        style: "大きくメイン、小さくサブタイトル"
+      - position: "左揃え"
+        style: "縦書きも検討"
+      - position: "下部"
+        style: "背景が暗い部分に白文字"
+    
+    color_suggestion:
+      main_title: "白または薄い緑（暴発の光に合わせて）"
+      subtitle: "グレーまたは薄い白"
+      outline: "黒い縁取りで視認性確保"

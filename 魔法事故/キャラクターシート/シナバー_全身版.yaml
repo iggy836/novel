@@ -1,0 +1,319 @@
+# ========================================
+# シナバー 全身キャラクターシート
+# ========================================
+
+metadata:
+  character_name: "シナバー (Cinnabar)"
+  role: "王立魔法具工房長官"
+  age: "50代後半〜60代前半"
+  archetype: "偽善の悪役・魔族の傀儡"
+  
+# ========================================
+# キャラクター設定
+# ========================================
+character_profile:
+  personality: "表向きは温厚で慈愛に満ちた指導者。実際は冷酷で狡猾な操り人形"
+  appearance_summary: "初老の紳士。赤みがかった銀灰色の髪。威厳ある立ち姿"
+  key_traits:
+    - "偽善的な笑顔"
+    - "冷たい目"
+    - "優雅な身のこなし"
+    - "権力者の威圧感"
+
+# ========================================
+# 構図設計（ターンアラウンド）
+# ========================================
+composition_design:
+  format: "キャラクターシート・ターンアラウンド"
+  views: ["正面", "側面", "背面", "表情クローズアップ"]
+  
+  layout_description: |
+    左から順に：
+    1. 正面図（全身立ち姿）
+    2. 側面図（横向き全身）
+    3. 背面図（後ろ姿全身）
+    4. 表情クローズアップ（顔のみ、偽善の笑み）
+    
+  background: "シンプルな白背景。キャラクターに集中"
+  
+# ========================================
+# 外見詳細
+# ========================================
+physical_appearance:
+  age_range: "Late 50s to early 60s"
+  height: "175cm前後（中背）"
+  build: "スリムだが貫禄がある。猫背ではなく背筋が伸びている"
+  
+  face:
+    shape: "面長。知的で優雅な顔立ち"
+    skin: "やや浅黒い肌。年齢相応のシワ"
+    eyes: 
+      color: "暗い琥珀色または灰色がかった茶"
+      expression: "温和に細められているが、奥が冷たい"
+      detail: "目尻に深いシワ。計算高い眼光"
+    eyebrows: "やや太め。整っている"
+    nose: "鷲鼻気味。高く整った鼻筋"
+    mouth: "薄い唇。穏やかな微笑みを浮かべている"
+    jawline: "シャープ。顎は細め"
+    
+  hair:
+    color: "赤みがかった銀灰色（reddish silver-gray）"
+    style: "オールバックに撫でつけている。やや長め"
+    length: "襟足まで。整然としている"
+    texture: "滑らかで艶がある。よく手入れされている"
+    
+  hands:
+    appearance: "細く長い指。よく手入れされている"
+    detail: "労働の痕跡なし。貴族的な手"
+    
+# ========================================
+# 衣装詳細
+# ========================================
+costume:
+  main_outfit: "王立魔法具工房長官の正装"
+  
+  coat:
+    style: "長い軍服風のコート・ローブ"
+    color: "白地に黒と深紅（crimson）の装飾"
+    length: "膝下まで。威厳がある"
+    material: "高級な布地。光沢がある"
+    collar: "立襟。金の刺繍入り"
+    shoulders: "肩章風の装飾。権威の象徴"
+    
+  trim_and_decoration:
+    primary_color: "黒（ブラック）"
+    secondary_color: "深紅・朱色（クリムゾン）"
+    details: "襟、袖口、裾に黒と深紅のライン"
+    embroidery: "金糸の刺繍。王立工房の紋章"
+    
+  buttons:
+    style: "金色の装飾ボタン"
+    placement: "ダブルブレスト風に整然と並ぶ"
+    
+  belt:
+    style: "濃紺または黒の革ベルト"
+    buckle: "金の大きなバックル。紋章入り"
+    
+  sleeves:
+    style: "長袖"
+    cuffs: "濃紺のカフス。金のライン入り"
+    detail: "袖口はぴったりとフィット"
+    
+  pants:
+    style: "白または淡いグレーのスラックス"
+    fit: "スリムフィット。きちんとしている"
+    
+  boots:
+    style: "黒い革のブーツ"
+    height: "ふくらはぎ半ばまで"
+    detail: "よく磨かれている。光沢あり"
+    
+  accessories:
+    weapon: "腰に装飾剣。実用というより権威の象徴"
+    other: "胸に工房長官の徽章バッジ"
+
+# ========================================
+# 姿勢・立ち振る舞い
+# ========================================
+body_language:
+  standing_posture:
+    description: "背筋を伸ばし、堂々と立つ"
+    hands: "後ろで組むか、片手で剣の柄に軽く触れる"
+    weight: "均等に両足に。安定した立ち姿"
+    
+  walking_style:
+    description: "優雅でゆっくり。急がない"
+    demeanor: "王者の風格。周囲を見下ろすような"
+    
+  facial_expression:
+    default: "温和な微笑み。聖職者のような慈愛"
+    eyes: "目だけが冷たく笑っていない"
+    contrast: "表情と目の不一致が不気味"
+
+# ========================================
+# ターンアラウンド用プロンプト
+# ========================================
+prompt_english: |
+  Professional character design sheet / turnaround reference for a light novel villain character.
+  
+  CHARACTER: CINNABAR - The False Saint
+  Male, late 50s to early 60s, Royal Magic Workshop Director
+  
+  REQUIRED VIEWS (all on same white background):
+  1. FRONT VIEW (full body, standing)
+  2. SIDE VIEW (profile, full body)
+  3. BACK VIEW (rear, full body)
+  4. FACE CLOSE-UP (detailed facial expression)
+  
+  === PHYSICAL APPEARANCE ===
+  
+  AGE & BUILD:
+  - Late 50s to early 60s, distinguished elderly gentleman
+  - Height: ~175cm, slim but commanding presence
+  - Upright posture, perfect spine alignment
+  - No slouching, exudes authority
+  
+  FACE:
+  - Elongated face shape, refined and intellectual
+  - Slightly tanned complexion, age-appropriate wrinkles
+  - Sharp, calculating amber or grayish-brown eyes
+  - Eyes narrowed in gentle smile but cold underneath
+  - Deep crow's feet at corners of eyes
+  - Aquiline nose, high and refined bridge
+  - Thin lips with serene, benevolent smile
+  - Sharp jawline, narrow chin
+  
+  HAIR:
+  - Reddish silver-gray (distinctive hue)
+  - Slicked back in neat all-back style
+  - Reaches to nape of neck
+  - Smooth, glossy, well-maintained
+  - No loose strands, perfectly groomed
+  
+  HANDS:
+  - Long, slender fingers
+  - Well-manicured, aristocratic hands
+  - No signs of manual labor
+  - One hand may rest on sword hilt
+  
+  === COSTUME (DETAILED) ===
+  
+  MAIN GARMENT - Military-style Ceremonial Coat:
+  
+  BASE COLOR: Pristine white
+  
+  ACCENT COLORS:
+  - Black (trim, belt, decorative lines)
+  - Deep crimson/scarlet (secondary trim)
+  - Gold (buttons, embroidery, accents)
+  - Navy blue (cuffs, belt)
+  
+  COAT DETAILS:
+  - Long military-style robe/coat to below knees
+  - High standing collar with gold embroidery
+  - Shoulder decorations (epaulettes-style)
+  - Double-breasted with golden ornate buttons
+  - Black and crimson trim on collar, sleeves, hem
+  - Gold thread embroidery of Royal Workshop crest
+  - Luxurious fabric with subtle sheen
+  
+  SLEEVES:
+  - Long sleeves, fitted at wrists
+  - Navy blue or black cuffs with gold piping
+  
+  BELT:
+  - Wide navy blue or black leather belt
+  - Large gold buckle with embossed crest
+  - Positioned at natural waist
+  
+  PANTS:
+  - White or pale gray dress slacks
+  - Slim fit, crisp and clean
+  - Tucked neatly into boots
+  
+  BOOTS:
+  - Black leather riding boots
+  - Mid-calf height
+  - Highly polished, reflective shine
+  
+  ACCESSORIES:
+  - Ornamental sword at left hip (ceremonial, not combat)
+  - Director's badge on chest (gold with enamel)
+  - White gloves (optional, may hold in hand)
+  
+  === POSTURE & BODY LANGUAGE ===
+  
+  FRONT VIEW:
+  - Standing perfectly straight
+  - Hands clasped behind back OR one hand on sword hilt
+  - Weight evenly distributed
+  - Slight condescending tilt of head
+  
+  SIDE VIEW:
+  - Excellent posture, no slouch
+  - Chin slightly raised (looking down on others)
+  - Sword visible on hip
+  - Coat drapes elegantly
+  
+  BACK VIEW:
+  - Coat's back design visible
+  - Belt and sword clearly shown
+  - Hair swept back neatly
+  - Straight, commanding silhouette
+  
+  CLOSE-UP FACE:
+  - THE KEY FEATURE: Benevolent smile but COLD EYES
+  - Upper face in light: gentle, kind expression
+  - Eyes: calculating, emotionless, predatory
+  - The disconnect should be unsettling
+  - Split lighting optional to show duality
+  
+  === ATMOSPHERE ===
+  - Elegant, refined, authoritative
+  - False kindness masking cruelty
+  - "Wolf in saint's clothing"
+  - Theatrical, performative benevolence
+  - Subtle menace underneath polish
+  
+  === ART STYLE ===
+  - Realistic light novel / seinen manga style
+  - Clean, professional character sheet layout
+  - Consistent proportions across all views
+  - High detail on costume ornamentation
+  - Reference: Fire Emblem Three Houses character designs
+  - Professional turnaround sheet quality
+  
+  === COLOR PALETTE ===
+  Primary: White (coat base)
+  Accents: Black, Deep Crimson, Navy Blue
+  Metallics: Gold (buttons, embroidery)
+  Hair: Reddish silver-gray
+  Skin: Lightly tanned
+  Eyes: Dark amber or gray-brown
+  
+  === CRITICAL DETAILS ===
+  - Maintain exact costume across all views
+  - Hair must be identical in all angles
+  - Face: gentle smile + cold eyes IN ALL VIEWS
+  - Posture: always upright, dignified
+  - Clean white background
+  - "CHARACTER SHEET" text at top
+  - Labels: "FRONT", "SIDE", "BACK", "FACE CLOSE-UP"
+  
+  === EMOTIONAL TONE ===
+  - Viewer should feel: Unease, distrust
+  - "He looks kind but something is wrong"
+  - Authority figure you can't trust
+  - Polished villain energy
+
+# ========================================
+# ネガティブプロンプト
+# ========================================
+negative_prompt: |
+  young, muscular, armor, medieval knight, beard, mustache,
+  casual clothes, disheveled, messy hair, warm genuine smile,
+  kind eyes, trustworthy appearance, humble, friendly,
+  bright cheerful colors, cute, anime style, chibi,
+  low quality, inconsistent designs, different costumes in views,
+  bad anatomy, distorted proportions, blurry, amateur
+
+# ========================================
+# 生成パラメータ
+# ========================================
+generation_params:
+  aspect_ratio: "16:9 or 4:3 landscape"
+  quality: "maximum"
+  style_weight: "high"
+  consistency: "critical - same character in all views"
+  
+# ========================================
+# 品質チェックリスト
+# ========================================
+quality_checklist:
+  - "[ ] 4つの視点すべてが同じキャラクターに見えるか"
+  - "[ ] 衣装の細部（ボタン、ライン）が一貫しているか"
+  - "[ ] 髪型が全ての角度で同じか"
+  - "[ ] 表情クローズアップで目の冷たさが表現されているか"
+  - "[ ] 姿勢が威厳を持っているか"
+  - "[ ] 色使いが設定通りか（白・黒・深紅・金）"
+  - "[ ] 背景がシンプルで見やすいか"

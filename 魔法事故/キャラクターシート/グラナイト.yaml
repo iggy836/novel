@@ -1,0 +1,240 @@
+# ========================================
+# キャラクターシート生成用プロンプト
+# ========================================
+# 用途: AI画像生成（Stable Diffusion, Midjourney等）用のプロンプト
+# フォーマット: Character sheet, three-view, full figure, Close-up of face, white background
+
+# ========================================
+# グラナイト（主人公）
+# ========================================
+granite:
+  name: グラナイト
+  name_en: Granite
+  role: 主人公 / 「グラナイト杖店」2代目店主
+  age: 32
+  gender: male
+  
+  # 基本プロンプト
+  base_prompt: "Character sheet, three-view, full figure, Close-up of face, white background"
+  
+  # 外見設定
+  appearance:
+    # 全体的な印象
+    overall: |
+      頑固で無骨な職人。32歳の男性。
+      鍛えられた体つきだが、戦士ではなく職人の筋肉。
+      作業で日焼けした肌。無愛想だが、どこか信頼感のある顔立ち。
+    
+    # 髪
+    hair:
+      color: dark brown / 濃い茶色
+      style: short, messy, unkempt / 短髪、無造作、手入れされていない
+      detail: 職人らしく飾り気がない。作業中に邪魔にならない短さ
+    
+    # 目
+    eyes:
+      color: gray-brown / 灰茶色（花崗岩のような色）
+      expression: sharp, stubborn, determined / 鋭い、頑固、意志が強い
+      detail: 素材を見抜く「神の指先」を持つ職人らしい観察眼
+    
+    # 顔
+    face:
+      shape: angular, strong jaw / 角張った顔、強い顎
+      features: 
+        - stubble / 無精髭
+        - slight scars on hands and face from work / 作業で付いた小さな傷跡
+        - stern expression / 厳しい表情
+      age_appearance: looks older than 32 due to hardship / 苦労で実年齢より老けて見える
+    
+    # 体格
+    body:
+      height: 180cm / やや高め
+      build: muscular but lean, craftsman physique / 筋肉質だが引き締まった職人体型
+      posture: slightly hunched from work / 作業で少し前かがみ気味
+    
+    # 服装
+    clothing:
+      main_outfit:
+        description: |
+          職人の作業着。実用性重視、飾り気なし。
+          革のエプロン、袖まくりしたシャツ、丈夫なズボン。
+        items:
+          - leather apron / 革のエプロン（傷や焦げ跡あり）
+          - rolled-up sleeves white shirt / 袖まくりした白いシャツ
+          - brown work pants / 茶色の作業用ズボン
+          - sturdy boots / 頑丈なブーツ
+          - tool belt / 道具入れベルト
+      accessories:
+        - leather gloves (often worn on one hand) / 革手袋（片手だけ着けていることが多い）
+        - goggles on forehead / 額に上げた保護ゴーグル
+    
+    # 特徴的なポイント
+    distinctive_features:
+      - calloused hands / タコだらけの手
+      - burn marks on forearms / 腕の火傷跡
+      - always slightly dirty from work / いつも少し作業で汚れている
+      - confident stance when holding tools / 道具を持つと自信に満ちた立ち姿
+
+  # 表情バリエーション
+  expressions:
+    - name: default
+      description: stern, stubborn, slightly frowning / 厳しい、頑固、少し眉をひそめている
+    - name: working
+      description: focused, concentrated, in the zone / 集中、没頭、ゾーンに入っている
+    - name: angry
+      description: fierce, defiant, clenched jaw / 激しい、反抗的、食いしばった顎
+    - name: rare_smile
+      description: subtle smirk, warm eyes / 控えめな笑み、温かい目（稀にしか見せない）
+    - name: surprised
+      description: wide eyes, rare vulnerability / 目を見開く、珍しく無防備
+
+  # 画像生成用の完成プロンプト
+  full_prompt:
+    style: "anime style, detailed, high quality"
+    
+    character_sheet_prompt: |
+      Character sheet, three-view, full figure, Close-up of face, white background,
+      text "グラナイト" at top of image,
+      text box in bottom right corner with profile: "年齢: 32歳 / 職業: 杖職人「グラナイト杖店」2代目 / 性格: 頑固すぎる完璧主義者",
+      1boy, male, 32 years old, craftsman, wand maker,
+      dark brown short messy hair, gray-brown eyes, sharp determined gaze,
+      angular face, strong jaw, stubble, slight scars,
+      muscular lean build, 180cm tall, slightly hunched posture,
+      leather apron with burn marks, rolled-up sleeves white shirt, brown work pants, sturdy boots, tool belt,
+      calloused hands, burn marks on forearms,
+      stern expression, stubborn look, confident stance,
+      fantasy setting, medieval craftsman,
+      anime style, detailed, high quality
+    
+    # 日本語版（テキスト生成対応ツール用）
+    character_sheet_prompt_jp: |
+      Character sheet, three-view, full figure, Close-up of face, white background,
+      text "グラナイト" at top of image in bold font,
+      text box in bottom right corner with profile text:
+        "年齢: 32歳"
+        "職業: 杖職人「グラナイト杖店」2代目"
+        "性格: 頑固すぎる完璧主義者"
+        "異能: 神の指先（素材の微細な歪みを感知）",
+      1boy, male, 32 years old, craftsman, wand maker,
+      dark brown short messy hair, gray-brown eyes, sharp determined gaze,
+      angular face, strong jaw, stubble, slight scars,
+      muscular lean build, 180cm tall, slightly hunched posture,
+      leather apron with burn marks, rolled-up sleeves white shirt, brown work pants, sturdy boots, tool belt,
+      stern expression, stubborn look, confident stance,
+      fantasy setting, medieval craftsman,
+      anime style, detailed, high quality
+
+    
+    portrait_prompt: |
+      portrait, close-up, face focus, white background,
+      1boy, male, 32 years old, craftsman,
+      dark brown short messy hair, gray-brown eyes like granite stone,
+      angular face, strong jaw, stubble, stern expression,
+      sharp determined gaze, slight scars on face,
+      goggles on forehead,
+      anime style, detailed, high quality
+    
+    full_body_prompt: |
+      full body, standing pose, white background,
+      1boy, male, 32 years old, craftsman, wand maker,
+      dark brown short messy hair, gray-brown eyes,
+      leather apron, rolled-up sleeves white shirt, brown work pants, sturdy boots,
+      holding wand-crafting tool, confident stance,
+      muscular lean build, craftsman physique,
+      fantasy medieval setting,
+      anime style, detailed, high quality
+
+  # ネガティブプロンプト
+  negative_prompt: |
+    low quality, blurry, deformed, bad anatomy, bad hands, extra fingers,
+    feminine, pretty boy, young looking, clean clothes, noble outfit,
+    smiling, happy expression, bright colors
+
+  # 参考イメージキーワード
+  # 性格の二面性（憧れと共感）
+  personality_duality:
+    core_trait: "頑固すぎる"
+    summary: |
+      「頑固すぎる」という性格が、状況によって「強さ」にも「弱さ」にもなる。
+      同じ性格が読者に「憧れ」と「共感」の両方を与える魅力的な主人公。
+    
+    aspirational_qualities:
+      - 巨大組織に一人で立ち向かう姿
+      - 職人としての圧倒的な技術（「神の指先」）
+      - 不器用だが芯のある優しさ
+      - 自分の仕事への絶対の誇り
+      - 孤立しても折れない精神力
+      - 泥臭さと真っすぐさ
+    
+    relatable_qualities:
+      - 正しいことをしても報われない理不尽
+      - 言いたいことが言えない不器用さ
+      - 大切な人を失った喪失感（父の死）
+      - 自分のやり方が通じない焦り
+      - プライドと本心の板挟み
+      - 変わってしまった大切な人への戸惑い（ネルル）
+
+  # 人生年表
+  life_history:
+    - age: 0
+      event: 下町の杖職人・アンバーの息子として生まれる
+    - age: 5
+      event: 工房で父の仕事を見て育つ。「杖は生き物だ」と教えられる
+    - age: 8
+      event: 近所に引っ越してきたネルルと出会う。一緒に遊ぶようになる
+    - age: 12
+      event: ネルルと「一緒に最高の杖を作ろう」と約束
+    - age: 16
+      event: ネルルが王都アカデミーの推薦入学を決める。見送りに行けず
+    - age: 20
+      event: 父・アンバー死去。2代目として店を継ぐ
+    - age: 22
+      event: 王立工房の下請けを始める
+    - age: 26
+      event: 「神の指先」の評判が広まる
+    - age: 30
+      event: 弟子2人が辞める。ペリドットだけが残る
+    - age: 32
+      event: 本編開始。杖暴発事故が発生
+
+  # 成長アーク
+  character_arc:
+    start: "俺一人でやれる / 誰にも頼らない / 俺の仕事は完璧"
+    turning_point: "ネルルとの再会と協力"
+    end: "お前の頭脳と俺の手で / ネルルなしじゃ解けなかった / 物作りは一人じゃできねえ（父の言葉）"
+
+  # 父の教え
+  father_teaching: |
+    「物作りは一人じゃできねえ。素材を育てる者、設計する者、形にする者——
+    全員が揃って初めて、いいモンができる」
+
+  # 重要な関係性
+  key_relationships:
+    - character: ネルル
+      relation: 幼馴染 / かつての約束の相手
+      dynamic: |
+        12歳で「一緒に最高の杖を作ろう」と約束。
+        16歳で別れ、見送りに行けなかった後悔。
+        32歳で16年ぶりに再会するも、監査官vs被疑者として対立。
+        最終的には協力して真実を解明する最強バディに。
+    
+    - character: アンバー（父）
+      relation: 先代店主 / 師匠（故人）
+      dynamic: |
+        20歳で死別。未熟なまま2代目に。
+        「親父に恥じない仕事を」という言葉に縛られている。
+        父の教え「物作りは一人じゃできねえ」を物語の最後に理解する。
+    
+    - character: ペリドット
+      relation: 弟子
+      dynamic: |
+        唯一残った弟子。寡黙だが忠実。
+        グラナイトの孤立を象徴しつつ、完全な孤独ではないことを示す存在。
+
+  reference_keywords:
+    - blacksmith
+    - medieval craftsman
+    - stubborn worker
+    - blue-collar hero
+    - Geralt of Rivia (for the stern weathered look)
+    - dwarven craftsman aesthetic (without being a dwarf)

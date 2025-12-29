@@ -1,0 +1,44 @@
+title: "第1章 挿絵1：信じる眼差し"
+scene_id: ill_01_01
+illustration_type: "serious anime style, dramatic lighting"
+
+prompt:
+  main: |
+    Serious anime illustration, dramatic and emotional scene in a workshop.
+    A young female apprentice (Peridot) looking up at her master craftsman (Granite) with determined, trusting eyes.
+    
+    Characters:
+    - Peridot: teenage girl, green twin-tails hair, work apron, small frame, strong-willed eyes with highlight, hands clenched with determination
+    - Granite: 32-year-old man, stubble beard, rough craftsman face, work clothes, slightly surprised expression, looking down at Peridot
+    
+    Composition:
+    - Low angle or eye-level shot
+    - Focus on Peridot's sincere expression and Granite's back/shoulder
+    - Emotional connection between them emphasized
+    
+    Background:
+    - Dim workshop interior
+    - Half-finished wands on shelves
+    - Cluttered workbench with tools
+    - Sunset or diagonal light streaming through window, illuminating the two characters
+    
+    Lighting:
+    - Backlit (rim lighting on characters)
+    - Strong contrast
+    - Warm golden light from window
+    - Peridot's eyes catching the light (highlight)
+    
+    Mood: emotional, hopeful, quiet passion, touching moment
+    Art style: serious anime, cinematic, detailed character expressions
+    
+  negative_prompt: |
+    chibi, cute style, bright colorful, comedic, happy atmosphere, multiple light sources,
+    cluttered composition, low quality, blurry, distorted anatomy
+
+technical_specs:
+  aspect_ratio: "16:9 or 4:3"
+  focus_elements: 
+    - "Peridot's determined eyes"
+    - "Light streaming through window"
+    - "Workshop atmosphere"
+  color_palette: "warm tones (golden sunset), muted workshop browns, green hair accent"

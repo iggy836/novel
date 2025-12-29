@@ -1,0 +1,127 @@
+# ========================================
+# キャラクターシート生成用プロンプト
+# ========================================
+# ペリドット（グラナイトの弟子）
+
+peridot:
+  name: ペリドット
+  name_en: Peridot
+  role: グラナイト杖店の弟子 / 唯一残った弟子
+  age: 22
+  gender: female
+  
+  base_prompt: "Character sheet, three-view, full figure, Close-up of face, white background"
+  
+  appearance:
+    overall: |
+      寡黙だが芯が強い若い女性職人。22歳。
+      橄欖石(ペリドット)のように控えめだが独特の輝き。
+      地味だが、グラナイトの厳しさについていける忠実な弟子。
+      小柄で華奢だが、諦めない強さを持つ。
+    
+    hair:
+      color: peridot green (olive green) / ペリドットグリーン（オリーブグリーン）
+      style: ponytail, practical, slightly messy / ポニーテール、実用的、少し乱れた
+      detail: 作業で邪魔にならないよう後ろで一つにまとめている。汗や汚れで乱れがち
+    
+    eyes:
+      color: peridot green / ペリドットグリーン
+      expression: quiet, determined, observant / 静か、決意、観察力
+      detail: 師匠の仕事を見て学ぶ真剣な目
+    
+    face:
+      shape: young feminine, gentle features / 若い女性的、優しい顔立ち
+      features:
+        - soft features but determined expression / 柔らかい顔立ちだが決意した表情
+        - serious earnest eyes / 真面目で真剣な目
+        - some dirt or soot from work / 作業の汚れや煤
+        - small petite face / 小さく華奢な顔
+      expression: quiet determination, trembling courage / 静かな決意、震える勇気
+    
+    body:
+      height: 158cm / 小柄
+      build: petite, slender, delicate but persistent / 小柄、細身、華奢だが粘り強い
+      posture: humble, hard-working, sometimes trembling / 謙虚、勤勉、時々震えている
+    
+    clothing:
+      main_outfit:
+        description: |
+          職人の弟子らしい作業着。質素で実用的。女性用だが機能性重視。
+          グラナイトと似たスタイルだが、サイズが小さく、よりボロボロ。
+        items:
+          - worn leather apron (small size) / ボロボロの革エプロン（小サイズ）
+          - simple work shirt with rolled sleeves / 袖をまくったシンプルな作業シャツ
+          - patched work pants / 継ぎはぎの作業ズボン
+          - simple work boots / シンプルな作業ブーツ
+      accessories:
+        - tool pouch at waist / 腰の道具袋
+        - hair tie for ponytail / ポニーテール用の髪留め
+        - work gloves / 作業用手袋
+    
+    distinctive_features:
+      - always working quietly in background / いつも背景で静かに作業
+      - loyal presence even in hardship / 困難の中でも忠実な存在
+      - understands グラナイト without words / 言葉なしでグラナイトを理解
+      - trembling but standing firm / 震えているが立ち続ける
+
+  expressions:
+    - name: default
+      description: quiet, serious, focused on work / 静か、真面目、仕事に集中
+    - name: working
+      description: concentrated, learning from master / 集中、師匠から学ぶ
+    - name: worried_trembling
+      description: concerned for master, trembling but standing firm / 師匠を心配、震えているが立ち続ける
+    - name: determined_tears
+      description: teary-eyed but resolute, quiet courage / 涙目だが断固として、静かな勇気
+    - name: pleading
+      description: desperate plea to Nerle, emotional appeal / ネルルへの必死の懇願、感情的な訴え
+
+  personality:
+    traits:
+      - 寡黙で口数が少ない
+      - 芯が強く、困難に耐える
+      - グラナイトの「言葉より姿勢で教える」スタイルを理解
+      - 他の弟子が辞める中、黙々と修行を続けた
+      - 世間のバッシングの中でも店に残り続けた忠義者
+      - グラナイトの孤立を象徴しつつ、完全な孤独ではないことを示す
+
+  background:
+    history: |
+      - 地方の貧しい家庭出身
+      - グラナイトの仕事を見て弟子入りを志願
+      - 他の弟子2人が「頑固すぎてついていけない」と辞める中、残った
+      - 事故後のバッシングにも耐え、グラナイトを支え続ける
+
+  relationships:
+    - with_グラナイト: "師匠。尊敬し、信じている。「親方が手を抜くはずがない」"
+
+  role_in_story: |
+    グラナイトの孤立を象徴しつつ、完全な孤独ではないことを示す存在。
+    黙って師匠を支え続ける忠誠心の体現。
+
+  full_prompt:
+    style: "anime style, detailed, high quality"
+    
+    character_sheet_prompt: |
+      Character sheet, three-view, full figure, Close-up of face, white background,
+      1girl, female, 22 years old, female craftsman apprentice, female disciple,
+      peridot green hair in ponytail, messy practical ponytail, peridot green eyes, quiet determined gaze,
+      young feminine gentle features, serious earnest expression, work dirt and soot, petite face,
+      petite slender delicate build, 158cm, humble posture, sometimes trembling,
+      worn small leather apron, simple work shirt with rolled sleeves, patched pants, work boots,
+      tool pouch, work gloves, hair tie,
+      quiet determined expression, trembling but brave,
+      fantasy setting, female craftsman apprentice,
+      anime style, detailed, high quality
+
+  negative_prompt: |
+    low quality, blurry, deformed, bad anatomy,
+    flashy appearance, talkative expression, clean clothes,
+    muscular, tall, confident posture
+
+  reference_keywords:
+    - loyal apprentice
+    - quiet worker
+    - humble disciple
+    - steadfast support
+    - unassuming hero

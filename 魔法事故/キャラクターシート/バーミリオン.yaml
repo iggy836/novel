@@ -1,0 +1,146 @@
+# ========================================
+# キャラクターシート生成用プロンプト
+# ========================================
+# バーミリオン（騎士隊長）
+
+vermilion:
+  name: バーミリオン・フレイムハート
+  name_en: Vermilion Flameheart
+  role: 第7騎士団隊長 / 「炎獅子」
+  age: 35
+  gender: male
+  
+  base_prompt: "Character sheet, three-view, full figure, Close-up of face, white background"
+  
+  appearance:
+    overall: |
+      伝説の英雄「炎獅子」。35歳の騎士隊長。
+      圧倒的な威厳と勇敢さ。部下から絶大な信頼を得る。
+      炎のような赤い髪と、燃える意志を宿した目。
+    
+    hair:
+      color: crimson red / 深紅
+      style: wild, flowing, lion-like mane / 野性的、流れるような、獅子のたてがみ
+      detail: 戦場で風になびく炎のような髪
+    
+    eyes:
+      color: golden amber / 金色の琥珀
+      expression: fierce, noble, protective / 激しい、高貴、守護者
+      detail: 敵には恐怖を、味方には安心を与える炎の目
+    
+    face:
+      shape: strong, heroic / 力強い、英雄的
+      features:
+        - prominent jaw / 存在感のある顎
+        - battle scars / 戦傷
+        - confident smile / 自信に満ちた笑み
+      expression: noble warrior / 高貴な戦士
+    
+    body:
+      height: 190cm / 高身長
+      build: powerful, muscular, warrior / 力強い、筋肉質、戦士体型
+      posture: commanding presence / 威厳のある存在感
+    
+    clothing:
+      main_outfit:
+        description: |
+          第7騎士団の隊長装備。赤と金を基調とした重厚な鎧。
+          炎のモチーフが随所にあしらわれている。
+        items:
+          - red and gold ornate armor / 赤と金の装飾的な鎧
+          - lion motif pauldrons / 獅子モチーフの肩当て
+          - crimson cape / 深紅のマント
+          - flame-decorated gauntlets / 炎の装飾がついた籠手
+          - knight commander sword / 騎士団長の剣
+      accessories:
+        - magic wand at waist / 腰の魔法杖
+        - commander's medal / 隊長の勲章
+    
+    distinctive_features:
+      - lion-like presence / 獅子のような存在感
+      - inspiring aura / 人を鼓舞するオーラ
+      - after_injury: right arm bandaged / 事故後：右腕に包帯
+
+  expressions:
+    - name: commanding
+      description: fierce, inspiring, leading troops / 激しい、鼓舞する、部隊を率いる
+    - name: battle_ready
+      description: intense, focused, flames in eyes / 激しい、集中、目に炎
+    - name: protective
+      description: warm towards subordinates / 部下に対して温かい
+    - name: injured
+      description: pained but unbroken spirit / 苦痛だが折れない精神
+
+  full_prompt:
+    style: "anime style, detailed, high quality"
+    
+    character_sheet_prompt: |
+      Character sheet, three-view, full figure, Close-up of face, white background,
+      1boy, male, 35 years old, knight commander, legendary hero,
+      crimson red wild flowing hair like lion mane, golden amber eyes, fierce noble gaze,
+      strong heroic face, prominent jaw, battle scars, confident expression,
+      tall powerful muscular build, 190cm, commanding presence,
+      red and gold ornate armor, lion motif pauldrons, crimson cape, flame decorations,
+      knight commander sword, magic wand at waist,
+      noble warrior stance, inspiring aura,
+      fantasy setting, knight captain,
+      anime style, detailed, high quality
+
+  negative_prompt: |
+    low quality, blurry, deformed, bad anatomy,
+    weak looking, cowardly expression, plain armor,
+    young looking, feminine, slender
+
+  # 負傷後の状態
+  injury_aftermath:
+    physical:
+      - 右腕に重傷、神経がほとんど死んでいる
+      - 二度と剣を握れない
+      - 最高位の治癒魔法でも完全回復は見込めない
+      - 左手だけで魔法を使う訓練中
+    
+    psychological:
+      - オブシディアンに傷一つつけられなかった無力感
+      - 「杖が暴発しなければ、俺はあいつを倒せたはず」
+      - 式典当日に雪辱を果たしたい
+      - 身体の痛みよりも、英雄としてのプライドの傷
+
+  # シナバーとの関係
+  relationship_with_cinnabar:
+    respect: |
+      シナバーを本物の英雄として尊敬している。
+      30年前の第一次魔族戦争で魔将「黒炎のアスタロト」を焦き尽くした伝説。
+      「辰砂の炎」の戦いを意嚳としている。
+    
+    aspiration: |
+      「長官のような英雄になりたかった」
+      シナバーのように、魔将を倒し王都を守りたい。
+    
+    manipulation: |
+      シナバーに利用されていることに気づいていない。
+      「杖が悪い。君ではない」と責任転嫌されている。
+      式典警備に誘導され、第二の暴発を目撃する罠。
+
+  # 性格
+  personality:
+    traits:
+      - 勇敢で威厄がある、部下思い
+      - 「炎獅子」の異名に恥じないリーダーシップ
+      - 部下が撤退を拒否するほどの絶大な信頼
+      - 自分の命を賠っても部下を守る覚悟
+      - 負けたことを認めず、リベンジに燃える
+
+  # 物語における役割
+  role_in_story:
+    victim: 最初の暴発被害者。事件の発端
+    antagonist_to_granite: グラナイトを激しく批難する
+    cinnabar_pawn: シナバーに利用される駒
+    heroic_symbol: 騎士団と民衆の希望の象徴
+    tragic_hero: 尊敬する上司に裏切られている悲劇性
+
+  reference_keywords:
+    - lion knight
+    - fire hero
+    - noble commander
+    - paladin
+    - Achilles / Hector type hero

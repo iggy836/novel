@@ -1,0 +1,133 @@
+# ========================================
+# キャラクターシート生成用プロンプト
+# ========================================
+# アクア（若い騎士）
+
+aqua:
+  name: アクア
+  name_en: Aqua
+  role: 若い騎士 / バーミリオンの部下
+  age: 22
+  gender: female
+  
+  base_prompt: "Character sheet, three-view, full figure, Close-up of face, white background"
+  
+  appearance:
+    overall: |
+      若く誠実な女性騎士。22歳。バーミリオン隊長を心から尊敬する。
+      アクアマリンのように清らかで純粋。
+      まだ未熟だが、正義感に溢れている。感情を隠すのが苦手で、怒りや悲しみが表情に出る。
+    
+    hair:
+      color: light blue (aqua blue) / ライトブルー（青みがかった水色）
+      style: medium length bob, slightly messy, flowing / ミディアムボブ、少し乱れた、流れるような
+      detail: 戦闘や感情の高ぶりで乱れることがある。普段は耳が隠れる程度の長さ
+    
+    eyes:
+      color: emerald green (aquamarine) / エメラルドグリーン（アクアマリン）
+      expression: intense, emotional, expressive / 激しい、感情的、表情豊か
+      detail: 純粋で澄んだ目。怒りや悲しみで涙ぐむこともある。感情が瞳に強く現れる
+    
+    face:
+      shape: youthful feminine features / 若々しい女性的な顔立ち
+      features:
+        - soft cheeks / 柔らかい頬
+        - expressive face that shows emotions clearly / 感情がはっきり表れる表情豊かな顔
+        - fair skin / 白い肌
+      expression: passionate, emotional, sincere / 情熱的、感情的、誠実
+    
+    body:
+      height: 165cm / 女性としては平均よりやや高め
+      build: athletic feminine, well-trained knight / 運動的な女性体型、訓練された騎士
+      posture: upright, passionate, emotionally expressive / 直立、情熱的、感情表現豊か
+    
+    clothing:
+      main_outfit:
+        description: |
+          第7騎士団の女性騎士用装備。青と白を基調とした動きやすい制服。
+          胸部プロテクターと肩当てがある軽装鎧スタイル。
+        items:
+          - blue and white knight uniform with armor plates / 青と白の騎士制服とアーマープレート
+          - fitted breastplate and shoulder guards / フィットした胸当てと肩当て
+          - white cape / 白いマント
+          - knight sword at waist / 腰に騎士の剣
+          - long gloves / ロンググローブ
+      accessories:
+        - knight's crest emblem / 騎士団の紋章
+        - belt with sword sheath / 剣の鞘付きベルト
+    
+    distinctive_features:
+      - expressive body language showing emotions / 感情を表すボディランゲージ
+      - protective stance when guarding captain / 隊長を護る時の防御姿勢
+      - tears in eyes when emotional / 感情的になると涙目になる
+
+  expressions:
+    - name: default
+      description: earnest, determined, passionate / 真剣、決意、情熱的
+    - name: admiring
+      description: looking up to captain with deep respect / 深い尊敬の念で隊長を見上げる
+    - name: angry_tearful
+      description: crying with rage, emotional outburst / 怒りの涙、感情の爆発
+    - name: accusatory
+      description: confronting with tears, desperate anger / 涙ながらに糾弾、必死の怒り
+    - name: protective
+      description: fierce protectiveness of captain / 隊長への激しい保護本能
+
+  full_prompt:
+    style: "anime style, detailed, high quality"
+    
+    character_sheet_prompt: |
+      Character sheet, three-view, full figure, Close-up of face, white background,
+      1girl, female, 22 years old, female knight, royal guard,
+      light blue medium bob hair flowing, emerald green intense eyes, passionate expressive gaze,
+      youthful feminine features, emotional expressive face, fair skin,
+      athletic feminine build, 165cm, upright passionate posture,
+      blue and white knight uniform, fitted armor plates, breastplate, shoulder guards,
+      white cape, long gloves, sword at waist,
+      determined emotional expression, young female warrior,
+      fantasy setting, devoted knight,
+      anime style, detailed, high quality
+
+  negative_prompt: |
+    low quality, blurry, deformed, bad anatomy,
+    old looking, cynical expression, battle-worn armor,
+    muscular, scarred, grizzled
+
+  # 物語における役割
+  role_in_story:
+    witness: |
+      バーミリオンの杖暴発を目撃。
+      「暴発する直前、杖が緑色に光った」と証言。
+      「あの日は土砂降りの雨で、俺たちはびしょ濡れになりながら戦ってました」
+    
+    intermediary: |
+      グラナイトを訪ね、緑色の光と雨について証言。
+      ネルルからグラナイトへ資料を渡す仲介役。
+    
+    moral_compass: |
+      「本当にあなたが悪いんですか? 俺には……そう思えなくて」
+      少年のような純粋さで真実を追求する。
+
+  # 性格
+  personality:
+    traits:
+      - 若く誠実な騎士
+      - バーミリオンを心から尊敬
+      - 純粋で正義感に溢れている
+      - 違和感を感じると動かずにいられない
+      - まだ未熟だが、真実のために動く勇気がある
+
+  # 重要な観察
+  key_observations:
+    - observation: 杖が暴発する直前に緑色に光った
+      significance: 通常の過熱事故ではないことを示唆
+    
+    - observation: あの日は雨だった
+      significance: 暴発の条件として雨が必要だったことの証拠
+
+  reference_keywords:
+    - young knight
+    - eager squire
+    - pure-hearted warrior
+    - admiring subordinate
+    - hopeful youth

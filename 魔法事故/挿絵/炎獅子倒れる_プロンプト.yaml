@@ -1,0 +1,135 @@
+# ========================================
+# 挿絵プロット：炎獅子、倒れる
+# ========================================
+# 対象: 序章_シーン1_王都防衛戦.md L254-267
+# シーン: バーミリオンが限界を迎え、意識を失う
+
+scene_info:
+  scene_name: "なぜ、俺の杖が——炎獅子、倒れる"
+  source_lines: "L254-267"
+  key_line: "「……なぜ、俺の杖が……」その疑問を残して——炎獅子は、意識を失った。"
+
+# ========================================
+# プロンプト
+# ========================================
+prompts:
+  main_prompt_en: |
+    illustration, fantasy, tragic moment, emotional,
+    
+    HIGH ANGLE SHOT, looking down at fallen hero,
+    bird's eye view, overhead perspective,
+    
+    CENTER: knight commander collapsed on ground,
+    crimson wild hair spread on wet ground,
+    red and gold ornate armor, crimson cape spread around him,
+    RIGHT ARM severely burned, bandaged with blood seeping through,
+    eyes half-closed, fading consciousness,
+    lips slightly parted, whispering final words,
+    
+    NEAR HIM: young knight with light blue hair kneeling beside,
+    reaching out desperately, tears in eyes,
+    
+    GROUND: wet from rain, puddles reflecting dim light,
+    scattered debris from battle,
+    
+    LIGHTING: soft golden light from parting clouds above,
+    creating halo effect around the fallen hero,
+    melancholic, bittersweet victory,
+    
+    somber atmosphere, tragic heroism, sacrifice,
+    dark fantasy, emotional scene,
+    anime style, cinematic composition, high quality
+
+  alternative_closeup: |
+    illustration, emotional close-up,
+    HIGH ANGLE looking down,
+    
+    knight commander's face, crimson hair on wet ground,
+    golden amber eyes half-closed, losing focus,
+    lips moving: "why... my wand...",
+    rain-soaked face, exhausted but noble expression,
+    
+    burned right arm visible at edge of frame,
+    young knight's hands reaching into frame,
+    
+    wet ground, rain puddles, reflection,
+    soft backlight from clearing sky,
+    
+    tragic, emotional, sacrifice,
+    anime style, high quality
+
+  prompt_jp: |
+    挿絵, ファンタジー, 悲劇的な瞬間,
+    
+    ハイアングル, 俯瞰, 見下ろす構図,
+    
+    中央: 倒れた騎士隊長,
+    深紅の髪が濡れた地面に広がる,
+    赤と金の鎧, 深紅のマントが周囲に広がる,
+    右腕は重度の火傷, 血が滲む,
+    目は半開き, 意識が薄れていく,
+    唇がかすかに動く「なぜ、俺の杖が」,
+    
+    そばに: ライトブルーの髪の若い騎士が跪く,
+    必死に手を伸ばす, 涙目,
+    
+    地面: 雨で濡れている, 水たまりに光が反射,
+    戦闘の残骸,
+    
+    光: 雲間から差し込む柔らかい金色の光,
+    倒れた英雄を照らす,
+    
+    悲哀, 苦い勝利, 犠牲,
+    ダークファンタジー, 感情的,
+    アニメ風, 映画的構図, 高品質
+
+  negative_prompt: |
+    low quality, blurry,
+    happy expression, celebrating,
+    bright cheerful colors,
+    low angle, looking up,
+    standing pose
+
+# ========================================
+# 構図詳細
+# ========================================
+composition:
+  camera:
+    angle: "HIGH ANGLE（ハイアングル）— 上から見下ろす"
+    effect: "倒れた英雄の孤独と悲劇を強調"
+  
+  layout: |
+    ┌─────────────────────────┐
+    │    （視点：上から）      │
+    │                         │
+    │   アクア（跪く）        │
+    │      ↓手を伸ばす        │
+    │   ★バーミリオン★      │  ← 画面中央
+    │   （仰向けに倒れる）    │
+    │   マントが広がる        │
+    │                         │
+    │   濡れた地面、水たまり  │
+    └─────────────────────────┘
+
+  key_elements:
+    vermilion:
+      position: "画面中央"
+      pose: "仰向けに倒れている"
+      hair: "深紅の髪が放射状に広がる"
+      cape: "マントが周囲に広がり、血のような赤"
+      arm: "右腕の火傷が見える"
+      expression: "目は半開き、唇が動く"
+    
+    aqua:
+      position: "バーミリオンのそば"
+      pose: "跪いて手を伸ばす"
+      expression: "涙目、必死"
+    
+    ground:
+      texture: "雨で濡れた石畳または土"
+      reflection: "雲間の光が水たまりに反射"
+    
+    lighting:
+      source: "雲間から差し込む陽光"
+      effect: "バーミリオンを照らすスポットライト的効果"
+      mood: "希望と悲劇の共存"

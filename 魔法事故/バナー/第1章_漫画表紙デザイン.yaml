@@ -1,0 +1,55 @@
+title: "第1章（第4話）漫画表紙デザイン"
+type: "manga_cover"
+format: "縦長 (B5サイズ想定: 182mm × 257mm, 300dpi)"
+
+required_text:
+  main_title: "雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ"
+  episode: "第4話：「孤立無援の職人」"
+  
+concept: "シリアスな青年漫画風、重厚で劇的な表紙"
+
+prompt:
+  main: |
+    Manga cover illustration, serious seinen/young adult style, dramatic and cinematic.
+    
+    Main Visual:
+    - Center: A rugged craftsman (Granite, 32) standing in shadow, arms crossed, determined expression
+    - His silhouette is backlit, creating strong rim lighting
+    - Behind him: three symbolic elements overlapping:
+      1. Workshop tools and half-finished wands (his craft)
+      2. A massive white tower looming in the background (Royal Workshop - the antagonist)
+      3. A small figure of a girl (Peridot) standing beside him, looking up with trust
+    
+    Composition:
+    - Vertical format (manga cover proportions)
+    - Granite dominates the center, taking up 60% of the frame
+    - Strong diagonal composition creating tension
+    - Title text placement: top 20% of cover
+    - Episode number: bottom right corner
+    
+    Color Scheme:
+    - Dark, moody palette
+    - Deep blues and grays for shadows
+    - Golden/orange rim lighting on Granite
+    - White tower in background (intimidating contrast)
+    - Green accent for Peridot's hair
+    
+    Typography Integration:
+    - Title: "雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ" in bold, weathered font at top
+    - Episode: "第4話：「孤立無援の職人」" in clean, professional font at bottom
+    - Text should have subtle glow or shadow for readability
+    
+    Style: serious manga cover, detailed linework, dramatic shading, professional publication quality
+    
+  negative_prompt: |
+    cute, chibi, bright cheerful colors, comedy, simple background,
+    cluttered composition, amateurish, low detail, blurry text
+
+technical_specs:
+  dimensions: "2150 x 3035 pixels (B5 at 300dpi) or 1500 x 2100 (web)"
+  text_safe_area: "Keep top 20% and bottom 15% relatively clear for text overlay"
+  key_visual_elements:
+    - "Granite's determined silhouette (center)"
+    - "White tower (background threat)"
+    - "Peridot (small loyal figure)"
+    - "Workshop atmosphere"

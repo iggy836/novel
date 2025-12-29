@@ -1,0 +1,51 @@
+# 第2章 挿絵1_清書プロンプト：涙の糾弾（完成版）
+
+# 目的: ネーム（構図案）に基づき、ディテールと光影を追加して「完成原稿」を作成する。
+
+scene_info:
+  title: "涙の糾弾"
+  style: "Serious Anime Art / Manga Cover Style"
+  render_quality: "High Definition, Detailed Textures, Dramatic Lighting"
+
+composition_structure:
+  # ネームで確定した構造
+  angle: "Low Angle + Dutch Tilt (-30 degrees)"
+  perspective: "3-point perspective with strong depth"
+  framing: "Medium Close-up of Aqua striking Granite"
+
+character_rendering:
+  - name: アクア (Aqua)
+    action: "Slapping Granite's LEFT cheek with her LEFT hand (Full swing across the face)"
+    visual_details:
+      hair: "Blue short hair, flowing violently to the right with the momentum"
+      eyes: "Wide open, tear-filled, glowing with intense anger (emerald green irises)"
+      tears: "Crystal-clear droplets scattering in the air due to the impact"
+      skin: "Fair skin, flushed with rage"
+      clothing: "Royal Knight Uniform (White & Blue), detailed fabric texture, slightly disheveled"
+    contact_rendering:
+      hand_position: "LEFT hand palm is firmly pressed against Granite's LEFT cheek (Crossing his face)"
+      motion_blur: "Motion blur on the left forearm traversing from left to right"
+
+  - name: グラナイト (Granite)
+    action: "Being slapped on his LEFT cheek, head recoiling to his RIGHT"
+    visual_details:
+      face: "Stubble beard, rugged craftsman features"
+      expression: "Shocked, eyes wide, mouth slightly open"
+      cheek_impact: "Skin rippling on his LEFT cheek (Viewer's Right side) at the point of contact"
+      clothing: "Dirty leather apron over a work shirt, grease stains visible"
+
+lighting_atmosphere:
+  main_light: "Sunset (Golden/Red Hour) streaming from the left windows"
+  fill_light: "Cool blue ambient light from hospital hallway ceiling"
+  contrast: "Strong contrast between the warm sunset (Aqua's anger) and cool shadows (Granite's shock)"
+  volumetric_effects: "Dust motes dancing in the sunset beams, dramatic shafts of light"
+
+background_details:
+  setting: "Hospital Corridor"
+  elements: "Linoleum floor with reflections, blurred doors in perspective"
+  focus: "Background is slightly out of focus (Bokeh) to keep attention on the characters"
+
+finishing_touches:
+  - "Sharp, crisp outlines for characters (Ink style)"
+  - "Dynamic speed lines concentrated towards the point of impact"
+  - "High saturation for eyes and blood/flush effects"

@@ -1,0 +1,66 @@
+title: "第2章（第5話）漫画表紙デザイン"
+type: "manga_cover"
+format: "縦長 (B5サイズ想定: 182mm × 257mm, 300dpi)"
+
+required_text:
+  main_title: "雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ"
+  episode: "第5話：「緑光の疑惑」"
+  
+concept: "疑惑と断絶、追い詰められる職人の危機感を表現した重厚な表紙"
+
+prompt:
+  main: |
+    Manga cover illustration, serious seinen/dark mystery style, dramatic and suspenseful.
+    
+    Main Visual:
+    - Foreground (Left): Granite (rugged craftsman) and Peridot (small assistant) standing in shadows
+    - Center-Right: Nerle (silver-haired designer) turning away, bathed in golden sunset light
+    - Background: Massive Royal Workshop gate looming oppressively, creating strong vertical lines
+    - Symbolic element: A green glowing light effect emanating from the background (mystery element)
+    
+    Composition:
+    - Vertical format (manga cover proportions)
+    - Strong diagonal divide: Dark left (Granite's side) vs Light right (Nerle/Workshop)
+    - Visual weight: 40% craftsmen in shadow, 30% Nerle in light, 30% looming architecture
+    - Title placement: top 20% with semi-transparent overlay
+    - Episode number: bottom right corner
+    
+    Atmosphere:
+    - Sense of isolation and broken trust
+    - "Us vs Them" visual divide
+    - Mystery and suspicion (green light motif)
+    - Oppressive organizational power
+    
+    Color Scheme:
+    - Left side: Deep blues, grays, and shadows (isolation)
+    - Right side: Golden sunset oranges and warm light (deceptive beauty)
+    - Nerle's silver hair catching the light
+    - GREEN accent: mysterious glow in background (key plot element)
+    - White Royal Workshop architecture (cold, imposing)
+    
+    Key Character Details:
+    - Granite: Determined but desperate expression, clenched fists
+    - Peridot: Small but defiant, stepping forward courageously
+    - Nerle: Cold, conflicted, looking back over shoulder (torn loyalty)
+    
+    Typography Integration:
+    - Title: "雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ" in bold font at top
+    - Episode: "第5話：「緑光の疑惑」" in clean font at bottom
+    - Green glow effect on "緑光" (green light) characters for emphasis
+    
+    Style: serious manga cover, detailed linework, dramatic lighting contrast, 
+    professional publication quality, mystery/thriller aesthetic
+    
+  negative_prompt: |
+    cute, cheerful, bright happy colors, comedy, simple background,
+    cluttered composition, low detail, blurry, amateurish, action-heavy
+
+technical_specs:
+  dimensions: "2150 x 3035 pixels (B5 at 300dpi) or 1500 x 2100 (web)"
+  text_safe_area: "Keep top 20% and bottom 15% relatively clear for text overlay"
+  key_visual_elements:
+    - "Granite and Peridot in shadow (left)"
+    - "Nerle in sunset light (right)"
+    - "Royal Workshop gate (imposing background)"
+    - "Green light glow (mystery element)"
+    - "Strong light/shadow divide"

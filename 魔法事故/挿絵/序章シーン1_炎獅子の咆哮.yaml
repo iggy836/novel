@@ -1,0 +1,320 @@
+# 序章シーン1「炎獅子の咆哮」挿絵プロンプト
+# L10-32: バーミリオンが最前線で魔物を焼き尽くすシーン
+
+metadata:
+  scene: "序章_シーン1_王都防衛戦"
+  section: "冒頭 - 炎獅子の登場"
+  line_reference: "L10-32"
+  purpose: "英雄バーミリオンの圧倒的な力と、兵士たちの希望を描く"
+  
+illustration:
+  title: "炎獅子の咆哮"
+  scene_moment: "バーミリオンが魔物の群れを炎で焼き尽くす決定的瞬間"
+  emotional_core: "圧倒的な力、希望、英雄の背中"
+  
+  composition:
+    type: "ローアングル、ダイナミックアクション"
+    focal_point: "バーミリオンの背中と、放たれる紅蓮の炎"
+    depth: "前景：兵士たち、中景：バーミリオン、後景：炎に包まれる魔物"
+    lighting: "炎の赤、戦場の埃、青空のコントラスト"
+    
+  composition_description_jp: |
+    【構図イメージ - 英雄の背中】
+    - カメラアングル: 後方やや下から見上げる（ローアングル）
+    - 画面中央にバーミリオンの後ろ姿、杖を振り上げている
+    - 杖から扇状に広がる巨大な炎が魔物の群れを飲み込む
+    - 手前には仰ぎ見る兵士たち（アクア含む）
+    - 背景には青空があり、炎と対比
+    - 魔物は炎に包まれて灰となる直前
+    - 全体的に躍動感とカタルシスに満ちた構図
+    
+  composition_diagram: |
+    ┌─────────────────────────────────────┐
+    │         [青空]  ☀️                   │ ← 後景
+    │                                     │
+    │    🔥🔥🔥🔥🔥🔥🔥                │
+    │   👹💀👹  (魔物が炎に包まれる)      │
+    │        ＼｜／                       │
+    │         🔥                          │ ← 中景
+    │         ┃                           │   (バーミリオン)
+    │    [バーミリオン]                   │   ※背中
+    │       🔴👤🔴                       │   ※炎纏う
+    │      ／杖＼                        │
+    │                                     │
+    │  👤  👤  👤                        │ ← 前景
+    │ (兵士たち)                          │   (仰ぎ見る)
+    │ アクア含む                          │
+    │      ▲                              │
+    │   カメラ位置                        │
+    │ (やや下から)                        │
+    └─────────────────────────────────────┘
+    
+    視点: ローアングル（英雄を仰ぎ見る）
+    焦点: バーミリオンの背中と放たれる炎
+    
+  characters:
+    - name: "バーミリオン・フレイムハート"
+      age: 40代
+      appearance: "赤銅色の髪、筋肉質、騎士団長の鎧"
+      current_state: "杖を高く掲げ、炎魔法を放つ瞬間"
+      expression: "背中のみ見えるが、絶対的な自信が滲む"
+      pose: "力強く杖を振り上げ、魔物に向けて咆哮"
+      symbolism: "揺るがぬ背中、希望の象徴"
+      
+    - name: "アクア（手前の兵士）"
+      age: 20代前半
+      appearance: "若い騎士、青い髪、真面目な顔"
+      expression: "尊敬と畏怖、希望に満ちた目"
+      pose: "隊長の背中を見上げている"
+      
+    - name: "他の騎士たち"
+      appearance: "様々な年齢、疲弊しているが士気は高い"
+      expression: "隊長の背中を見て勇気を取り戻している"
+  
+  key_details:
+    - "バーミリオンの杖から扇状に広がる巨大な炎"
+    - "炎に包まれて灰となる魔物たち"
+    - "赤銅色の髪が風になびく"
+    - "青空と炎のコントラスト"
+    - "兵士たちの「この背中がある限り負けない」という確信"
+    - "躍動感のある炎のエフェクト"
+    
+  atmosphere:
+    mood: "圧倒的、希望、カタルシス、英雄譚"
+    color_palette: "紅蓮の赤（炎）、青（空）、灰色（魔物、土煙）、金色（陽光）"
+    symbolism: |
+      - 背中 = 守られる者から見た英雄
+      - 炎 = 圧倒的な力、希望、守護
+      - 青空 = まだ失われていない光
+      - 魔物の灰 = 悪の消滅
+  
+  narrative_purpose: |
+    このシーンは以下を伝える：
+    1. バーミリオンの圧倒的な強さと英雄性
+    2. 兵士たちにとっての「希望の象徴」としての存在
+    3. 「この背中がある限り負けない」という確信
+    4. 後の暴発事故とのギャップを強調する（絶頂から奈落へ）
+    
+  prompt_english: |
+    An EPIC, DYNAMIC fantasy battle illustration depicting a legendary hero in his moment of triumph.
+    
+    COMPOSITION:
+    Low-angle shot looking UP at the hero's back from behind allied soldiers, creating a sense of awe and reverence.
+    
+    ═══════════════════════════════════════════
+    CENTER - THE FLAME LION (VERMILLION)
+    ═══════════════════════════════════════════
+    
+    VERMILLION FLAMEHEART (Back view, center of frame):
+    - Age 40s, legendary warrior at peak of power
+    - Muscular build, wearing ornate Knight Captain's armor
+    - Reddish-copper hair whipping dramatically in the wind
+    - Holding a LONG, ORNATE MAGICAL STAFF high above his head
+    - Staff glowing with intense red-orange magical fire
+    
+    POSE (Critical):
+    - Standing in powerful, wide stance
+    - Left leg forward, right leg braced
+    - Both arms raised, gripping staff overhead
+    - Back muscles visible through armor, showing physical strength
+    - Silhouette should convey ABSOLUTE CONFIDENCE
+    - This is the "unshakeable back" that soldiers believe in
+    
+    THE STAFF:
+    - Elegant wooden staff, approximately 2 meters long
+    - Ornate carvings running along its length
+    - Crystal or gem at the tip BLAZING with fire magic
+    - Wrapped in swirling flames like a living thing
+    - This staff will later catastrophically explode (foreshadowing)
+    
+    ═══════════════════════════════════════════
+    THE MAGIC - SWEEPING FLAMES
+    ═══════════════════════════════════════════
+    
+    FIRE MAGIC (Upper portion of image):
+    - MASSIVE wave of flames erupting from the staff
+    - Fanning out in a 120-degree arc
+    - Flames are VIBRANT red-orange with white-hot cores
+    - Heat distortion effects in the air
+    - Embers and sparks flying everywhere
+    - The fire has VOLUME and WEIGHT, not flat
+    
+    VISUAL EFFECTS:
+    - Motion lines showing the sweep of the attack
+    - Explosive force radiating outward
+    - Air rippling from intense heat
+    - Magical runes or glyphs briefly visible in the flames
+    - Scale should be OVERWHELMING - this is ultimate-tier magic
+    
+    ═══════════════════════════════════════════
+    BACKGROUND - ENEMIES CONSUMED
+    ═══════════════════════════════════════════
+    
+    MONSTERS/DEMONS (Being incinerated):
+    - 5-7 shadowy creature silhouettes
+    - Various sizes and shapes (some humanoid, some bestial)
+    - Caught in the flames, beginning to disintegrate
+    - Bodies turning to ash, limbs dissolving
+    - Expressions of terror and pain
+    - Some mid-air, blown back by the force
+    - NOT cute - genuinely threatening monsters being destroyed
+    
+    SKY (Upper background):
+    - Clear, brilliant blue sky
+    - Few white clouds
+    - Sunlight creating strong contrast with flames
+    - Represents hope and heroism
+    - The "still unbroken" world
+    
+    BATTLEFIELD ENVIRONMENT:
+    - Churned earth, craters, debris
+    - Smoke and dust from ongoing battle
+    - Distant sounds of war implied
+    - Chaos of warfare visible but not overwhelming focus
+    
+    ═══════════════════════════════════════════
+    FOREGROUND - THE INSPIRED SOLDIERS
+    ═══════════════════════════════════════════
+    
+    ALLIED KNIGHTS (Bottom of frame, viewer perspective):
+    - 4-5 soldiers visible from behind and sides
+    - Various ages and builds (diversity of troops)
+    - Wearing standard knight armor, weathered from combat
+    - All looking UP at Vermillion with:
+      * Expressions of AWE
+      * Renewed HOPE in their eyes
+      * Fists clenched with determination
+      * Fatigue momentarily forgotten
+    
+    AQUA (Featured soldier, slightly left of center):
+    - Young knight in early 20s
+    - Short blue hair visible under helmet
+    - Earnest, honest face
+    - Looking up at captain with pure admiration
+    - Thinking: "As long as the captain's here, we can't lose"
+    - His faith is ABSOLUTE
+    
+    OTHER SOLDIERS:
+    - One wiping sweat/blood from face
+    - Another gripping weapon tighter
+    - One shouting encouragement
+    - All showing renewed fighting spirit
+    
+    BODY LANGUAGE (Critical):
+    - Shoulders straightening from exhaustion
+    - Faces turning from despair to determination
+    - The captain's presence TRANSFORMS them
+    - This is the power of a true leader
+    
+    ═══════════════════════════════════════════
+    LIGHTING (Essential to mood)
+    ═══════════════════════════════════════════
+    
+    PRIMARY LIGHT: The magical flames (warm, intense)
+    - Casts dramatic orange-red glow on everything
+    - Creates sharp shadows
+    - Highlights Vermillion's silhouette
+    
+    SECONDARY LIGHT: Sunlight from above (cool, natural)
+    - Creates rim lighting on Vermillion
+    - Illuminates the soldiers from above
+    - Contrasts with fire's warmth
+    
+    ATMOSPHERIC EFFECTS:
+    - Heat haze around the flames
+    - Dust particles catching light
+    - Smoke creating depth
+    - Lens flare from sun (subtle)
+    
+    ═══════════════════════════════════════════
+    COLOR PALETTE
+    ═══════════════════════════════════════════
+    
+    DOMINANT:
+    - Crimson reds (flames)
+    - Brilliant oranges (fire cores)
+    - Deep blues (sky, Aqua's hair)
+    
+    SECONDARY:
+    - Metallic silvers (armor)
+    - Earthy browns (battlefield)
+    - Ash grays (dying monsters)
+    - Golden yellows (sunlight)
+    
+    ACCENT:
+    - Pure whites (hottest flame cores)
+    - Black (shadows, smoke)
+    
+    OVERALL TONE: Vibrant, saturated, HEROIC
+    
+    ═══════════════════════════════════════════
+    EMOTIONAL IMPACT
+    ═══════════════════════════════════════════
+    
+    The viewer should feel:
+    1. AWE at Vermillion's overwhelming power
+    2. HOPE - this is a hero who can protect everyone
+    3. ADMIRATION - the desire to follow such a leader
+    4. TRAGIC IRONY - knowing this hero will soon fall
+    
+    This image represents THE PEAK before the fall.
+    Make the viewer understand why Vermillion is beloved.
+    Make them HURT when they later see him broken.
+    
+    ═══════════════════════════════════════════
+    SYMBOLISM (Layered meanings)
+    ═══════════════════════════════════════════
+    
+    - The back = Trust, protection, "I'll handle this"
+    - Flames = Destructive power used for good
+    - Blue sky = Peace worth fighting for
+    - Monsters turning to ash = Evil can be defeated
+    - Soldiers' upward gaze = Faith in leadership
+    - THE STAFF = Tragic irony - trusted tool that will betray
+    
+    ═══════════════════════════════════════════
+    ARTISTIC STYLE
+    ═══════════════════════════════════════════
+    
+    - High fantasy epic illustration
+    - Similar to: 
+      * Final Fantasy concept art (dramatic action)
+      * Fire Emblem character illustrations
+      * High-budget light novel covers
+    - Semi-realistic with stylized magic effects
+    - Detail on characters, spectacular on magic
+    - CINEMATIC composition
+    - Publication-quality rendering
+    
+    ═══════════════════════════════════════════
+    TECHNICAL SPECIFICATIONS
+    ═══════════════════════════════════════════
+    
+    - Vertical orientation (suitable for book illustration)
+    - Aspect ratio: 2:3 or 3:4
+    - Focus: Crystal clear on Vermillion and soldiers
+    - Background: Dramatic but not distracting
+    - Dynamic range: High contrast
+    - Motion: Clearly conveyed through effects
+    
+    ═══════════════════════════════════════════
+    MOOD KEYWORDS
+    ═══════════════════════════════════════════
+    
+    Heroic | Triumphant | Awe-Inspiring | Hope | Power
+    Protection | Loyalty | Charisma | Legendary
+    Peak Before the Fall | Tragic Irony
+    
+    ═══════════════════════════════════════════
+    CRITICAL SUCCESS FACTORS
+    ═══════════════════════════════════════════
+    
+    1. Vermillion's BACK must be iconic - viewers remember it
+    2. The SCALE of magic must be overwhelming
+    3. Soldiers' FAITH must be palpable
+    4. Blue sky creates HOPE contrast
+    5. Composition creates natural UPWARD gaze
+    
+    This is a HERO in his finest hour.
+    Make the tragedy to come more devastating by showing
+    what greatness looked like before it was destroyed.

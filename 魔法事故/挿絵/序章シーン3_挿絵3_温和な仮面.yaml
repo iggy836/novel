@@ -1,0 +1,183 @@
+# ========================================
+# 序章シーン3 挿絵3：温和な仮面
+# ========================================
+
+metadata:
+  title: "温和な仮面"
+  scene: "序章シーン3：監査官の来訪"
+  moment: "偽善の拒絶"
+  emotional_core: "不気味さ、偽善、絶望"
+  
+# ========================================
+# 構図設計（日本語）
+# ========================================
+composition_design:
+  title_jp: "優しい言葉で追い詰める悪魔"
+  
+  camera_angle: "ローアングル（グラナイトから見上げる）"
+  
+  layout_description: |
+    中央：シナバーの顔クローズアップ
+    前景：グラナイトの肩と後頭部（シルエット）
+    背景：ぼかし
+    
+  visual_focus:
+    primary: "シナバーの笑顔と冷たい目の二面性"
+    secondary: "光と影の境界線"
+    tertiary: "手のジェスチャー"
+    
+  composition_diagram: |
+    ┌──────────────────┐
+    │  [シナバーの顔]   │
+    │  上半分：光/笑顔  │
+    │  ────────      │
+    │  下半分：影/不気味 │
+    │        ↓       │
+    │ [前景：グラナイト] │
+    │  (うなだれる)    │
+    └──────────────────┘
+
+# ========================================
+# 英語プロンプト
+# ========================================
+prompt_english: |
+  A chilling vertical portrait illustration in realistic seinen manga and light novel art style.
+  Inspired by Naoki Urasawa's MONSTER - Johan's unsettling smile.
+  
+  CAMERA ANGLE: Low angle, looking up at the man's face (from Granite's defeated viewpoint)
+  
+  CENTRAL FOCUS (80% of frame):
+  CINNABAR - The False Saint
+  - Elderly gentleman, late 50s to early 60s
+  - Reddish silver-gray hair, neatly slicked back
+  - Wearing luxurious black and crimson robes with gold trim
+  - Ornate collar decoration showing his high rank
+  
+  FACIAL EXPRESSION - THE DUALITY:
+  
+  UPPER HALF OF FACE (in light):
+  - Gentle, benevolent smile like a saint or priest
+  - Soft, kind expression
+  - Shallow laugh lines suggesting warmth
+  - Bright, clear lighting from above
+  
+  LOWER HALF OF FACE (in shadow):
+  - The smile continues but becomes unsettling in shadow
+  - Slight asymmetry making smile look wrong
+  - Darkness pooling around jawline and neck
+  
+  THE EYES - MOST CRITICAL:
+  - Eyes completely cold, emotionless, dead
+  - Sharp contrast with smiling mouth
+  - Pupils slightly dilated, predatory
+  - No warmth whatsoever in the gaze
+  - Calculating, manipulative intelligence
+  - Cold blue highlights in the eyes
+  - "The eyes of someone who has never felt true compassion"
+  
+  HAND GESTURE:
+  - Hands spread in open, placating gesture
+  - "I want to help, but I can't" - theatrical sympathy
+  - Well-manicured hands, no calluses
+  - Gesture looks rehearsed, performative
+  
+  FOREGROUND (bottom 20%):
+  - Silhouette of GRANITE's shoulders and back of head
+  - Hunched, defeated posture
+  - Slightly out of focus
+  - Dark silhouette against the lit figure above
+  
+  LIGHTING - CRUCIAL TO THE DUALITY:
+  - Light from above illuminating top half of face
+  - Shadow falling across lower half and neck
+  - Creates literal "two-faced" appearance
+  - Clean separation between light and dark
+  - Slight backlight creating halo effect (false angel)
+  
+  BACKGROUND:
+  - Soft blur, unimportant
+  - Muted workshop interior
+  - All focus on the face
+  
+  SYMBOLIC ELEMENTS:
+  - Light/Dark split = Two-faced nature
+  - Smile = The mask of benevolence
+  - Cold eyes = True cruel nature
+  - Hand gesture = Performance of caring
+  - Halo effect = False divinity
+  
+  ATMOSPHERE:
+  - Deeply unsettling, uncanny valley
+  - "Something is very wrong with this person"
+  - Creeping dread, manipulation
+  - Sweet poison, velvet glove hiding iron fist
+  - Gaslighting incarnate
+  
+  EMOTIONAL TONE:
+  - Reader should feel: disgust, unease, anger, dread
+  - "This is the real villain"
+  - Worse than physical violence - psychological cruelty
+  - "He's enjoying this"
+  
+  COLOR PALETTE:
+  - Black, crimson, gold (robes - authority, wealth)
+  - Pale skin tones
+  - Cool blue in eyes (inhuman coldness)
+  - Warm light above, cool shadow below
+  
+  CRITICAL DETAILS:
+  - The disconnect between smile and eyes must be OBVIOUS
+  - Eyes should make viewer uncomfortable
+  - Lighting must create clear upper/lower split
+  - Smooth, practiced expression - this is his weapon
+  
+  ART STYLE REFERENCES:
+  - Naoki Urasawa's MONSTER - Johan's smile
+  - Psychological horror portraiture
+  - Realistic, detailed facial anatomy
+  - Professional light novel quality
+  - Seinen manga sensibility
+  
+  VERBAL CONTEXT (for mood):
+  He's saying: "I'm sorry, but there's no evidence. I can't help you."
+  While thinking: "You're trapped and I'm enjoying watching you squirm."
+  
+  TECHNICAL SPECS:
+  - Vertical/portrait composition
+  - MAXIMUM detail on facial expression, especially eyes
+  - Shallow depth of field (background and foreground blurred)
+  - Careful lighting to create the split personality effect
+  - Cold highlights in eyes essential
+  - No text or speech bubbles
+  - Publication quality
+
+# ========================================
+# ネガティブプロンプト
+# ========================================
+negative_prompt: |
+  genuinely kind expression, warm eyes, authentic smile,
+  happy, friendly, trustworthy, gentle, caring,
+  uniform lighting, bright cheerful, colorful,
+  low quality, blurry face, amateur art, distorted features,
+  anime, cute, simplified
+
+# ========================================
+# 生成パラメータ推奨値
+# ========================================
+generation_params:
+  aspect_ratio: "9:16"
+  quality: "maximum"
+  style_weight: "very_high"
+  detail_level: "maximum"
+  focus: "eyes and facial expression"
+  
+# ========================================
+# チェックポイント
+# ========================================
+quality_checklist:
+  - "[ ] 笑顔と冷たい目の不一致が明確か"
+  - "[ ] 顔の上下で光と影が分かれているか"
+  - "[ ] 目の冷たさが不気味に描かれているか"
+  - "[ ] 偽善的な手のジェスチャーが表現されているか"
+  - "[ ] 見る者に不快感・恐怖を与えるか"
+  - "[ ] 『MONSTER』ヨハンへのオマージュが感じられるか"

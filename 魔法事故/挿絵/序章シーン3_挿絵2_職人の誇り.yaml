@@ -1,0 +1,164 @@
+# ========================================
+# 序章シーン3 挿絵2：職人の誇り
+# ========================================
+
+metadata:
+  title: "職人の誇り"
+  scene: "序章シーン3：監査官の来訪"
+  moment: "対立の激化"
+  emotional_core: "怒り、信念、対立"
+  
+# ========================================
+# 構図設計（日本語）
+# ========================================
+composition_design:
+  title_jp: "現場vs理論の激突"
+  
+  camera_angle: "アイレベル〜やや俯瞰"
+  
+  layout_description: |
+    左側：グラナイト（立ち上がり、指を突きつける）
+    右側：ネルル（見上げるが、微動だにしない）
+    背景：シナバー（「おや」と楽しげ）、作業台
+    
+  visual_focus:
+    primary: "グラナイトの突きつけられた指とネルルの顔"
+    secondary: "二人の体格差と対比"
+    tertiary: "シナバーの観察する表情"
+    
+  composition_diagram: |
+    ┌─────────────────────────┐
+    │ [グラナイト]   vs  [ネルル] │
+    │  2m巨躯           小柄   │
+    │  作業着           制服   │
+    │  指突きつけ       腕組み   │
+    │  ↓              ↑    │
+    │     [作業台・書類]        │
+    │   [背景：シナバー観察]     │
+    └─────────────────────────┘
+
+# ========================================
+# 英語プロンプト
+# ========================================
+prompt_english: |
+  A dynamic horizontal composition illustration in realistic seinen manga and light novel art style.
+  
+  CAMERA ANGLE: Eye level to slight high angle, capturing full confrontation
+  
+  LEFT SIDE (40% of frame):
+  GRANITE - The Craftsman
+  - Massive man, nearly 2 meters tall, early 30s
+  - Muscular build, broad shoulders, imposing physique
+  - Dirty work clothes, rolled-up sleeves showing strong forearms
+  - RIGHT hand pointing accusingly at the woman, finger extended
+  - LEFT hand clenched in fist at his side
+  - Leaning forward aggressively but controlled
+  - Face showing righteous anger mixed with conviction
+  - Furrowed brow, intense gray eyes burning with passion
+  - Short, unkempt dark hair
+  - Shadowed lighting on face, half in darkness
+  - Wood shavings on clothes and arms
+  
+  RIGHT SIDE (40% of frame):
+  NELL - The Inspector
+  - Petite woman in early 30s, silver hair, sharp teal eyes
+  - Standing perfectly straight, not flinching despite size difference
+  - Pristine white Royal Workshop uniform, not a wrinkle
+  - Arms at sides or lightly crossed
+  - Looking up at the giant man without fear
+  - Expression of cold contempt, lips curved in disdainful smile
+  - Eyes sharp and calculating, full of superiority
+  - Clean, bright lighting on her - no shadows
+  - Emanating quiet authority despite being half his size
+  
+  BACKGROUND (20% of frame):
+  - Elderly man (CINNABAR) in black/crimson robes
+  - Amused expression, saying "Oh my"
+  - Observing the confrontation with interest
+  - Workbench with scattered papers and tools
+  - Dim workshop interior
+  
+  VISUAL CONTRASTS:
+  Size: Giant vs Petite
+  Color: Brown/dirty (work clothes) vs Pure white (uniform)
+  Posture: Aggressive lean vs Rigid straight
+  Light: Dark shadows vs Clean light
+  Emotion: Hot anger vs Cold contempt
+  
+  SYMBOLIC ELEMENTS:
+  - His pointing finger = Craftsman's accusation, hand-worked truth
+  - Her uniform = System's authority, theoretical perfection
+  - Papers on desk = "Desk theory" she relies on
+  - Size difference = Physical power vs Social power
+  
+  LIGHTING:
+  - Overhead workshop lights creating spotlight effect
+  - GRANITE side: Heavy shadows, dramatic chiaroscuro
+  - NELL side: Clear, even lighting, clinical
+  - Creates visual temperature difference (warm vs cold)
+  
+  BODY LANGUAGE:
+  - Man: Front-leaning, explosive energy barely contained
+  - Woman: Unmoved pillar, absolute confidence in her position
+  - Tension in the air between them like crackling electricity
+  
+  ATMOSPHERE:
+  - Heated confrontation, clash of worldviews
+  - Field experience vs Academic theory
+  - Passion vs Logic
+  - "I WORKED on it with my hands!" vs "The DATA is perfect!"
+  
+  COLOR PALETTE:
+  - Warm side (Granite): Browns, ochres, warm shadows
+  - Cool side (Nell): Whites, silvers, blues, clinical tones
+  - Background: Muted workshop colors
+  - Visual split down the middle
+  
+  EMOTIONAL TONE:
+  - Reader should want to cheer for Granite
+  - "Don't back down! You're right!"
+  - Frustration at being wrongly accused
+  - Pride in one's craft being trampled
+  
+  ART STYLE REFERENCES:
+  - Physical confrontation like Takehiko Inoue (REAL)
+  - Dramatic contrast like Naoki Urasawa (Monster)
+  - Realistic anatomy and proportions
+  - Dynamic but controlled composition
+  - Professional light novel quality
+  
+  TECHNICAL SPECS:
+  - Horizontal/landscape composition
+  - Medium to high detail on both faces
+  - Dynamic split lighting
+  - Clear readable expressions
+  - No text or speech bubbles
+  - Publication-ready quality
+
+# ========================================
+# ネガティブプロンプト
+# ========================================
+negative_prompt: |
+  cute, chibi, anime, sparkles, happy, friendly, peaceful,
+  equal heights, similar builds, romantic, gentle, soft lighting,
+  low quality, blurry, distorted anatomy, bad hands, extra fingers,
+  cartoonish, simplified, flat colors, amateur
+
+# ========================================
+# 生成パラメータ推奨値
+# ========================================
+generation_params:
+  aspect_ratio: "16:9"
+  quality: "high"
+  style_weight: "high"
+  detail_level: "maximum"
+  
+# ========================================
+# チェックポイント
+# ========================================
+quality_checklist:
+  - "[ ] 体格差が明確に描かれているか"
+  - "[ ] グラナイトの怒りと信念が表現されているか"
+  - "[ ] ネルルの冷たい軽蔑が伝わるか"
+  - "[ ] 光の対比（暖色vs寒色）が効いているか"
+  - "[ ] シナバーの傍観者的な存在感があるか"

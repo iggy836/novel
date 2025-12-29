@@ -1,0 +1,149 @@
+# ========================================
+# 挿絵プロット：雨が止む瞬間
+# ========================================
+# 対象: 序章_シーン1_王都防衛戦.md L222-238
+# シーン: 支援魔道士の対抗魔法で黒雲が裂け、陽光が差し込む
+
+scene_info:
+  scene_name: "偽りの雲よ、散れ——勝利の光"
+  source_lines: "L222-238"
+  source_text: |
+    「『——偽りの雲よ、散れッ！！』」
+    対抗魔法が発動した瞬間、空を覆っていた黒雲が——裂けた。
+    「雨が……止んだ……！」
+    雲間から陽光が差し込み、戦場を照らし出した。
+  
+  importance: |
+    - 戦いの転換点、勝利への希望
+    - 暗闘から光明への劇的な変化
+    - 騎士たちの士気回復
+    - バーミリオンの犠牲が報われた瞬間
+
+# ========================================
+# ビジュアルプロット
+# ========================================
+visual_plot:
+  key_moment: "黒雲が裂け、雲間から陽光が差し込む瞬間"
+  
+  composition:
+    focus: "空の変化（黒雲→裂け目→陽光）"
+    camera: "やや見上げる角度（ローアングル）"
+    layout: |
+      上部2/3: 裂けていく黒雲、差し込む陽光
+      下部1/3: 見上げる騎士たちのシルエット、光に照らされる
+  
+  elements:
+    sky:
+      - "渦巻く黒雲が中央から裂けていく"
+      - "裂け目から金色の陽光が放射状に差し込む"
+      - "雨粒が光に照らされてキラキラ輝く（最後の雨）"
+    
+    light:
+      - "雲間からの神々しい光線（ゴッドレイ）"
+      - "光が戦場を照らし出す"
+      - "暖かい金色の光"
+    
+    characters:
+      - "見上げる騎士たちのシルエット"
+      - "腕を上げて喜ぶ姿"
+      - "アクア（ライトブルーの髪）が「雨が止んだ」と叫ぶ"
+    
+    atmosphere:
+      - "絶望から希望への転換"
+      - "ダークからライトへのグラデーション"
+      - "雨の終わり、嵐の終わり"
+
+  color_palette:
+    dark_area: "暗い青灰色、黒紫（残る黒雲）"
+    light_area: "金色、暖かいオレンジ（陽光）"
+    transition: "中央の裂け目で劇的に切り替わる"
+    rain: "光に反射して銀色に輝く"
+
+# ========================================
+# プロンプト
+# ========================================
+prompts:
+  main_prompt_jp: |
+    挿絵, ファンタジー, 劇的な空の変化,
+    
+    空: 渦巻く黒雲が中央から裂けていく,
+    裂け目から金色の陽光が放射状に差し込む,
+    ゴッドレイ, 神々しい光線,
+    最後の雨粒が光にきらめく,
+    
+    下部: 見上げる騎士たちのシルエット,
+    腕を上げて歓喜する姿,
+    光に照らされる戦場,
+    
+    ローアングル, 見上げる構図,
+    ダークからライトへの劇的な転換,
+    希望, 勝利の予感, カタルシス,
+    
+    ファンタジー, エピック, 壮大,
+    アニメ風, 映画的構図, 高品質
+
+  main_prompt_en: |
+    illustration, fantasy, dramatic sky transformation,
+    
+    SKY: swirling dark storm clouds PARTING from center,
+    golden sunlight BURSTING through the gap,
+    god rays, divine light beams radiating outward,
+    last raindrops sparkling in the light,
+    
+    BOTTOM: silhouettes of knights looking up,
+    arms raised in joy and relief,
+    battlefield illuminated by golden light,
+    
+    low angle shot, looking up at sky,
+    dramatic transition from dark to light,
+    hope, victory, catharsis,
+    
+    fantasy, epic, grand scale,
+    anime style, cinematic composition, high quality
+
+  alternative_focus_character: |
+    illustration, fantasy, emotional moment,
+    
+    1boy, young knight, light blue hair, aquamarine eyes,
+    looking up at sky with tears of relief,
+    face illuminated by golden sunlight,
+    rain stopping around him,
+    
+    background: dark clouds parting, golden light breaking through,
+    other knights celebrating in silhouette,
+    
+    emotional, hopeful, victorious,
+    anime style, high quality
+
+  negative_prompt: |
+    low quality, blurry, simple background,
+    completely dark, no light,
+    sad atmosphere, defeat,
+    text, watermark
+
+# ========================================
+# 演出ノート
+# ========================================
+director_notes:
+  key_emotions:
+    - "絶望から希望への劇的な転換"
+    - "隊長の犠牲が無駄ではなかったという安堵"
+    - "まだ戦いは終わっていないが、一筋の光が見えた"
+  
+  visual_metaphor: |
+    黒雲（魔族の力、絶望）vs 陽光（人類の希望、勝利）
+    雲が裂ける ＝ 絶望を引き裂く
+    陽光 ＝ 希望、真実、正義
+  
+  contrast: |
+    前のシーン: 暴発で絶望
+    このシーン: 雲が裂けて希望
+    次のシーン: 勝利だが代償が大きい
+    
+    この瞬間は「希望」だが、すぐ後に隊長の重傷が判明するため、
+    純粋な勝利ではなく「苦い希望」であることを意識
+  
+  reference:
+    - "天気の子（雲が晴れるシーン）"
+    - "ロード・オブ・ザ・リング（ヘルム峡谷の夜明け）"
+    - "鬼滅の刃（夜明けの光）"

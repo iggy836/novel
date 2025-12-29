@@ -1,0 +1,193 @@
+# ========================================
+# 序章シーン3 挿絵4：残された光
+# ========================================
+
+metadata:
+  title: "残された光"
+  scene: "序章シーン3：監査官の来訪"
+  moment: "師弟の絆と決意"
+  emotional_core: "希望、信頼、決意"
+  
+# ========================================
+# 構図設計（日本語）
+# ========================================
+composition_design:
+  title_jp: "絶望の中の小さな光"
+  
+  camera_angle: "俯瞰気味のアイレベル"
+  
+  layout_description: |
+    左：グラナイト（作業台に向かう）
+    右：ペリドット（隣に座る）
+    前景：作業台、杖、道具
+    背景：薄暗い店内
+    
+  visual_focus:
+    primary: "二人の間の空間と、カンナを握る手"
+    secondary: "作業台の上の暖かい光"
+    tertiary: "木屑が舞う空気感"
+    
+  composition_diagram: |
+    ┌─────────────────────┐
+    │  [薄暗い店内背景]   │
+    │         ↓         │
+    │  [光の円]          │
+    │  グラナイト ペリドット │
+    │   ↓   ↓          │
+    │  [作業台・杖・道具]  │
+    │  ○シュッ、シュッ○   │
+    └─────────────────────┘
+
+# ========================================
+# 英語プロンプト
+# ========================================
+prompt_english: |
+  A warm, hopeful horizontal composition illustration in realistic light novel and seinen manga art style.
+  Inspired by Takehiko Inoue's Vagabond - quiet determination scenes.
+  
+  CAMERA ANGLE: Slight high angle, intimate view of two craftspeople at workbench
+  
+  COMPOSITION: Horizontal/landscape, master and apprentice side by side
+  
+  LEFT SIDE (45% of frame):
+  GRANITE - The Master Craftsman
+  - Large man, nearly 2m tall, early 30s, muscular build
+  - Sitting at workbench, back straightened with renewed determination
+  - Dirty work clothes, rolled sleeves
+  - Strong, scarred hands gripping a wood plane (kanna)
+  - Focused on work, eyes on the wand he's shaping
+  - Expression: Determination mixed with traces of pain
+  - Eyes slightly moist but resolved
+  - "I'll prove it with my work, not words"
+  - Warm lighting on his face from workbench lamp
+  
+  RIGHT SIDE (35% of frame):
+  PERIDOT - The Loyal Apprentice  
+  - Young woman, early 20s, petite build
+  - Sitting hesitantly beside master, just settled into seat
+  - Simple work clothes, sleeves slightly too long
+  - Small hands holding a file (yasuri)
+  - Looking at master with worried but determined eyes
+  - Anxious but unwavering loyalty in expression
+  - "I believe in you, master"
+  - Warm light illuminating her face as well
+  
+  FOREGROUND/CENTER (20% of frame):
+  THE WORKBENCH - Heart of the Scene
+  - Thick wooden workbench, worn from years of use
+  - Scattered wood shavings, freshly made
+  - Tools laid out: chisels, planes, files
+  - UNFINISHED WAND in center - partially carved staff
+  - Wood grain visible, half-shaped core material
+  - Fresh shavings curling from Granite's plane
+  - Warm lamp light pooling on the work surface
+  
+  LIGHTING - CRUCIAL TO MOOD:
+  - Single warm lamp above workbench creating circle of light
+  - Rest of shop in shadow/darkness
+  - Only the area around master and apprentice is illuminated
+  - Creates feeling of "small safe space in hostile world"
+  - Warm orange/golden tones in the light
+  - Dust and wood particles visible in light beams
+  - Gentle, intimate lighting unlike the harsh scenes before
+  
+  BACKGROUND:
+  - Shop interior falling into darkness
+  - Shelves with tools barely visible in shadow
+  - Door in distance (visitors have left)
+  - Emphasizes isolation but also their bubble of light
+  
+  ATMOSPHERE:
+  - Quiet, contemplative, determined
+  - After the storm, finding peace in work
+  - "We're not alone - we have each other"
+  - Sound of plane cutting wood: "shuu, shuu" (rhythmic, meditative)
+  - Warmth despite surrounding darkness
+  - Hope in the face of despair
+  
+  BODY LANGUAGE:
+  - Granite: Shoulders squared, hands steady, ready to fight with his craft
+  - Peridot: Leaning slightly toward master, protective, supportive
+  - Small gap between them but unified in purpose
+  - Working in quiet harmony
+  
+  SYMBOLIC ELEMENTS:
+  - Circle of light = Their small world, their hope
+  - Wood shavings = Active work, living, fighting
+  - Unfinished wand = The future they're building
+  - Two figures = Not alone, master-apprentice bond
+  - Darkness outside = The hostile world
+  - Warmth inside = Inner strength and loyalty
+  
+  SOUND VISUALIZATION:
+  - Suggest the rhythmic "shuu, shuu" of the plane with:
+  - Small sound effect text around frame (optional)
+  - Wood shavings curling in rhythmic pattern
+  - Sense of heartbeat-like regularity in the work
+  
+  COLOR PALETTE:
+  - Warm tones: Orange, amber, gold, brown
+  - Wood colors: Natural browns, honey tones
+  - Contrast with darkness: Deep blues, blacks in shadows
+  - Overall warmth despite the darkness
+  
+  EMOTIONAL TONE:
+  - Reader should feel: Relief, hope, "they'll be okay"
+  - Catharsis after the cruelty of previous scenes
+  - Quiet strength, unbreakable spirit
+  - "This is how craftsmen fight - with their work"
+  - Tearful but hopeful
+  
+  DUST AND AIR:
+  - Wood particles floating in the light
+  - Creates living, breathing atmosphere
+  - Gentle movement in still scene
+  - Dust catching light like tiny stars
+  
+  ART STYLE REFERENCES:
+  - Takehiko Inoue's Vagabond - quiet craftsmanship scenes
+  - Hiromu Arakawa's Silver Spoon - warmth of dedicated work
+  - Realistic but tender
+  - Professional light novel quality
+  - Seinen sensibility with warmth
+  
+  TECHNICAL SPECS:
+  - Horizontal/landscape composition
+  - High detail on hands and faces
+  - Warm, soft lighting (not harsh)
+  - Clear depiction of woodworking process
+  - Visible wood grain and shavings
+  - No text or speech bubbles
+  - Could span two pages as emotional resolution
+  - Publication quality
+
+# ========================================
+# ネガティブプロンプト
+# ========================================
+negative_prompt: |
+  sad, crying, defeated, dark, hopeless, cold lighting,
+  harsh shadows, lonely, isolated (emotionally),
+  low quality, blurry, bad anatomy, extra fingers,
+  cartoonish, simplified, anime style, cute, chibi,
+  bright colors, cheerful, no depth
+
+# ========================================
+# 生成パラメータ推奨値
+# ========================================
+generation_params:
+  aspect_ratio: "16:9"
+  quality: "high"
+  style_weight: "high"
+  detail_level: "maximum"
+  mood: "warm_and_hopeful"
+  
+# ========================================
+# チェックポイント
+# ========================================
+quality_checklist:
+  - "[ ] 作業台の光の円が暖かく描かれているか"
+  - "[ ] グラナイトの決意の表情が伝わるか"
+  - "[ ] ペリドットの忠誠心と不安が混在しているか"
+  - "[ ] 木屑や道具の描写に臨場感があるか"
+  - "[ ] 絶望の後の希望が感じられるか"
+  - "[ ] カタルシスが読者に伝わるか"

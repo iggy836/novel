@@ -1,0 +1,189 @@
+# ========================================
+# キャラクターシート生成用プロンプト
+# ========================================
+# ネルル（ヒロイン）
+
+neruru:
+  name: ネルル
+  name_en: Neruru
+  role: ヒロイン / 王立魔法具工房 第1設計局 主任
+  age: 32
+  gender: female
+  
+  # 基本プロンプト
+  base_prompt: "Character sheet, three-view, full figure, Close-up of face, white background"
+  
+  # 外見設定
+  appearance:
+    overall: |
+      高飛車で完璧主義な女性設計士。32歳。
+      知的で洗練された美しさ。冷たい印象だが、どこか影がある。
+      エリート官僚らしい気品と威厳。
+    
+    hair:
+      color: platinum blonde / プラチナブロンド
+      style: long, straight, neatly tied back / 長髪、ストレート、きちんとまとめている
+      detail: 一本の乱れもない完璧な髪型。後ろで低い位置にまとめている
+    
+    eyes:
+      color: ice blue / アイスブルー（スピネルのような冷たい輝き）
+      expression: cold, calculating, intelligent / 冷たい、計算高い、知的
+      detail: 人を見下すような視線。しかし時折、複雑な感情が揺れる
+    
+    face:
+      shape: oval, refined features / 卵型、洗練された顔立ち
+      features:
+        - high cheekbones / 高い頬骨
+        - thin lips, often pursed / 薄い唇、よく引き締めている
+        - sharp eyebrows / 鋭い眉
+      expression: haughty, perfectionist / 高慢、完璧主義
+    
+    body:
+      height: 168cm / やや高め
+      build: slender, elegant / ほっそりとして優雅
+      posture: perfect, straight back / 完璧な姿勢、背筋が伸びている
+    
+    clothing:
+      main_outfit:
+        description: |
+          王立工房の高官らしい正装。白と青を基調とした制服。
+          実用性より威厳を重視した設計士らしい服装。
+        items:
+          - white and blue formal uniform / 白と青の正装
+          - high collar jacket / ハイカラーのジャケット
+          - long pencil skirt / 長いペンシルスカート
+          - silver embroidery / 銀の刺繍
+          - heeled boots / ヒールブーツ
+      accessories:
+        - silver spectacles / 銀縁の眼鏡
+        - design pen in breast pocket / 胸ポケットの設計ペン
+        - crystal brooch / 水晶のブローチ
+    
+    distinctive_features:
+      - always impeccably dressed / 常に完璧な身だしなみ
+      - carries design documents / 設計書を持ち歩いている
+      - cold demeanor that hides inner conflict / 内面の葛藤を隠す冷たい態度
+
+  expressions:
+    - name: default
+      description: cold, haughty, looking down / 冷たい、高慢、見下すような
+    - name: analyzing
+      description: focused, intellectual, critical / 集中、知的、批判的
+    - name: conflicted
+      description: wavering eyes, hidden guilt / 揺れる目、隠された罪悪感
+    - name: vulnerable
+      description: rare moment of softness, childhood friend nostalgia / 稀に見せる柔らかさ、幼馴染への郷愁
+
+  full_prompt:
+    style: "anime style, detailed, high quality"
+    
+    character_sheet_prompt: |
+      Character sheet, three-view, full figure, Close-up of face, white background,
+      1girl, female, 32 years old, elite designer, government official,
+      platinum blonde long straight hair tied back low, ice blue eyes, cold intelligent gaze,
+      oval refined face, high cheekbones, thin lips, sharp eyebrows,
+      slender elegant build, 168cm tall, perfect posture,
+      white and blue formal uniform, high collar jacket, long pencil skirt, silver embroidery, heeled boots,
+      silver spectacles, crystal brooch,
+      haughty expression, perfectionist look, elegant stance,
+      fantasy setting, royal court official,
+      anime style, detailed, high quality
+    
+    portrait_prompt: |
+      portrait, close-up, face focus, white background,
+      1girl, female, 32 years old, elite designer,
+      platinum blonde long straight hair, ice blue eyes like cold jewel,
+      oval refined face, high cheekbones, sharp eyebrows,
+      silver spectacles, cold haughty expression,
+      anime style, detailed, high quality
+
+  negative_prompt: |
+    low quality, blurry, deformed, bad anatomy,
+    warm expression, friendly smile, casual clothes, messy hair,
+    young looking, childish, cute
+
+  # 人生年表
+  life_history:
+    - age: 8
+      event: グラナイトの近所に引っ越し、幼馴染になる
+    - age: 12
+      event: グラナイトと「一緒に最高の杖を作ろう」と約束
+    - age: 16
+      event: 王都アカデミーに推薦入学。グラナイトは見送りに来なかった
+    - age: 20
+      event: アカデミー首席卒業。シナバーに見出され王立工房入り
+    - age: 28
+      event: 第1設計局主任に昇進。「職人の勘」を「非科学的なノイズ」と見下すように
+    - age: 32
+      event: 本編開始。監査官としてグラナイトの元へ
+
+  # 性格の変化
+  personality_development:
+    past: |
+      幼い頃はグラナイトと一緒に遊び、「一緒に最高の杖を作ろう」と約束した。
+      純粋で夢見る少女だった。
+    
+    present: |
+      エリート意識が強く、「職人の勘」を見下す。
+      データと理論で武装し、感情を見せない。
+      但し、それは自分を守るための仮面。
+    
+    turning_point: |
+      グラナイトとの再会。彼が頭を下げて「調査させてくれ」と願う姿を見て、
+      自分がただの官僚になっていることに気づく。
+      「私は、いつからこんな人間になったの）」
+
+  # 内面の葛藤
+  internal_conflicts:
+    - conflict: シナバーへの忠誠 vs 真実への追求
+      description: |
+        シナバーに見出され、引き上げられた恩人。
+        しかし、再調査を訴えると損を受ける。
+    
+    - conflict: 点欲しいキャリア vs 幼馴染への信頼
+      description: |
+        グラナイトを疑うべきか、信じるべきか。
+        「あの頑固者が手を抜くはずがない……）」
+    
+    - conflict: 完璧主義 vs 現実の不完全さ
+      description: |
+        データ上は完璧な設計が、現物では問題が起きる。
+        「私一人じゃ、解明できない。でも……あの人となら……）」
+
+  # 成長アーク
+  character_arc:
+    start: "データは嘘をつかない / 私の設計は完璧 / 職人の勘は非科学的"
+    turning_point: "グラナイトとの共同調査、雨の中の訪問"
+    end: "データだけじゃ分からない / 現物を見ることの大切さ / あなたの手が必要"
+
+  # 重要な関係性
+  key_relationships:
+    - character: グラナイト
+      relation: 幼馴染 / 約束の相手
+      dynamic: |
+        12歳で約束、16歳で別れ。
+        32歳で再会するも、監査官vs被疑者として対立。
+        「主任、とお呼びください」と距離を置く。
+        最終的に雨の中、頭を下げて協力を求める。
+    
+    - character: シナバー
+      relation: 上司 / 恩人
+      dynamic: |
+        才能を見出し引き上げてくれた恩人。
+        しかし、再調査を訴えると損を受ける。
+        「真実とは、組織が決めるものだよ」と言われる。
+
+  # 雨との関係
+  symbolism:
+    rain: |
+      16年前、グラナイトと別れた日も雨だった。
+      32歳、グラナイトの元を訪れる日も雨。
+      僘も差さず、泥だらけで彼の前に立つ。
+      雨は「別れ」と「再会」を象徴する。
+
+  reference_keywords:
+    - ice queen
+    - perfectionist
+    - elite bureaucrat
+    - tsundere
+    - intellectual beauty

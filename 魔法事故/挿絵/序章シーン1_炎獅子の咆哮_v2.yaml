@@ -1,0 +1,279 @@
+# 序章シーン1「炎獅子の咆哮」挿絵プロンプト【修正版】
+# 改善点: アングル、兵士の視線、絵柄のシリアス化
+
+metadata:
+  scene: "序章_シーン1_王都防衛戦"
+  version: "v2_revised"
+  changes:
+    - "カメラを真後ろに移動（顔を見せない）"
+    - "全兵士が隊長を見上げるように修正"
+    - "絵柄を劇画調・青年漫画風に変更"
+    - "戦場の過酷さを追加（汚れ、疲労）"
+
+prompt_english_revised: |
+  ═══════════════════════════════════════════════
+  【CRITICAL CORRECTIONS - READ FIRST】
+  ═══════════════════════════════════════════════
+  
+  ⚠️ MANDATORY REQUIREMENTS:
+  
+  1. CAMERA ANGLE: Positioned DIRECTLY BEHIND Vermillion.
+     His face must NOT be visible AT ALL.
+     We see ONLY his back, hair, and raised staff.
+     This is the "hero's back that soldiers follow" shot.
+  
+  2. SOLDIERS' EYES: EVERY soldier must be looking UP at Vermillion.
+     No side-glancing. No looking at each other.
+     All heads tilted upward. All eyes fixed on the captain.
+     This unified gaze creates the "collective hope" feeling.
+  
+  3. ART STYLE: Seinen manga / mature fantasy aesthetic.
+     NOT bright, cute anime style.
+     Grittier, more realistic rendering.
+     Think: Fire Emblem Awakening, Berserk covers, Vinland Saga.
+  
+  ═══════════════════════════════════════════════
+  MAIN PROMPT
+  ═══════════════════════════════════════════════
+  
+  A dark, gritty fantasy battle illustration in seinen manga style.
+  Epic low-angle shot from DIRECTLY BEHIND a legendary warrior.
+  
+  ───────────────────────────────────────────────
+  CENTER SUBJECT: VERMILLION (BACK VIEW ONLY)
+  ───────────────────────────────────────────────
+  
+  THE FLAME LION - VERMILLION FLAMEHEART:
+  - Age 40s, legendary warrior at peak of power
+  - Viewed ENTIRELY from behind - NO face visible
+  - Muscular back visible through battle-worn armor
+  - Reddish-copper hair whipping in the wind and heat
+  - Wide, powerful stance - legs braced for impact
+  - Both arms raised high, gripping ornate magical staff
+  
+  HIS BACK (Critical focal point):
+  - Broad shoulders, defined muscles through armor gaps
+  - Armor shows scratches and battle damage
+  - Red cape/cloak billowing dramatically
+  - Silhouette radiates ABSOLUTE CONFIDENCE
+  - This is THE back that 1000 soldiers trust with their lives
+  
+  THE STAFF:
+  - Long ornate staff, approximately 2 meters
+  - Raised high above his head
+  - Tip BLAZING with intense crimson fire magic
+  - Crystal/gem core glowing white-hot
+  - Flames spiral around the shaft
+  - Staff appears almost alive with power
+  
+  ───────────────────────────────────────────────
+  THE MAGIC: SWEEPING FIRESTORM
+  ───────────────────────────────────────────────
+  
+  FIRE MAGIC:
+  - MASSIVE wave of flames erupting forward
+  - 120-degree arc, covering entire battlefield ahead
+  - Flames have WEIGHT and VOLUME - not flat
+  - Vibrant reds, oranges, with white-hot cores
+  - Heat distortion warping the air
+  - Embers and sparks flying everywhere
+  - Magical runes briefly visible within flames
+  
+  DESTRUCTION:
+  - Monsters/demons caught in the inferno
+  - 5-7 creature silhouettes being incinerated
+  - Bodies turning to ash, limbs dissolving
+  - Mix of humanoid and bestial shapes
+  - Genuinely threatening creatures being destroyed
+  - NOT cute - real war, real death
+  
+  ───────────────────────────────────────────────
+  BACKGROUND: SKY AND BATTLEFIELD
+  ───────────────────────────────────────────────
+  
+  SKY (Upper portion):
+  - Clear blue sky visible above the flames
+  - Creates hope/contrast with destruction below
+  - Sunlight creating rim light on Vermillion
+  - Few white clouds
+  - Represents "what we're fighting for"
+  
+  BATTLEFIELD:
+  - Churned earth, craters, debris
+  - SMOKE and DUST in the air
+  - Bodies and broken weapons (subtle, not gore)
+  - Signs of prolonged, brutal combat
+  - This is WAR, not a clean fantasy scene
+  
+  ───────────────────────────────────────────────
+  FOREGROUND: THE INSPIRED SOLDIERS
+  ───────────────────────────────────────────────
+  
+  SOLDIERS (Bottom of frame, viewer's perspective):
+  - 4-6 knights visible from behind and sides
+  - ALL looking UPWARD at Vermillion
+  - Heads tilted back, necks extended
+  - Eyes wide with AWE and RENEWED HOPE
+  
+  THEIR CONDITION (War-weary but inspired):
+  - Armor dented and scratched
+  - Faces smudged with dirt and dried blood
+  - Sweat visible on skin
+  - Signs of exhaustion BUT fighting spirit renewed
+  - The captain's presence TRANSFORMS their despair to hope
+  
+  AQUA (Featured soldier, left-center):
+  - Young knight, early 20s
+  - Short blue hair visible under helmet
+  - Looking UP at captain with pure admiration
+  - Mouth slightly open in awe
+  - Thinking: "As long as the captain's here..."
+  
+  OTHER SOLDIERS:
+  - One gripping weapon tighter, jaw clenched
+  - One with tears in eyes (relief/hope)
+  - One raising fist in renewed determination
+  - All unified in their UPWARD gaze
+  
+  BODY LANGUAGE (Critical):
+  - Shoulders straightening despite exhaustion
+  - Chests rising with renewed hope
+  - The captain's mere presence HEALS their spirits
+  - This is what true leadership looks like
+  
+  ───────────────────────────────────────────────
+  LIGHTING
+  ───────────────────────────────────────────────
+  
+  PRIMARY: Fire magic (warm, intense orange-red)
+  - Casts dramatic glow on everything
+  - Creates sharp, cinematic shadows
+  - Vermillion's silhouette backlit by his own flames
+  
+  SECONDARY: Sunlight from above (natural, hope-giving)
+  - Rim lighting on Vermillion's shoulders
+  - Illuminates soldiers from above
+  - Cool contrast to fire's warmth
+  
+  SHADOWS:
+  - HEAVY and dramatic
+  - Deep blacks in recesses
+  - Creates volume and weight
+  - NOT flat anime lighting
+  
+  ATMOSPHERIC:
+  - Heat haze around flames
+  - Dust particles catching light
+  - Smoke creating depth layers
+  - Gritty, realistic war atmosphere
+  
+  ───────────────────────────────────────────────
+  COLOR PALETTE
+  ───────────────────────────────────────────────
+  
+  DOMINANT:
+  - Deep crimson (fire)
+  - Burnt orange (flame edges)
+  - Charcoal black (shadows, smoke)
+  
+  SECONDARY:
+  - Steel gray (armor)
+  - Earth browns (battlefield)
+  - Blue (sky, Aqua's hair)
+  
+  OVERALL TONE:
+  - More MUTED than typical anime
+  - Grittier, more realistic
+  - High contrast between light and shadow
+  - War-worn, battle-scarred aesthetic
+  
+  ───────────────────────────────────────────────
+  ART STYLE (CRITICAL)
+  ───────────────────────────────────────────────
+  
+  STYLE: Mature seinen manga / dark fantasy
+  
+  INFLUENCES:
+  - Fire Emblem: Three Houses (war scenes)
+  - Berserk manga (Miura's epic compositions)
+  - Vinland Saga (realistic battle fatigue)
+  - Final Fantasy XIV concept art
+  
+  AVOID:
+  - Bright, cute anime aesthetics
+  - Clean, unblemished characters
+  - Flat lighting
+  - Overly saturated colors
+  
+  RENDERING:
+  - Semi-realistic faces
+  - Detailed linework
+  - Heavy shadows
+  - Visible textures (armor scratches, fabric folds)
+  - Publication-quality detail
+  
+  ───────────────────────────────────────────────
+  EMOTIONAL IMPACT
+  ───────────────────────────────────────────────
+  
+  The viewer should feel:
+  
+  1. AWE at Vermillion's overwhelming power
+  2. TRUST - "I would follow this back anywhere"
+  3. HOPE - despite the war, victory is possible
+  4. TRAGIC IRONY - knowing this hero will soon fall
+  
+  This is THE PEAK before the tragedy.
+  Make viewers understand why he is beloved.
+  Make them HURT when they later see him broken.
+  
+  ───────────────────────────────────────────────
+  TECHNICAL SPECIFICATIONS
+  ───────────────────────────────────────────────
+  
+  - Orientation: Landscape (16:9) or Vertical (2:3)
+  - Focus: Sharp on Vermillion's back and staff
+  - Secondary focus: Soldiers' upward-gazing faces
+  - Background: Atmospheric, slightly softer
+  - Overall: Cinematic, publication-quality
+  
+  ═══════════════════════════════════════════════
+  SUMMARY CHECKLIST
+  ═══════════════════════════════════════════════
+  
+  ☐ Camera is BEHIND Vermillion (no face visible)
+  ☐ ALL soldiers looking UP at captain
+  ☐ Art style is gritty seinen, not cute anime
+  ☐ Soldiers show battle fatigue (dirt, sweat, wounds)
+  ☐ Flames have weight and volume
+  ☐ Heavy shadows, high contrast
+  ☐ Blue sky visible for hope contrast
+  ☐ Emotional impact: awe, trust, tragic irony
+
+composition_diagram_revised: |
+  ┌─────────────────────────────────────┐
+  │         [青空]  ☀️                   │ ← 希望
+  │                                     │
+  │    🔥🔥🔥🔥🔥🔥🔥                │ ← 炎
+  │   👹💀👹  (灰になる魔物)          │
+  │        ＼｜／                       │
+  │         🔥                          │
+  │         ┃                           │
+  │    [バーミリオン]                   │
+  │       ◉👤◉ ← 背中のみ！顔見えない│ ← 中景
+  │                                     │
+  │  👤↗ 👤↗ 👤↗                    │ ← 前景
+  │  全員が上を見る ↗↗↗              │   (視線統一)
+  │                                     │
+  │  ★汚れ・疲労・汗の描写追加★       │
+  │                                     │
+  │      ▲カメラ                        │
+  │  (真後ろから)                       │
+  └─────────────────────────────────────┘
+
+key_changes_summary:
+  angle: "正面寄り → 真後ろ（顔が見えない）"
+  soldiers: "視線バラバラ → 全員が上を見る"
+  style: "明るいアニメ → 劇画調・青年漫画風"
+  details: "きれいな鎧 → 戦闘で汚れた・傷ついた鎧"
+  atmosphere: "ファンタジー冒険 → 過酷な戦場のリアリズム"

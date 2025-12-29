@@ -1,0 +1,368 @@
+# ========================================
+# 序章シーン3 SNSバナー
+# ========================================
+
+metadata:
+  scene: "序章シーン3：監査官の来訪"
+  purpose: "SNS宣伝用バナー"
+  target_platforms: ["Twitter/X", "Pixiv", "小説投稿サイト"]
+  emotional_core: "緊張、対立、16年ぶりの冷たい再会"
+
+# ========================================
+# バナー1：Twitter/X用（横長）
+# ========================================
+banner_01:
+  platform: "Twitter/X"
+  dimensions: "1500x500px (3:1)"
+  title: "第3話：監査官の来訪"
+  
+  # ----------------------------------------
+  # 構図設計
+  # ----------------------------------------
+  composition_description_jp: |
+    【テーマ】16年ぶりの冷たい再会と権力の対立
+    
+    左側：グラナイト（作業台で杖を削る職人）
+    中央：ネルル（冷たい視線で見下ろす監査官）
+    右側：シナバー（微笑みながら観察する長官）
+    
+    三者の力関係と緊張感を1枚で表現。
+    寒色系の冷たい光で、再会の冷たさを強調。
+  
+  composition_diagram: |
+    ┌─────────────────────────────────┐
+    │  [タイトル：第3話]               │
+    │                                │
+    │ [グラナイト] [ネルル] [シナバー] │
+    │  作業台      冷視線    偽笑顔   │
+    │   ↓         ↓        ↓      │
+    │  [下部：キャッチコピー]          │
+    └─────────────────────────────────┘
+  
+  # ----------------------------------------
+  # 英語プロンプト
+  # ----------------------------------------
+  prompt_english: |
+    A dramatic horizontal banner illustration (3:1 ratio) for a light novel chapter promotion.
+    Professional seinen manga and light novel art style.
+    
+    THEME: "Cold Reunion After 16 Years - The Auditor's Visit"
+    
+    === COMPOSITION (Left to Right) ===
+    
+    LEFT THIRD - THE CRAFTSMAN:
+    - GRANITE: Massive craftsman, early 30s, nearly 2m tall
+    - Sitting at workbench, hands on wood plane (kanna)
+    - Wearing dirty work clothes, muscular arms
+    - Face turned slightly toward center, expression tense
+    - Gray eyes filled with shock and pain
+    - Wood shavings scattered on bench
+    - Warm orange light from work lamp
+    - Position: Lower left, grounded and defensive
+    
+    CENTER THIRD - THE INSPECTOR:
+    - NELL: Petite woman, early 30s, silver hair, teal eyes
+    - Standing in perfect posture, arms crossed or at sides
+    - Pristine white Royal Workshop uniform
+    - Cold, emotionless expression looking down
+    - Sharp calculating gaze, no warmth
+    - Backlit with cool blue-white light creating halo
+    - Position: Center, elevated, dominant
+    - She's the focal point of the composition
+    
+    RIGHT THIRD - THE DIRECTOR:
+    - CINNABAR: Elderly man, late 50s-60s
+    - Reddish silver-gray hair slicked back
+    - Black and crimson luxurious robes with gold trim
+    - Gentle, benevolent smile on face
+    - But eyes are cold and calculating
+    - Hands clasped or one on sword hilt
+    - Soft lighting but slightly shadowed
+    - Position: Right side, observing like a puppet master
+    
+    === VISUAL FLOW ===
+    - Eye movement: Left (warmth) → Center (coldness) → Right (menace)
+    - Height variation: Granite sitting → Nell standing → Cinnabar towering
+    - Light temperature: Warm orange → Cold blue → Shadowed crimson
+    
+    === ATMOSPHERE ===
+    - Overall tone: Cold, tense, confrontational
+    - Like a courtroom with judge and accused
+    - Power imbalance clearly visible
+    - "The system vs the individual"
+    - Hostile reunion after years apart
+    
+    === LIGHTING ===
+    - Left: Warm work lamp glow on Granite
+    - Center: Cool, harsh backlighting on Nell (creates distance)
+    - Right: Subtle spotlight on Cinnabar (theatrical)
+    - Background: Dark workshop interior, muted
+    
+    === SYMBOLIC ELEMENTS ===
+    - Wood shavings: Honest labor, craftsmanship
+    - Nell's uniform: Authority, cold bureaucracy
+    - Cinnabar's robes: Power, hidden malice
+    - Height differences: Power dynamics
+    - Light sources: Moral positions (warm truth vs cold authority)
+    
+    === COLOR PALETTE ===
+    - Left: Warm browns, oranges, wood tones
+    - Center: Cool whites, silvers, blues, clinical
+    - Right: Dark blacks, crimsons, golds, ominous
+    - Background: Muted workshop grays and browns
+    
+    === TEXT PLACEMENT ===
+    TOP: Episode title "第3話：監査官の来訪" (centered or left)
+    BOTTOM: Tagline in Japanese (see below)
+    
+    === EMOTIONAL IMPACT ===
+    - Reader should feel: Tension, injustice, dread
+    - "He's being cornered by the system"
+    - "She's become someone he doesn't recognize"
+    - "There's something deeply wrong here"
+    
+    === ART STYLE ===
+    - Realistic seinen manga quality
+    - Clean, professional banner composition
+    - Character faces clearly visible and expressive
+    - Reference: Naoki Urasawa's dramatic compositions
+    - Light novel promotional art quality
+    
+    === TECHNICAL SPECS ===
+    - Horizontal 3:1 ratio (1500x500px recommended)
+    - High contrast for readability as thumbnail
+    - Clear character silhouettes
+    - Professional publication quality
+    - Suitable for social media thumbnail
+  
+  # ----------------------------------------
+  # キャッチコピー案
+  # ----------------------------------------
+  tagline_options:
+    - "16年ぶりの再会。だが、そこにかつての面影はなかった。"
+    - "幼馴染は、冷たい監査官になっていた。"
+    - "職人の誇りと、組織の威信。譲れない戦いが始まる。"
+    - "「証拠なき主張は、ただの戯言だ」"
+    - "王立工房 vs 下町の職人。不公平な戦いの幕開け。"
+  
+  # ----------------------------------------
+  # テキスト配置
+  # ----------------------------------------
+  text_elements:
+    title:
+      text: "第3話：監査官の来訪"
+      position: "上部中央または左上"
+      font: "明朝体・太字"
+      color: "白（縁取り黒）"
+      
+    tagline:
+      text: "雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ"
+      position: "下部中央"
+      font: "ゴシック体"
+      color: "白（縁取り黒または青）"
+  
+  # ----------------------------------------
+  # ネガティブプロンプト
+  # ----------------------------------------
+  negative_prompt: |
+    cute, chibi, friendly, happy, warm reunion, romantic, cheerful,
+    bright colors, soft lighting, gentle, peaceful, harmonious,
+    low quality, blurry, bad anatomy, distorted faces, amateur art,
+    cluttered composition, unclear focus, messy
+
+# ========================================
+# バナー2：対決構図（横長）
+# ========================================
+banner_02:
+  platform: "Pixiv / 小説投稿サイト"
+  dimensions: "1920x1080px (16:9)"
+  title: "第3話：監査官の来訪"
+  
+  # ----------------------------------------
+  # 構図設計
+  # ----------------------------------------
+  composition_description_jp: |
+    【テーマ】対峙する職人と監査官、そして背後に迫る影
+    
+    左：グラナイト（立ち上がり、指を突きつける）
+    右：ネルル（腕を組み、冷たく見返す）
+    背景：巨大なシナバーの顔（不気味に微笑む）
+    
+    横長構図を活かし、二人の激しい対立と、
+    それを操る黒幕の存在を同時に表現。
+  
+  composition_diagram: |
+    ┌──────────────────────────────────┐
+    │    [背景：巨大なシナバーの顔]      │
+    │         (偽善の笑み)             │
+    │                                 │
+    │ [グラナイト]        [ネルル]     │
+    │  指突きつけ          腕組み      │
+    │    怒り             冷徹         │
+    │     ←─── 対立 ───→            │
+    │                                 │
+    │  [下部：キャッチコピー]           │
+    └──────────────────────────────────┘
+  
+  # ----------------------------------------
+  # 英語プロンプト
+  # ----------------------------------------
+  prompt_english: |
+    A dramatic widescreen banner illustration (16:9 ratio) for light novel promotion.
+    Professional seinen manga and light novel art style.
+    
+    THEME: "The Puppet Master's Game - Confrontation Under Watchful Eyes"
+    
+    === COMPOSITION (Horizontal Split) ===
+    
+    BACKGROUND (covering entire frame):
+    - MASSIVE FACE OF CINNABAR looming in the background
+    - Taking up upper 60% of the frame
+    - Slightly faded/ghosted but clearly visible
+    - Benevolent smile but COLD, DEAD EYES staring down
+    - Reddish silver-gray hair
+    - Black and crimson robes suggested at edges
+    - Shadow cast over the two figures below
+    - Like a puppet master watching his pawns
+    - Ominous, godlike presence
+    
+    LEFT SIDE (40% of foreground):
+    GRANITE - The Defiant Craftsman
+    - Massive man, nearly 2m tall, early 30s
+    - STANDING, confrontational pose
+    - Right arm extended, finger pointing accusingly at Nell
+    - Left fist clenched at side
+    - Leaning forward aggressively but controlled
+    - Face showing righteous anger and pain
+    - Gray eyes burning with conviction
+    - Dirty work clothes, muscular arms visible
+    - Wood shavings on clothes
+    - Warm lighting from workshop
+    - Position: Lower left foreground, solid and grounded
+    
+    RIGHT SIDE (40% of foreground):
+    NELL - The Cold Bureaucrat
+    - Petite woman, early 30s, silver hair, teal eyes
+    - STANDING, rigid military posture
+    - Arms crossed defensively/imperiously
+    - Looking at Granite with cold disdain
+    - Not intimidated despite size difference
+    - Sharp, calculating eyes, no emotion
+    - Pristine white Royal Workshop uniform
+    - Cool, clinical lighting
+    - Position: Lower right foreground, unmoved pillar
+    
+    === SPATIAL DYNAMICS ===
+    - Granite and Nell face each other across the frame
+    - Gap between them (10-20% of width) creates tension
+    - Cinnabar's face looms above and between them
+    - His eyes looking down at both like chess pieces
+    - Perspective: Slight low angle making all figures imposing
+    
+    === CONFLICT VISUALIZATION ===
+    - Granite's pointed finger vs Nell's crossed arms
+    - Hot anger vs Cold logic
+    - Physical power vs Social authority
+    - Both are strong in their own way
+    - But both are under Cinnabar's shadow
+    
+    === ATMOSPHERE ===
+    - Tense standoff in the eye of the storm
+    - Power struggle with hidden manipulator
+    - "You're both pawns in his game"
+    - Tragic conflict between former friends
+    - Ominous sense of being watched
+    
+    === LIGHTING ===
+    - Background (Cinnabar): Dim, shadowed, theatrical spotlight on face
+    - Left (Granite): Warm orange workshop light, dramatic shadows
+    - Right (Nell): Cool blue-white official light, clean and harsh
+    - Creates visual temperature divide across frame
+    - Cinnabar's shadow falls over both figures
+    
+    === COLOR PALETTE ===
+    - Background: Dark grays, blacks, crimson accents (Cinnabar)
+    - Left: Warm browns, oranges, earth tones (Granite)
+    - Right: Cool whites, silvers, blues (Nell)
+    - Visual split showing moral/ideological divide
+    
+    === SYMBOLIC ELEMENTS ===
+    - Cinnabar's looming face: The system, manipulation, hidden evil
+    - Granite's pointing finger: Accusation, truth, craftsman's pride
+    - Nell's crossed arms: Defense, denial, cold logic
+    - The gap between them: 16 years of separation
+    - Shadow over both: Neither is truly in control
+    
+    === TEXT PLACEMENT ===
+    TOP LEFT: "第3話：監査官の来訪"
+    BOTTOM CENTER: Tagline (see below)
+    
+    === EMOTIONAL IMPACT ===
+    - Reader should feel: Epic confrontation, tragic divide
+    - "They're fighting but the real enemy is behind them"
+    - Sympathy for both Granite and (slightly) Nell
+    - Deep distrust and fear of Cinnabar
+    - Sense of manipulation and tragedy
+    
+    === ART STYLE ===
+    - Cinematic widescreen composition
+    - Realistic seinen manga quality
+    - Dramatic lighting like movie poster
+    - Reference: Epic confrontation scenes in Naoki Urasawa works
+    - Professional light novel promotional art
+    
+    === TECHNICAL SPECS ===
+    - Widescreen 16:9 ratio (1920x1080px)
+    - High contrast for visual impact
+    - Clear character silhouettes
+    - Works at various sizes (banner to thumbnail)
+    - Professional publication quality
+  
+  tagline_options:
+    - "対立の背後に、操る影あり。"
+    - "二人の戦いを、冷たく見下ろす者。"
+    - "真の敵は、優しい笑顔の下に隠れている。"
+    - "職人vs監査官。だが、本当の黒幕は——"
+  
+  text_elements:
+    title:
+      text: "第3話：監査官の来訪"
+      position: "左上"
+      font: "明朝体・太字"
+      color: "白（縁取り黒）"
+      
+    tagline:
+      text: "対立の背後に、操る影あり。"
+      position: "下部中央"
+      font: "ゴシック体"
+      color: "白（縁取り黒）"
+  
+  negative_prompt: |
+    friendly, happy, romantic, cute, chibi, warm colors,
+    peaceful, harmonious, gentle expressions, equal power,
+    low quality, blurry, amateur, unclear composition,
+    cluttered, messy, confusing layout
+
+# ========================================
+# 生成パラメータ推奨値
+# ========================================
+generation_params:
+  banner_01:
+    aspect_ratio: "3:1 (1500x500)"
+    quality: "high"
+    focus: "三人のキャラクター配置と表情"
+    
+  banner_02:
+    aspect_ratio: "1:1 (1080x1080)"
+    quality: "high"
+    focus: "グラナイトとネルルの対立"
+
+# ========================================
+# 品質チェックリスト
+# ========================================
+quality_checklist:
+  - "[ ] 三人のキャラクターが明確に識別できるか"
+  - "[ ] 緊張感と対立が視覚的に伝わるか"
+  - "[ ] テキストが読みやすく配置されているか"
+  - "[ ] サムネイルサイズでも魅力的か"
+  - "[ ] シーン3の核心（冷たい再会）が表現されているか"
