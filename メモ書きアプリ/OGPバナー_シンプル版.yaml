@@ -1,0 +1,108 @@
+title: "A4メモ書きタイマー OGPバナー（シンプルアイコン版）"
+description: "SNS共有用のシンプルでアイコン的なOGP画像デザイン"
+aspect_ratio: "1200x630"
+style: "ミニマル、フラットデザイン、アイコン風、モダン"
+
+scene:
+  background:
+    type: "シンプルなグラデーション"
+    color: "白(#ffffff)から極薄グレー(#f5f5f5)への微細なグラデーション"
+    style: "極めてクリーンで控えめ"
+  
+  layout:
+    type: "中央配置、シンメトリー"
+    alignment: "すべての要素を中央揃え"
+  
+  main_icon:
+    element: "円形タイマーアイコン"
+    position: "画面中央"
+    size: "約300x300px"
+    design:
+      outer_ring:
+        description: "青い円形プログレスリング"
+        color: "#3498db"
+        thickness: "太め（約20px）"
+        style: "滑らかな円"
+      inner_circle:
+        description: "白い中心部"
+        color: "#ffffff"
+        shadow: "柔らかいドロップシャドウ"
+      number:
+        text: "60"
+        font: "極太ゴシック体、モダン"
+        size: "非常に大きい（約120px）"
+        color: "#2c3e50"
+        position: "中央"
+      label:
+        text: "秒"
+        font: "中太ゴシック体"
+        size: "中サイズ（約36px）"
+        color: "#7f8c8d"
+        position: "数字の下"
+  
+  secondary_icon:
+    element: "A4用紙アイコン（オプション・小さめ）"
+    position: "タイマーアイコンの右下または右側"
+    size: "約80x100px"
+    design:
+      shape: "白い長方形（縦向き）"
+      lines: "3-4本の水平線（テキストを示唆）"
+      color: "#ecf0f1"
+      border: "薄いグレーの枠線"
+      style: "極めてシンプル、フラット"
+    note: "このアイコンは省略可能。タイマーだけでもOK"
+  
+  text_elements:
+    title:
+      text: "A4メモ書きタイマー"
+      position: "画面上部、中央揃え"
+      font: "太めのゴシック体、クリーンでモダン"
+      size: "大きい（約56-64px）"
+      color: "#2c3e50"
+      margin_top: "60px"
+    
+    subtitle:
+      text: "AI時代の思考力を、毎朝1分で鍛える"
+      position: "タイトルの下、中央揃え"
+      font: "やや細めのゴシック体"
+      size: "中サイズ（約28-32px）"
+      color: "#7f8c8d"
+      margin_top: "16px"
+    
+   
+
+color_palette:
+  primary: "#3498db"      # ブルー（タイマーリング）
+  secondary: "#2c3e50"    # ダークグレー（メインテキスト）
+  tertiary: "#7f8c8d"     # ミディアムグレー（サブテキスト）
+  light: "#ecf0f1"        # ライトグレー（アイコン）
+  neutral: "#95a5a6"      # グレー（補足テキスト）
+  background: "#ffffff"   # 白（背景）
+
+design_principles:
+  - "極めてシンプル、要素を最小限に"
+  - "アイコン的、ロゴ的なデザイン"
+  - "フラットデザイン、影は最小限"
+  - "中央配置、シンメトリー"
+  - "余白を十分に取る"
+  - "色数を抑える（3-4色）"
+  - "視認性を最優先"
+
+mood: "クリーン、プロフェッショナル、モダン、シンプル、洗練"
+
+target: "SNSのOGP画像として、小さいサイズでも視認性が高いデザイン"
+
+implementation_notes:
+  - "Canva、Figma、Photoshopなどで簡単に作成可能"
+  - "円形はCSSの`border-radius: 50%`で表現可能"
+  - "グラデーションは微細にして、ほぼ単色に見えるレベルに"
+  - "フォントはシステムフォント（游ゴシック、Noto Sans JP等）でOK"
+  - "影は極めて控えめに（opacity: 0.1程度）"
+
+alternative_simple_version:
+  description: "さらにシンプルにする場合"
+  elements:
+    - "タイマーアイコンのみ（A4用紙アイコンは削除）"
+    - "タイトルとサブタイトルのみ（フッター削除）"
+    - "背景は完全な白（グラデーションなし）"
+  result: "3要素のみ：タイマーアイコン、タイトル、サブタイトル"

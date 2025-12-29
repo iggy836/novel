@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="1日1問、60秒で思考を深める108問のメモ書きサポートアプリ">
+  <title>A4メモ書きタイマー</title>
+
+  <!-- OGP (Open Graph Protocol) メタタグ -->
+  <meta property="og:title" content="A4メモ書きタイマー">
+  <meta property="og:description" content="AI時代の思考力を、毎朝1分で鍛える。赤羽雄二『ゼロ秒思考』メソッドをアプリ化。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yellowzerothinking.web.app/">
+  <meta property="og:image" content="https://yellowzerothinking.web.app/ogp-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="A4メモ書きタイマー">
+  <meta property="og:locale" content="ja_JP">
+
+  <!-- Twitter Card メタタグ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="A4メモ書きタイマー">
+  <meta name="twitter:description" content="AI時代の思考力を、毎朝1分で鍛える。赤羽雄二『ゼロ秒思考』メソッドをアプリ化。">
+  <meta name="twitter:image" content="https://yellowzerothinking.web.app/ogp-image.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- TOP画面 -->
+  <section id="top-screen" class="screen active">
+    <div class="container">
+      <header class="app">
+        <!-- タイトル -->
+        <h1 class="title">A4メモ書きタイマー</h1>
+        <p class="subtitle">1日1問、60秒の思考トレーニング</p>
+      </header>
+
+      <!-- 進捗表示 -->
+      <div class="progress-section">
+        <div class="progress-stats">
+          <span class="progress-count"><span id="completed-count">0</span>/108 問</span>
+          <span class="progress-percent">(<span id="progress-percent">0</span>%)</span>
+        </div>
+        <div class="progress-bar">
+          <div id="progress-fill" class="progress-fill" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <!-- 問題番号指定 -->
+      <div class="input-section">
+        <label for="question-number" class="input-label">問題番号を指定</label>
+        <div class="input-group">
+          <input type="number" id="question-number" class="question-input" placeholder="1～108" min="1" max="108">
+          <button id="start-button" class="btn btn-primary">開始する</button>
+        </div>
+        <p id="error-message" class="error-message"></p>
+      </div>
+
+      <div class="divider">または</div>
+
+      <!-- ランダム選択 -->
+      <div class="random-section">
+        <button id="random-button" class="btn btn-secondary">ランダムに始める</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 問い表示画面 -->
+  <section id="question-screen" class="screen">
+    <div class="container">
+      <!-- ヘッダー（ロゴボタンと共有ボタン） -->
+      <header class="question-header-top">
+        <button id="logo-button" class="logo-button" aria-label="TOPへ戻る">
+          <span class="logo-icon">📋</span>
+          <span class="logo-text">A4メモ書き</span>
+        </button>
+        <button id="share-button" class="btn-share-header" aria-label="共有">
+          <span class="share-icon">📤</span>
+          <span class="share-text">共有</span>
+        </button>
+      </header>
+
+      <!-- 問い情報 -->
+      <div class="question-header">
+        <div class="question-meta">
+          <span class="question-id">問い #<span id="current-question-id">1</span></span>
+          <span class="question-category" id="current-category">カテゴリ</span>
+        </div>
+      </div>
+
+      <!-- 問いテキスト -->
+      <div class="question-content">
+        <p id="current-question" class="question-text">問いがここに表示されます</p>
+      </div>
+
+      <!-- タイマー -->
+      <div class="timer-section">
+        <div class="timer-display">
+          <svg class="timer-circle" viewBox="0 0 120 120">
+            <circle class="timer-bg" cx="60" cy="60" r="54"></circle>
+            <circle id="timer-progress" class="timer-progress" cx="60" cy="60" r="54"></circle>
+          </svg>
+          <div class="timer-text">
+            <span id="timer-value" class="timer-value">60</span>
+            <span class="timer-label">秒</span>
+          </div>
+        </div>
+        <p id="timer-status" class="timer-status"></p>
+      </div>
+
+      <!-- ボトムナビゲーション -->
+      <div class="bottom-navigation">
+        <button id="next-button" class="btn btn-primary">次の問題へ</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="questions_data.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
