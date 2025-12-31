@@ -1,0 +1,131 @@
+# ========================================
+# 第7話 挿絵プロンプト：グラナイトの懇願
+# ========================================
+# 作成日: 2025-12-31
+# シーン: グラナイトがアクアに頭を下げて協力を求める
+
+illustration:
+  scene_id: sho_02_05_plea
+  scene_name: "職人の懇願"
+  manuscript_line: "L261-267"
+  
+  quote: |
+    「真実を突き止めて、もう一度、杖で国の平和を守れるように
+    したいんです。バーミリオン隊長やあなたたちが、戦場で
+    命懸けで守り抜いてきたものを……決して無駄にはしたくない。
+    俺がやりたいのは、そういうことなんです。
+    お願いします、力を貸してください」
+
+# ----------------------------------------
+# 構図設計
+# ----------------------------------------
+visual_composition:
+  layout: "見下ろし構図（アクア視点）"
+  focal_point: "深く頭を下げるグラナイトの姿"
+  camera_angle: "やや高め（アクアの視点）"
+  lighting: "夕暮れの斜光、ドラマチックな影"
+
+# ----------------------------------------
+# キャラクター
+# ----------------------------------------
+characters:
+  - name: グラナイト
+    position: 中央〜やや下
+    pose: |
+      深く頭を下げている（お辞儀・土下座の中間）
+      上体を90度近く折り曲げ、真剣に懇願
+      髪が垂れ下がり、表情は見えない
+    expression: 見えない（頭頂部のみ）
+    details: |
+      32歳男性職人、黒髪短髪
+      職人服（革エプロン）、鍛えられた腕
+      握りしめた拳が震えている
+      汗で髪が額に張り付く
+  
+  - name: アクア
+    position: 手前（部分的に表示・視点側）
+    pose: |
+      グラナイトを見下ろしている
+      腕を組んだまま、動揺を隠そうとしている
+    expression: 複雑な表情—驚き、戸惑い、心の揺らぎ
+    details: |
+      20代女性騎士、長い青系の髪
+      騎士団の制服
+      冷たさが少し和らいだ目
+
+# ----------------------------------------
+# 背景・舞台
+# ----------------------------------------
+background:
+  setting: 騎士団演習場の片隅
+  time: 夕暮れ時
+  props:
+    - 遠景に訓練を終えた騎士たちのシルエット
+    - オレンジ色に染まる空
+    - 長く伸びる影
+  atmosphere: |
+    静謐で緊張感のある瞬間
+    訓練場の喧騒から離れた二人だけの空間
+    運命を変える決断の時
+
+# ----------------------------------------
+# 色彩設計
+# ----------------------------------------
+color_palette:
+  dominant: 
+    - "夕暮れのオレンジ"
+    - "紫がかった影"
+  secondary:
+    - "グラナイトの職人服のブラウン"
+    - "アクアの制服のダークブルー"
+  accent: "夕日に照らされた髪のハイライト"
+  mood: "感動、真剣、転換点"
+
+# ----------------------------------------
+# 演出ポイント
+# ----------------------------------------
+direction_notes:
+  emphasis:
+    - グラナイトが頭を下げていることが一目で分かる構図
+    - プライドの高い職人が自ら頭を下げる重みの表現
+    - アクアの心が動く瞬間の予兆
+  
+  emotional_beat: |
+    グラナイトの変化—自分のためではなく、
+    国と人々のために頭を下げられるようになった成長の証明
+  
+  avoid:
+    - 土下座に見えすぎる卑屈な印象
+    - グラナイトの顔が見える角度（見えない方が効果的）
+
+# ----------------------------------------
+# 画像生成プロンプト
+# ----------------------------------------
+prompt_en: |
+  Emotional manga-style illustration. A young craftsman (32, short dark 
+  hair, leather work apron, muscular arms) bows deeply from the waist, 
+  head lowered in earnest plea. His clenched fists tremble at his sides. 
+  Viewed from slightly above (from the perspective of the person he's 
+  addressing). A female knight (20s, long blue-tinted hair, stern but 
+  softening expression) is partially visible in the foreground, looking 
+  down at him with complex emotions. Sunset lighting casts long dramatic 
+  shadows. Training ground in distant background. Japanese light novel 
+  art style, pivotal emotional moment.
+
+prompt_dramatic: |
+  Cinematic manga illustration. Low-key lighting, sunset hour. A proud 
+  craftsman humbles himself, bowing deeply with determination visible in 
+  his tensed shoulders. His face hidden, only his dark hair and strong 
+  back visible. Before him stands a conflicted female knight, her icy 
+  demeanor beginning to crack. The space between them charged with 
+  unspoken understanding. Emotional turning point scene. Japanese anime 
+  style, dramatic composition.
+
+# ----------------------------------------
+# 制作仕様
+# ----------------------------------------
+production_specs:
+  aspect_ratio: "3:4（縦長）"
+  resolution: "2048x2732px以上"
+  file_format: "PNG"
+  style_reference: "ライトノベル挿絵スタイル"

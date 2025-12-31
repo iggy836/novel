@@ -1,0 +1,228 @@
+# ========================================
+# 第2章 シーン5「拒絶された希望」挿絵プロンプト
+# ========================================
+# 作成日: 2025-12-31
+# 対象: 重要シーン TOP3
+
+illustrations:
+  # ----------------------------------------
+  # TOP1: 拒絶の背中
+  # ----------------------------------------
+  - rank: 1
+    scene_id: sho_02_05_rejection
+    scene_name: "拒絶の背中"
+    manuscript_line: "L140-142"
+    quote: |
+      「帰ってくれ。二度と来ないでくれ。私に関わるな……
+      これ以上、私を苦しめないでくれ」
+    
+    visual_composition:
+      layout: "三分割構図（前景・中景・背景）"
+      focal_point: "マルカイトの背中"
+      camera_angle: "グラナイト視点（やや低め）"
+      lighting: "窓からの逆光（シルエット強調）"
+    
+    characters:
+      - name: マルカイト
+        position: 中央
+        pose: 背中を向け、肩を落として立つ
+        expression: 見えない（背中のみ）
+        details: "白髪混じりの髪、フォーマルな服装、小さく見える背中"
+      
+      - name: グラナイト
+        position: 手前（部分的に表示）
+        pose: 手を伸ばしかけて止まる
+        expression: 絶望と悔しさ
+        details: "握りしめた拳、震える肩"
+    
+    background:
+      setting: 魔導具鑑定局・執務室
+      props:
+        - 重厚な木製デスク
+        - デスクの上の古い写真
+        - 積み重なった書類
+      atmosphere: "重苦しく閉塞的、権力の圧迫感"
+    
+    color_palette:
+      dominant: "グレー、ブラウン"
+      accent: "写真のセピア色"
+      mood: "憂鬱、諦念"
+    
+    prompt_en: |
+      Emotional manga-style illustration. An older government official 
+      (50s, graying hair, formal attire) stands with his back turned, 
+      shoulders hunched with guilt. A younger craftsman (32, dark hair) 
+      reaches out desperately. An old photograph sits on the desk between 
+      them. Oppressive office with heavy wooden furniture, dim lighting. 
+      Japanese light novel art style, intense rejection scene.
+
+  # ----------------------------------------
+  # TOP2: 恐怖の告白
+  # ----------------------------------------
+  - rank: 2
+    scene_id: sho_02_05_fear
+    scene_name: "恐怖の告白"
+    manuscript_line: "L98-103"
+    quote: |
+      「真実？　……真実を暴いて、誰が幸せになる！？」
+      「私には家族がいる。息子は騎士団に入ったばかりだ……」
+    
+    visual_composition:
+      layout: "対峙構図"
+      focal_point: "マルカイトの恐怖に歪んだ顔"
+      camera_angle: "正面クローズアップ"
+      lighting: "顔半分に影（二面性の暗示）"
+    
+    characters:
+      - name: マルカイト
+        position: 中央
+        pose: デスクを握りしめる
+        expression: 恐怖、苦悶、自己嫌悪
+        details: "額に汗、歪んだ眉、見開いた目"
+      
+      - name: グラナイト
+        position: 手前（ぼかし）
+        pose: 身を乗り出す
+        expression: 驚愕
+    
+    background:
+      setting: 魔導具鑑定局・執務室
+      props:
+        - 握りしめられた書類
+        - 散乱した文書
+      atmosphere: "緊迫、プレッシャー"
+    
+    color_palette:
+      dominant: "ダークブラウン、影の黒"
+      accent: "汗のハイライト"
+      mood: "恐怖、追い詰められた感覚"
+    
+    prompt_en: |
+      Intense manga-style close-up. A middle-aged official (50s, graying 
+      hair) grips his desk with white knuckles, face contorted with fear 
+      and self-loathing. Sweat on his brow, eyes wide with terror. Half 
+      his face in shadow. Crumpled papers on desk. Oppressive atmosphere. 
+      Japanese light novel art style, psychological pressure scene.
+
+  # ----------------------------------------
+  # TOP3: 決意の覚醒
+  # ----------------------------------------
+  - rank: 3
+    scene_id: sho_02_05_awakening
+    scene_name: "決意の覚醒"
+    manuscript_line: "L193-204"
+    quote: |
+      （俺がやらなきゃいけないのは……真実を突き止めて、
+      もう一度、彼らに安心して杖を握らせてやることだ！）
+    
+    visual_composition:
+      layout: "見上げ構図"
+      focal_point: "グラナイトの決意に燃える目"
+      camera_angle: "ローアングル（英雄的）"
+      lighting: "背後からの強い光（希望の暗示）"
+    
+    characters:
+      - name: グラナイト
+        position: 中央
+        pose: 拳を握り、前を見据える
+        expression: 決意、覚醒、闘志
+        details: "鋭い眼光、引き締まった口元"
+    
+    background:
+      setting: 王立騎士団演習場の外
+      props:
+        - 遠景に訓練中の騎士たち
+        - 青空に浮かぶ雲
+      atmosphere: "希望の兆し、覚醒の瞬間"
+    
+    color_palette:
+      dominant: "青空、白い雲"
+      accent: "グラナイトの瞳の光"
+      mood: "希望、決意、再起"
+    
+    prompt_en: |
+      Heroic manga-style illustration. A 32-year-old craftsman with short 
+      dark hair, wearing work clothes, clenches his fist with fierce 
+      determination. His eyes burn with renewed purpose. Low angle shot, 
+      dramatic backlighting. In the background, knights train with their 
+      wands. Blue sky with clouds. Japanese light novel art style, 
+      awakening/resolve moment.
+
+# ----------------------------------------
+# 制作ノート
+# ----------------------------------------
+production_notes:
+  style: "日本のライトノベル挿絵スタイル"
+  aspect_ratio: "縦長（3:4または9:16）"
+  resolution: "最低2048x2048px"
+  file_format: "PNG（透過なし）"
+  
+  priority_order:
+    - "TOP1: 物語の転換点、マルカイトの葛藤を象徴"
+    - "TOP2: 敵の存在（シナバー）の脅威を暗示"
+    - "TOP3: 主人公の成長、読者のカタルシス"
+    - "TOP4: 破片の受け渡し、アクアとの絆"
+  
+  character_consistency:
+    グラナイト: "32歳、黒髪短髪、職人服、鍛えられた腕"
+    マルカイト: "50代、白髪混じり、フォーマル服、疲れた表情"
+    アクア: "20代女性、青系の長髪、騎士制服、凛とした美貌"
+
+# ----------------------------------------
+# TOP4: 破片の受け渡し（アクアとの対話）
+# ----------------------------------------
+aqua_scene:
+  rank: 4
+  scene_id: sho_02_05_aqua_handover
+  scene_name: "破片の受け渡し"
+  manuscript_line: "L298-310"
+  quote: |
+    「これが、その破片です」
+    「……勘違いしないでください。私はあなたを許したわけでも、
+    信じたわけでもありません。ただ……彼がなぜあんな目に
+    遭わなければならなかったのか、その真実が知りたいだけです」
+  
+  visual_composition:
+    layout: "対面構図（二人の対話）"
+    focal_point: "布に包まれた杖の破片"
+    camera_angle: "横からの視点（二人を等価に）"
+    lighting: "夕暮れの淡い光"
+  
+  characters:
+    - name: アクア
+      position: 左側
+      pose: 破片を差し出す
+      expression: 複雑な感情—悲しみと決意
+      details: |
+        20代女性騎士、長い青系の髪、凛とした美貌
+        騎士団の制服、整った容姿に冷たさと悲しみが同居
+        目には強い意志の光
+    
+    - name: グラナイト
+      position: 右側
+      pose: 破片を受け取ろうと手を伸ばす
+      expression: 真剣、感謝、決意
+      details: |
+        32歳男性職人、黒髪短髪、職人服
+        震える手、真剣な眼差し
+  
+  background:
+    setting: 騎士団演習場近くの静かな場所
+    props:
+      - 布に包まれた杖の破片
+      - 遠景に夕暮れの空
+    atmosphere: "二人だけの密談、緊張と希望"
+  
+  color_palette:
+    dominant: "夕暮れのオレンジ、青紫"
+    accent: "破片を包む布の白"
+    mood: "緊張、秘密の共有、希望の兆し"
+  
+  prompt_en: |
+    Dramatic manga-style illustration. A young female knight (20s, long 
+    blue-tinted hair, beautiful but stern face, knight uniform) hands a 
+    cloth-wrapped object to a male craftsman (32, short dark hair, work 
+    clothes). Their eyes meet with intensity—hers conflicted with grief 
+    and determination, his earnest with gratitude. Sunset lighting in 
+    warm orange and purple. Private moment near a training ground. 
+    Japanese light novel art style, emotional exchange scene.

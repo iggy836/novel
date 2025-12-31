@@ -1,0 +1,132 @@
+# ========================================
+# SNS/Web用バナー画像プロンプト
+# 作品名：砕けた聖剣と、一生解けない魔法
+# ========================================
+
+banner_image:
+  title: "色あせた集合写真 - 旅立ちの記憶"
+  
+  concept: |
+    第一次魔族戦争直前に撮影されたと思われる、色あせた古い集合写真。
+    王宮の謁見の間で、国王から至宝を授かった直後の記念撮影。
+    当時はまだ若く、希望に満ちていた二人の姿が写っている。
+    
+  image_style:
+    base_style: "vintage photograph, sepia tone, faded colors"
+    aging_effects:
+      - slight paper yellowing and discoloration
+      - minor creases and wear at edges
+      - subtle vignetting
+      - slightly blurred focus as if from old camera
+      - faded ink, desaturated colors
+    atmosphere: "nostalgic, bittersweet, hopeful yet tinged with melancholy"
+    
+  composition:
+    layout: "formal group portrait, centered composition"
+    setting: "royal palace audience chamber background, blurred"
+    lighting: "soft natural light from the side, creating gentle shadows"
+    
+  characters:
+    - character: ルーナ（Luna）
+      position: left side of frame
+      age: early 20s, younger version
+      appearance:
+        - silver-white long hair, neatly arranged
+        - sharp intelligent purple eyes, confident gaze
+        - royal court magic robes, pristine and new
+        - holding the World Tree Staff (white, elegant)
+      expression: "confident, proud, intellectual - the youngest Royal Chief Mage"
+      body_language: "standing upright, dignified posture"
+      
+    - character: レオン（Leon）
+      position: right side of frame
+      age: early 20s, younger version
+      appearance:
+        - spiky orange-red hair, energetic
+        - golden amber eyes, determined gaze
+        - leather armor and warrior outfit, well-maintained
+        - holding Holy Sword Gran Sefira (black blade, glowing runes)
+      expression: "confident grin, carefree, spirited - the legendary Sword Saint"
+      body_language: "relaxed casual stance, one hand on sword hilt"
+      
+    - additional_elements:
+      - hints of other party members in background (blurred, silhouettes)
+      - royal guards or court officials at the edges
+      
+  key_visual_elements:
+    treasures:
+      - Luna's World Tree Staff: "pure white wood, delicate, glowing faintly"
+      - Leon's Holy Sword: "obsidian black blade with ancient runes, massive"
+    
+    contrast:
+      - Luna: intellectual, precise, elegant
+      - Leon: physical, casual, confident
+      - visual contrast representing their opposite natures
+      
+  photograph_details:
+    photo_quality: "old photograph from 10+ years ago"
+    damage_pattern:
+      - corner fold on top right
+      - slight water stain on bottom left
+      - faded signature or date at bottom (illegible)
+    mounting: "as if pinned to a wall or kept in a journal"
+    
+  color_palette:
+    primary: "sepia brown, faded cream, warm yellows"
+    secondary: "muted purples (Luna's magic), dulled oranges (Leon's aura)"
+    tertiary: "aged paper beige, soft grays"
+    
+  text_overlay_area:
+    position: bottom or top margin
+    style: "vintage typography, faded"
+    suggested_text: |
+      「いつか、この旅が終わったら——」
+      
+      砕けた聖剣と、一生解けない魔法
+      
+  full_prompt: |
+    Vintage sepia-toned photograph, faded old photo from 10+ years ago,
+    formal group portrait in royal palace audience chamber,
+    
+    Left: young woman (early 20s), silver-white long hair, purple eyes, 
+    royal magic robes, holding elegant white wooden staff (World Tree Staff),
+    confident intellectual expression, dignified posture,
+    
+    Right: young man (early 20s), spiky orange-red hair, amber eyes,
+    leather armor, holding massive black sword with glowing runes (Holy Sword),
+    confident grin, casual relaxed stance,
+    
+    Soft natural lighting from side, gentle shadows,
+    blurred royal palace background, hints of other people in background,
+    
+    Photo aging effects: yellowed paper, faded colors, slight creases at edges,
+    vignetting, desaturated, nostalgic atmosphere,
+    corner fold, water stain, bittersweet mood,
+    
+    Contrast between intellectual mage and physical warrior,
+    hope and determination in their young faces,
+    treasures clearly visible (white staff, black sword),
+    
+    Anime style, detailed, high quality, vintage photograph aesthetic,
+    as if a precious memory from before a great journey
+    
+  negative_prompt: |
+    modern photo, digital photo, vibrant colors, pristine condition,
+    no damage, no aging, modern clothing, contemporary style,
+    oversaturated, neon colors, modern weapons,
+    low quality, blurry faces, deformed, bad anatomy,
+    multiple swords, wrong colors on items
+    
+  usage_notes: |
+    このバナーは物語の「過去」を象徴する重要なビジュアルです。
+    二人がまだ若く、未来に希望を持っていた頃の記憶。
+    読者は物語を読んだ後、この写真が持つ意味の重さを理解します。
+    
+    - 色あせた写真 = 時の経過、失われたもの
+    - 二人の若々しい表情 = まだ知らなかった未来
+    - 至宝（杖と剣） = やがて失われる「完全なもの」
+    
+  dimensions:
+    twitter_header: "1500x500px"
+    web_banner: "1200x400px"
+    thumbnail: "600x400px"

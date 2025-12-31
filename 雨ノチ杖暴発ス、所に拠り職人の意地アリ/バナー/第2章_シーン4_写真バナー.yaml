@@ -1,0 +1,124 @@
+---
+# 第2章 シーン4「父の背中」SNSバナー
+# テーマ: 色褪せた集合写真
+
+banner_concept:
+  title: "過去からの手がかり"
+  tagline: "父の遺した写真が、真実への扉を開く"
+  target_use: "SNS投稿、Web小説告知、章の扉絵"
+
+design_specifications:
+  format: "横長バナー"
+  dimensions: "1200px × 630px (SNS最適サイズ)"
+  
+main_visual:
+  description: |
+    色褪せた古い集合写真が画面中央に大きく配置されている。
+    写真は少し角度をつけて配置され、リアルな質感（古い紙の質感、折れ目、色褪せ）を持つ。
+    写真の周囲は暗く、スポットライトのように写真だけが照らされている演出。
+  
+  photo_content:
+    setting: "工房の前、第一次魔族戦争前後（30年前）"
+    atmosphere: "セピア色、ノスタルジック、少し色褪せている"
+    
+    characters_in_photo:
+      - position: "左側"
+        character: "若いアンバー（30代前半）"
+        appearance: "豪快に笑っている職人、力強い体格"
+        clothing: "作業エプロン、腕まくりしたシャツ"
+        
+      - position: "中央"
+        character: "若いマルカイト（20代後半）"
+        appearance: "知的な瞳の青年、落ち着いた表情"
+        clothing: "やや正装、王立工房の制服の初期型"
+        
+      - position: "右側"
+        character: "謎の若い戦士（シナバー）"
+        appearance: "杖を持っている戦士風の人物。顔の部分が変色・破損していて見えない（重要な演出）"
+        clothing: "戦闘服、胸に紋章"
+        symbolic_note: "顔が見えないことが重要な伏線"
+    
+    background_in_photo:
+      - "工房の看板「アンバー杖店」（若い頃の店名）"
+      - "陽気な雰囲気、平和な時代"
+      - "三人の絆を感じさせる構図"
+
+overlay_elements:
+  darkness:
+    description: "写真の周囲は深い暗闇。現在の絶望的状況を象徴"
+    effect: "写真だけが希望の光として浮かび上がる"
+    
+  lighting:
+    type: "スポットライト風"
+    source: "上から柔らかく写真を照らす"
+    mood: "過去の記憶が蘇る演出"
+    
+  hand_silhouette:
+    description: "画面下部に、写真を握りしめるグラナイトの手のシルエット"
+    detail: "職人らしい大きな手、指には小さな傷"
+    emotional_impact: "現在と過去を繋ぐ象徴"
+
+text_elements:
+  main_copy:
+    japanese: "父の遺した写真が、真実への扉を開く"
+    font: "力強い明朝体、やや大きめ"
+    position: "写真の上部"
+    color: "白、エッジに薄い影"
+    
+  chapter_title:
+    text: "第2章 シーン4「父の背中」"
+    font: "シンプルなゴシック体"
+    position: "写真の下部"
+    color: "落ち着いたグレー"
+    
+  mystery_hint:
+    text: "三人の絆。そして、一つの疑問——"
+    font: "細めの明朝体、イタリック風"
+    position: "写真の左下隅"
+    color: "薄いオレンジ"
+    effect: "読者の興味を引く謎かけ"
+
+color_palette:
+  primary: "深い暗闇（ダークブルー～ブラック）"
+  secondary: "セピア色（写真）"
+  accent: "温かいオレンジ（光のハイライト）"
+  text: "白、グレー"
+
+symbolic_meaning:
+  photo: "過去の絆と記憶"
+  darkness: "現在の絶望"
+  light_on_photo: "希望の糸口"
+  missing_face: "隠された真実、未解決の謎"
+  hand: "現在のグラナイト、過去を握りしめる決意"
+
+emotional_impact:
+  target_emotion: "ノスタルジア、ミステリー、希望への期待"
+  reader_response: "「この写真に何が隠されているのか？」「三人目は誰？」という好奇心"
+
+technical_details:
+  photo_texture:
+    - "古い写真特有のざらつき"
+    - "角の折れ目や破れ"
+    - "セピア色の色褪せ具合"
+    - "わずかなシミや汚れ"
+  
+  lighting_technique:
+    - "ボリューメトリックライト（光の筋が見える）"
+    - "写真中央が最も明るく、周辺に向かって暗くなるグラデーション"
+    - "手のシルエットに落ちる柔らかい影"
+
+alternative_versions:
+  vertical_banner:
+    dimensions: "1080px × 1920px (Instagram Stories用)"
+    layout: "写真を縦に配置、テキストは上下に配分"
+    
+  twitter_header:
+    dimensions: "1500px × 500px"
+    layout: "写真を左寄せ、右側にテキスト配置"
+
+usage_notes: |
+  このバナーは第2章の核心となる「過去からの手がかり」を視覚化したものです。
+  写真という具体的なアイテムを通じて、過去と現在を繋ぎ、物語を前に進める重要な転換点を表現しています。
+  三人目の「顔が見えない戦士」は、読者に「誰だろう？」という疑問を投げかけ、興味を引きます。
+
+---

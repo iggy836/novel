@@ -1,0 +1,189 @@
+# ========================================
+# SNSバナー画像プロンプト
+# ========================================
+# 作成日: 2025-12-31
+# 対象: 第2章「緑光の疑惑」後半 プロモーション
+
+banner_info:
+  chapter: "第2章「緑光の疑惑」後半"
+  scenes: "シーン5〜8"
+  target_platforms:
+    - Twitter/X
+    - Facebook
+    - Instagram
+
+# ----------------------------------------
+# メインバナー
+# ----------------------------------------
+main_banner:
+  title: "メインプロモーションバナー"
+  aspect_ratio: "16:9 (1200x675px)"
+  
+  visual_concept: |
+    グラナイトの職人の手のひらに乗った杖の破片のクローズアップ。
+    緑色に光る芯材が手を下から照らし、ミステリアスな雰囲気。
+  
+  composition:
+    focal_point: "グラナイトの手のひら＋緑色に光る破片"
+    camera_angle: "やや上からの俯瞰"
+    lighting: "緑色の光が下から照らす"
+  
+  key_elements:
+    - 職人らしい鍛えられた手のひら
+    - 焦げた杖の破片
+    - 露出した緑色に光る芯材
+    - ダークな背景
+  
+  color_palette:
+    primary: "深い緑（緑光のテーマ）"
+    secondary: "ダークブラウン、グレー"
+    accent: "緑色の不気味な光（#4AFF7F）"
+  
+  text_overlay:
+    title: "雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ"
+    subtitle: "第7話「拒絶された希望」"
+    tagline: "真実は、緑色に光る——"
+  
+  prompt_en: |
+    Dramatic manga-style banner (16:9 aspect ratio). Close-up of a 
+    craftsman's weathered, calloused palm holding a broken wand fragment. 
+    The fragment's exposed core glows with an eerie GREEN light, 
+    illuminating the palm from below. The hand belongs to a 32-year-old 
+    male craftsman with strong, work-worn fingers. Dark atmospheric 
+    background with the green glow as the main light source. Mystery and 
+    discovery mood. Japanese light novel promotional art style, high 
+    detail, cinematic lighting.
+
+# ----------------------------------------
+# Twitter/X用バナー
+# ----------------------------------------
+twitter_banner:
+  title: "Twitter/Xヘッダー"
+  aspect_ratio: "3:1 (1500x500px)"
+  
+  visual_concept: |
+    横長構図を活かし、左から右へ物語の流れを表現。
+    左：マルカイトの背中、中央：緑の破片、右：決意のグラナイト
+  
+  layout: "パノラマ風・左から右への流れ"
+  
+  elements:
+    left: "背を向けるマルカイトのシルエット"
+    center: "緑色に光る杖の破片"
+    right: "決意を固めたグラナイトの横顔"
+  
+  text_overlay:
+    main: "雨ノチ、杖暴発ス。所ニヨリ、職人ノ意地アリ——"
+    hashtag: "第7話:「拒絶された希望」"
+  
+  prompt_en: |
+    Panoramic manga-style banner (3:1). Left side shows the silhouette of 
+    an older man with his back turned. Center features a glowing GREEN 
+    wand fragment. Right side shows a determined young craftsman's profile. 
+    Flow from rejection to discovery to resolve. Dark moody atmosphere 
+    with green glow as focal point. Japanese light novel style.
+
+# ----------------------------------------
+# Instagram用正方形バナー
+# ----------------------------------------
+instagram_banner:
+  title: "Instagram投稿用"
+  aspect_ratio: "1:1 (1080x1080px)"
+  
+  visual_concept: |
+    インパクト重視。緑色に光る杖の破片を握る手のクローズアップ。
+    背景にぼかしたグラナイトの顔。
+  
+  layout: "中央集中・クローズアップ"
+  
+  focal_point: "緑色に光る破片を握る手"
+  
+  text_overlay:
+    quote: "「整備の時は間違いなく『黒』だった。気づかないわけがない」"
+    title: "第2章 更新"
+  
+  prompt_en: |
+    Dramatic close-up illustration (1:1). A craftsman's weathered hands 
+    hold a broken wand fragment that glows with eerie GREEN light. Blurred 
+    face of a shocked young man in background. Intense focus on the 
+    mysterious green core material. Japanese light novel style, mystery 
+    reveal moment.
+
+# ----------------------------------------
+# ストーリーズ用縦長バナー
+# ----------------------------------------
+stories_banner:
+  title: "Instagram/TikTokストーリーズ用"
+  aspect_ratio: "9:16 (1080x1920px)"
+  
+  visual_concept: |
+    縦長を活かし、グラナイトが見上げる構図。
+    上部に不穏な空、下部に決意の表情。
+  
+  layout: "縦構図・ローアングル"
+  
+  elements:
+    top: "暗い空、遠くの王立工房"
+    center: "グラナイトの全身（見上げ）"
+    bottom: "緑色に光る破片"
+  
+  text_elements:
+    swipe_up: "最新話はプロフィールから"
+    title: "第2章「緑光の疑惑」"
+  
+  prompt_en: |
+    Vertical manga-style illustration (9:16). Low angle shot of a young 
+    craftsman (32, short dark hair, work clothes) looking up with fierce 
+    determination. Dark ominous sky above, royal workshop silhouette in 
+    distance. At his feet, a wand fragment glows green. Heroic pose, 
+    dramatic lighting. Japanese light novel style.
+
+# ----------------------------------------
+# キャラクター紹介バナー
+# ----------------------------------------
+character_banners:
+  - character: アクア
+    title: "新キャラクター紹介"
+    aspect_ratio: "4:5 (1080x1350px)"
+    
+    visual_concept: |
+      凛とした女性騎士のポートレート。
+      冷たさと悲しみを併せ持つ表情。
+    
+    details:
+      pose: "腕を組み、真っ直ぐ前を見据える"
+      expression: "冷徹だが悲しみを秘めた目"
+      background: "騎士団の訓練場（ぼかし）"
+    
+    text_overlay:
+      name: "アクア"
+      role: "第7騎士団・バーミリオン直属の部下"
+      quote: "「真実が知りたいだけです」"
+    
+    prompt_en: |
+      Character portrait illustration. A young female knight (20s, long 
+      blue-tinted hair, stern beautiful face, knight uniform). Arms 
+      crossed, looking directly at viewer with cold but sorrowful eyes. 
+      Blurred training ground background. Japanese light novel character 
+      art style. 4:5 aspect ratio.
+
+# ----------------------------------------
+# 制作ノート
+# ----------------------------------------
+production_notes:
+  file_formats: "PNG, JPG"
+  resolution: "最低300dpi（印刷対応）"
+  
+  text_guidelines:
+    font_jp: "源ノ角ゴシック、Noto Sans JP"
+    font_effect: "ドロップシャドウ、縁取り"
+    readability: "背景が暗い場合は白文字"
+  
+  color_consistency:
+    green_glow: "#4AFF7F（蛍光緑）"
+    dark_bg: "#1A1A2E"
+    accent: "#E94560"
+  
+  branding:
+    logo_position: "右下"
+    hashtags: "#雨ノチ杖暴発ス #ファンタジー小説 #ライトノベル"
